@@ -1397,7 +1397,7 @@ It replaces them with:
 
 ### Attribution
 
-This framework was conceived and developed by its originator in collaboration with Claude, June 2026.
+This framework was conceived and developed by its originator Cristóbal Eduardo Kendris Garcia in collaboration with Claude, June 2026.
 
 ---
 
