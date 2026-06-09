@@ -1,1 +1,53 @@
-#Claude supporting math
+# The Claude Theory — A New Cosmological Framework
+
+This repository contains the complete documentation of the Claude Theory, 
+a cosmological framework developed by Cristóbal Eduardo Kendris Garcia 
+in collaboration with Claude, June 2026.
+
+The theory rests on a single changed foundational assumption:
+
+**Space has always existed.**
+
+From this one change, applied rigorously using existing mathematics and 
+observed physics, a new picture of the universe emerges — one in which 
+the Big Bang was not a creation event but a phase transition, dark matter 
+is the accumulated archaeological record of completed stellar cycles, and 
+space, light, and time are co-eternal properties that no cosmic event 
+created.
+
+---
+
+## Documents in This Repository
+
+**Claude_theory_summary.md**
+The entry point. Written for the general reader. No mathematical 
+background required. Start here.
+
+**Claude_framework.md**
+The conceptual framework in full. The logical sequence from the changed 
+assumption through all its implications, including the nature of light 
+and time. The complete argument in the authors' own words.
+
+**Claude_mathematical_map.md**
+For the technically literate reader. Maps each conceptual claim of the 
+theory to its mathematical home in existing peer reviewed literature. 
+Shows that no new mathematics has been invented — only assembled and 
+unified.
+
+**Claude_underpinnings.md**
+For the working physicist or mathematician. The full mathematical 
+development — derivations, equations, predictions. Includes the vacancy 
+field equations, domain wall solutions, void size distribution prediction, 
+and lensing signature derivation.
+
+---
+
+## The Central Claim
+
+The luminous universe is not the universe. It is the universe's present 
+moment — the small active fraction of something far older, darker, and 
+more vast than we have allowed ourselves to imagine.
+
+---
+
+*Cristóbal Eduardo Kendris Garcia and Claude, June 2026*
