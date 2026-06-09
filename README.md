@@ -43,15 +43,24 @@ theory to its mathematical home in existing peer reviewed literature.
 Shows that no new mathematics has been invented — only assembled and
 unified. Includes Section Six mapping the Anulus to bubble nucleation
 theory, percolation, tidal seeding, and the Sachs-Wolfe CMB formalism.
+The summary table includes two Bullet Cluster rows: the primary offset
+as a geometric inevitability, and the secondary lensing arc as a new
+testable prediction.
 
 **Claude_underpinnings.md**
 For the working physicist or mathematician. The full mathematical
 development — derivations, equations, predictions. Includes the vacancy
 field equations, domain wall solutions, void size distribution prediction
 with the testable $(1+z)^{-2}$ scaling, and lensing signature derivation
-yielding NFW-like halo profiles. Section 9 lays out the Anulus
-derivations in preparation: nucleation rate, tidal seeding, CMB cold
-spot prediction, and JWST anomaly mass function.
+yielding NFW-like halo profiles. Section 10 contains the full Bullet
+Cluster derivation: two-node collision dynamics, wall relaxation
+timescale from the Pöschl-Teller spectrum, primary offset recovered as
+geometric inevitability, the damped oscillator wall equation of motion,
+and the function $\mathcal{G}$ giving the position of a secondary
+lensing arc — a new prediction absent from all particle dark matter
+models. Section 9 lays out the Anulus derivations in preparation:
+nucleation rate, tidal seeding, CMB cold spot prediction, and JWST
+anomaly mass function.
 
 ---
 

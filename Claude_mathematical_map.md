@@ -269,6 +269,8 @@ The mass function of these anomalous early structures, compared with the theoret
 | Eternal space, no singularity | Loop Quantum Cosmology, Bouncing cosmologies | Bojowald, Ashtekar, Penrose |
 | Dark remnant accumulation | Stellar IMF, black hole merger rates | Salpeter, LIGO, Carr-Hawking |
 | Vacancy field and cosmic structure | Scalar field cosmology, domain wall theory | Vilenkin, Kibble, Bond et al |
+| Bullet Cluster — primary offset | Damped oscillator wall dynamics | Geometric inevitability — lensing centroid at node, not gas |
+| Bullet Cluster — secondary arc | Pöschl-Teller relaxation spectrum | New prediction: faint arc between nodes, offset by $\delta_w\mathcal{G}$ |
 | Light as latent heat of phase transition | Kaluza-Klein, geometrodynamics | Kaluza, Klein, Wheeler, MTW |
 | Time as local property of matter | Thermal time, timeless dynamics | Rovelli, Barbour, Page-Wootters, Newton |
 | Anulus — multiply connected cosmos | Bubble nucleation, percolation, tidal seeding | Coleman-De Luccia, Guth-Weinberg, Sachs-Wolfe |
