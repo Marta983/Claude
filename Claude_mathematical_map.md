@@ -1,5 +1,4 @@
 
-
 # The Claude Theory — Mathematical Foundations and Reference Map
 
 ## Preamble
@@ -116,7 +115,7 @@ The lensing signature derived from the same potential produces NFW-like halo pro
 
 **The Conceptual Claim**
 
-Light does not travel through space. Light is space expressing itself. The electromagnetic field is not a separate entity inhabiting spacetime — it is a fundamental geometric property of spacetime itself. Matter temporarily activates this expression during the luminous phase of each cycle.
+Light does not travel through space. Light is space expressing itself. The electromagnetic field is not a separate entity inhabiting spacetime — it is a fundamental geometric property of spacetime itself, activated by the phase transition and quiescent between cycles. The CMB is the latent heat of that transition.
 
 **The Mathematical Treatment**
 
@@ -139,7 +138,7 @@ where $A_\mu$ is the electromagnetic four-potential and $\phi$ is a scalar field
 
 Klein's contribution (1926) compactified the fifth dimension, explaining why it is not directly observable while remaining physically real.
 
-Within the Claude Theory this mathematics takes on new meaning. The fifth dimension need not be interpreted as a hidden spatial dimension. It may be understood as the electromagnetic property of eternal space — always present, activated into observable radiation only when matter provides the occasion.
+Within the Claude Theory this mathematics takes on new meaning. The fifth dimension is the electromagnetic property of eternal space — always present, activated into observable radiation when the phase transition occurs, quiescent in the dark intervals between cycles. The CMB is the latent heat of this activation: energy released not by matter but by the geometric reorganization of space itself, still detectable as a uniform thermal signature billions of years later.
 
 The speed of light as a universal constant — $c$ — is then not a property of light per se but a property of space itself. It is the characteristic velocity of space's self-expression. This is consistent with the observed constancy of $c$ across all reference frames and all cosmic epochs.
 
@@ -195,6 +194,74 @@ Newton's equivocation in the Principia — his careful distinction between absol
 
 ---
 
+## Section Six — The Anulus: A Multiply Connected Eternal Cosmos
+
+**The Conceptual Claim**
+
+Eruption events are not singular occurrences. In eternal infinite space, the threshold condition for a phase transition can be reached independently in multiple locations. The observable universe is one eruption event among many. The boundaries between events are permeable to gravity. Matter, structure, and complexity can be inherited across event boundaries — the Anulus. The CMB cold spot is a candidate observational signature of such a boundary.
+
+**The Mathematical Treatment**
+
+The mathematics of multiple interacting nucleation events in a field-theoretic context is well developed in several bodies of literature, here assembled for the first time in this application.
+
+**Bubble nucleation and percolation**
+
+In a first-order phase transition, the new phase nucleates in bubbles that expand and eventually collide or merge. The nucleation rate per unit volume is:
+
+$$\Gamma = A e^{-S_E}$$
+
+where $S_E$ is the Euclidean action of the critical bubble (the bounce solution) and $A$ is a prefactor encoding quantum and thermal fluctuations. For our classical threshold model, $S_E$ is determined by the domain wall tension $\sigma$ and the vacuum energy difference $\epsilon$:
+
+$$S_E = \frac{27\pi^2 \sigma^4}{2\epsilon^3}$$
+
+The condition for percolation — the transition from isolated bubbles to a connected network of new-phase regions — occurs when the nucleation rate satisfies:
+
+$$\int_{t_c}^{t} \Gamma(t') \cdot V_{bubble}(t, t') \, dt' \approx 1$$
+
+where $V_{bubble}(t, t')$ is the volume of a bubble nucleated at $t'$ and expanded to time $t$. This percolation condition defines the characteristic separation between eruption events in eternal space.
+
+**Boundary interactions and inherited structure**
+
+When two expanding eruption events approach each other, the boundary region is characterized by overlapping vacancy fields with potentially different vacuum states. The interface is a domain wall of a higher order — a boundary between two distinct realizations of the same field potential, each having nucleated independently.
+
+The gravitational effect of one event's accumulated dark remnant population on the condensing matter of a neighboring event is described by the tidal tensor:
+
+$$\mathcal{E}_{ij} = -\partial_i \partial_j \Phi_{ext}$$
+
+where $\Phi_{ext}$ is the gravitational potential sourced by the external event's mass distribution. This tidal field seeds anisotropies in the structure formation of the receiving event — potentially at scales and with morphologies inconsistent with a purely isotropic single-origin cosmology. These are the observational signatures of casting.
+
+**The CMB cold spot as a boundary signature**
+
+The CMB cold spot — a region of anomalously low temperature subtending approximately 5 degrees on the sky, centered near coordinates $(l, b) \approx (207°, -57°)$ — has resisted explanation within standard cosmology for two decades. Proposed explanations including the integrated Sachs-Wolfe effect from a supervoid have not produced quantitatively satisfactory fits.
+
+Within the Anulus framework, the cold spot is a natural candidate for a boundary signature — a region where our eruption event's thermal background is modified by the proximity of a neighboring event at a different phase of its cycle. The mathematical treatment uses the Sachs-Wolfe formalism:
+
+$$\frac{\Delta T}{T} = \frac{1}{3}\Phi_{boundary}$$
+
+where $\Phi_{boundary}$ is the potential perturbation sourced by the neighboring event's mass distribution at the boundary. The characteristic angular scale and temperature decrement of the cold spot constrain the distance to and mass of the neighboring event, making this a quantitatively testable prediction.
+
+**The JWST anomalies as inherited structure**
+
+Galaxies observed at redshifts $z > 10$ with stellar masses of $10^{10}$–$10^{11}$ $M_\odot$ — consistent with formation times shorter than standard cosmology allows — are naturally explained as inherited material from a prior or neighboring eruption event. The casting mechanism delivers partially or fully formed structures across the event boundary, where they continue to evolve under local conditions. Their anomalous maturity is not a formation-time puzzle. It is an inheritance signature.
+
+The mass function of these anomalous early structures, compared with the theoretical distribution expected from the tidal seeding mechanism, provides a further testable prediction of the Anulus framework.
+
+**Existing Mathematical References**
+
+*Coleman and De Luccia (1980)* — Gravitational effects on and of vacuum decay — the foundational treatment of bubble nucleation in gravitational contexts
+
+*Guth and Weinberg (1983)* — Could the universe have recovered from a slow first-order phase transition? — percolation condition in cosmological phase transitions
+
+*Vilenkin (1983)* — Birth of inflationary universes — multiple nucleation events in eternal space (mathematical machinery applicable independent of inflationary interpretation)
+
+*Sachs and Wolfe (1967)* — Perturbations of a cosmological model and angular variations of the microwave background — the formalism for CMB temperature perturbations from gravitational potentials
+
+*Inoue and Silk (2006)* — Local voids as the origin of large-angle cosmic microwave background anomalies — the supervoid CMB cold spot analysis, providing the baseline against which Anulus boundary predictions can be compared
+
+*Steinhardt and Turok (2002)* — A cyclic universe — mathematical treatment of colliding cosmological boundaries, applicable to event boundary interactions
+
+---
+
 ## Summary of the Map
 
 | Conceptual Claim | Mathematical Home | Key References |
@@ -202,8 +269,9 @@ Newton's equivocation in the Principia — his careful distinction between absol
 | Eternal space, no singularity | Loop Quantum Cosmology, Bouncing cosmologies | Bojowald, Ashtekar, Penrose |
 | Dark remnant accumulation | Stellar IMF, black hole merger rates | Salpeter, LIGO, Carr-Hawking |
 | Vacancy field and cosmic structure | Scalar field cosmology, domain wall theory | Vilenkin, Kibble, Bond et al |
-| Light as property of space | Kaluza-Klein, geometrodynamics | Kaluza, Klein, Wheeler, MTW |
+| Light as latent heat of phase transition | Kaluza-Klein, geometrodynamics | Kaluza, Klein, Wheeler, MTW |
 | Time as local property of matter | Thermal time, timeless dynamics | Rovelli, Barbour, Page-Wootters, Newton |
+| Anulus — multiply connected cosmos | Bubble nucleation, percolation, tidal seeding | Coleman-De Luccia, Guth-Weinberg, Sachs-Wolfe |
 
 ---
 
@@ -217,4 +285,4 @@ From that one change, everything else follows — and the mathematics was alread
 
 ---
 
-*This mapping section is intended as a guide for technically literate readers wishing to pursue the formal foundations of the Claude Theory independently. Full derivations of the vacancy field, domain wall equations, void size predictions, and lensing signatures appear in the companion underpinnings document.*
+*This mapping section is intended as a guide for technically literate readers wishing to pursue the formal foundations of the Claude Theory independently. Full derivations of the vacancy field, domain wall equations, void size predictions, and lensing signatures appear in the companion underpinnings document. Full derivation of the Anulus boundary equations and CMB cold spot prediction is forthcoming in a supplement to that document.*
