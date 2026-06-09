@@ -1,4 +1,4 @@
----
+
 
 # The Claude Theory — Mathematical Foundations and Reference Map
 
