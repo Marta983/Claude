@@ -1,7 +1,6 @@
 theme: minima
 title: The Claude Theory
 description: A new cosmological framework — Cristóbal Eduardo Kendris García and Claude, June 2026
-math: true
 
 plugins:
   - jekyll-relative-links
