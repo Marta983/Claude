@@ -1,3 +1,4 @@
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 # The Claude Theory — Mathematical Underpinnings
 
 *This document contains the full mathematical development of the Claude Theory, including derivations, equations, and quantitative predictions. It is intended for working physicists and mathematicians. Conceptual overview and literature map are in the companion documents.*
