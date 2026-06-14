@@ -101,7 +101,7 @@ The molecular sieve analogy also suggests scale-dependent behavior — certain t
 
 ---
 
-## Step 1: The Density Field and Lattice Definition
+## Section 1: The Density Field and Lattice Definition
 
 We start with a scalar density field on a 4-dimensional spacetime manifold. In standard cosmological perturbation theory we write:
 
@@ -119,7 +119,7 @@ This gives us a topology. The lattice $\mathcal{L}$ is formally the graph whose 
 
 ---
 
-## Step 2: The Hole Field
+## Section 2: The Hole Field
 
 In semiconductor physics, the hole is defined not as a particle but as the **gradient of absence**. We do the same thing here.
 
@@ -147,7 +147,7 @@ Where:
 
 ---
 
-## Step 3: Coupling to Gravity
+## Section 3: Coupling to Gravity
 
 The vacancy field has to curve spacetime — otherwise it produces no observable effect. We couple it to the Einstein field equations by treating it as a contribution to the stress-energy tensor.
 
@@ -167,7 +167,7 @@ This is formally identical to a **scalar field** contribution — which is well-
 
 ---
 
-## The Shape of V(φ): Simple vs. Structured
+## Section 4: The Shape of V(φ) — Simple vs. Structured
 
 **Case 1: Simple Restoring Force**
 
@@ -236,7 +236,7 @@ In particle physics, spontaneous symmetry breaking comes from thermal phase tran
 
 ---
 
-## Observational Data on Wall Formation
+## Section 5: Observational Data on Wall Formation
 
 **What We Observe**
 
@@ -301,7 +301,7 @@ That is exactly what a structured potential with a specific $v$ would produce.
 
 ---
 
-## The Void Size Distribution as a Probe of V(φ)
+## Section 6: The Void Size Distribution as a Probe of V(φ)
 
 The observed void size distribution is well-fitted empirically by a lognormal:
 
@@ -367,7 +367,7 @@ Where $f$ is a function of the potential parameters to be solved for.
 
 ---
 
-## Solving for f(ε₀, λ, v): Domain Wall Equations in Expanding Spacetime
+## Section 7: Solving for f(ε₀, λ, v) — Domain Wall Equations in Expanding Spacetime
 
 **Setting Up The Domain Wall Equations**
 
@@ -506,7 +506,7 @@ at $z=0$, plus the slope of $r_{nuc}(z)$ which is fixed at $-2$ in log-log space
 
 ---
 
-## The Lensing Signature
+## Section 8: The Lensing Signature
 
 **The Setup**
 
@@ -609,7 +609,9 @@ Our prediction matches items 2, 3, and 4 directly:
 
 Item 1 — diffuse halos — requires one additional step.
 
-**Recovering Diffuse Halos**
+---
+
+## Section 9: Recovering Diffuse Halos
 
 Around mass concentrations — our lattice nodes, the black hole aggregates — the vacancy field is depressed toward $\phi = 0$. The gradient of $\phi$ is therefore nonzero in a shell around each node, producing a lensing contribution that falls off with distance from the node.
 
@@ -650,7 +652,7 @@ The gold ring: fit $\epsilon_0$, $\lambda$, $v$ to the observed void size distri
 
 ### 10.1 Setup
 
-Two galaxy clusters A and B — each modeled as a lattice node — move toward each other along the x-axis with relative velocity $v_{col} \approx 3000$ km/s. Each node has an associated vacancy field configuration that in isolation takes the static NFW-like form derived in Step 8.
+Two galaxy clusters A and B — each modeled as a lattice node — move toward each other along the x-axis with relative velocity $v_{col} \approx 3000$ km/s. Each node has an associated vacancy field configuration that in isolation takes the static NFW-like form derived in Section 9.
 
 The combined pre-collision vacancy field is:
 
@@ -666,7 +668,7 @@ The baryonic gas is subject to ram pressure during the collision and decelerates
 
 The vacancy field is a geometric feature of the mass distribution. Its response depends on the **relaxation timescale** — how quickly it re-equilibrates after the nodes have separated from the gas.
 
-The relaxation timescale is set by the lowest non-zero mode of the Pöschl-Teller spectrum derived in Step 6. That mode has energy $E = 3U_0 = 12\lambda v^2$, giving:
+The relaxation timescale is set by the lowest non-zero mode of the Pöschl-Teller spectrum derived in Section 7. That mode has energy $E = 3U_0 = 12\lambda v^2$, giving:
 
 $$\tau_{relax} = \frac{1}{\sqrt{12\lambda}\, v}$$
 
@@ -680,7 +682,7 @@ When $\tau_{relax} \ll \tau_{cross}$ — fast relaxation — the vacancy field t
 
 ### 10.3 Primary Offset — Lensing Centroid Coincident with Nodes
 
-The lensing convergence around node A post-collision uses the NFW-like profile from Step 8:
+The lensing convergence around node A post-collision uses the NFW-like profile from Section 9:
 
 $$\kappa(r) \propto \frac{v^2}{\delta_w} \cdot \frac{1}{1 + (r/r_{node})^2} \cdot \frac{1}{\Sigma_{cr}}$$
 
@@ -770,9 +772,6 @@ For the Bullet Cluster specifically, $t_{obs} \approx 100$–$200$ Myr post-coll
 The first two features are consistent with existing Bullet Cluster observations. The **secondary lensing arc** is a new prediction of the Claude Theory — absent from all particle dark matter models and in principle detectable in existing deep weak lensing maps of the system.
 
 Detection or non-detection of the secondary arc, at the predicted position and with the predicted surface brightness profile, constitutes a direct test of the vacancy field framework.
-
----
-
 
 ---
 
@@ -877,7 +876,7 @@ $$\frac{\Delta T}{T}\bigg|_{ISW} \sim -2 \times \left|\frac{\Phi(0)}{c^2}\right|
 | Lensing notch | 50% suppression at $b=0$, scale ~6–13 Mpc/h | Calibrated, untested against data |
 | CMB Cold Spot | $\Delta T/T \sim -2.7\times10^{-6}$ | Correct sign, within ~4x of $-10^{-5}$ |
 
-**What remains open:** the ISW decay factor (~30%) is a placeholder, not derived — a proper treatment requires the time-integral of $d\Phi/d\tau$ over the void's evolution history, using the full $a(t)$ dependence already present in $\delta_w(a)$ and $\sigma_{wall}(a)$. The lensing notch prediction has not yet been compared against any actual weak lensing stack. Both are natural next steps, but the central bottleneck — unfit $(\epsilon_0,\lambda,v)$ — is now resolved, and Problems 1, 2, 4, and 5 (in the open-problems tracking) now have numerical anchors rather than purely symbolic placeholders.
+**What remains open:** the ISW decay factor (~30%) is a placeholder, not derived — a proper treatment requires the time-integral of $d\Phi/d\tau$ over the void's evolution history, using the full $a(t)$ dependence already present in $\delta_w(a)$ and $\sigma_{wall}(a)$. The lensing notch prediction has not yet been compared against any actual weak lensing stack. Both are natural next steps, but the central bottleneck — unfit $(\epsilon_0,\lambda,v)$ — is now resolved, and Open Problems 2 (Anulus nucleation rate and event separation) and 4 (CMB Cold Spot as boundary signature), in the Claude_open_problems.md tracking, now have numerical anchors rather than purely symbolic placeholders. Open Problems 1 (the restart threshold) and 5 (the JWST anomalous mass function) are not addressed by this section and remain as stated there. Open Problem 3 (tidal seeding and the casting mechanism) is likewise unaddressed here but is the prerequisite for Problem 5.
 
 ---
 
