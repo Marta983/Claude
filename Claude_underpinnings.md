@@ -880,6 +880,96 @@ $$\frac{\Delta T}{T}\bigg|_{ISW} \sim -2 \times \left|\frac{\Phi(0)}{c^2}\right|
 
 ---
 
+## Section 12: The Restart Threshold — A Bifurcation Condition on V(φ)
+
+### 12.1 Setup
+
+Problem 1 (the restart threshold, Claude_open_problems.md) asks: at what
+accumulated field configuration does the eruption event fire? This
+section derives a closed-form threshold condition directly from the
+potential already fitted in Section 11, with no new field machinery.
+
+Recall the asymmetric double-well potential from Sections 4–7:
+
+$$V(\phi) = \lambda(\phi^2 - v^2)^2 - \epsilon_0\, a(t)\,\phi$$
+
+where $\lambda$, $v$, $\epsilon_0$ are bare constants of the potential
+itself (Section 6 establishes $\epsilon(t) = \epsilon_0 \cdot a(t)$ as
+the full time-dependent symmetry-breaking term, with $\epsilon_0$ the
+bare constant). The $a(t)$-dependence of derived quantities such as
+$\delta_w(a)$ and $\sigma_{wall}(a)$ in Section 7 follows from these bare
+constants combined with $a(t)$ through the kinetic term — it is not a
+separate input. The bifurcation analysis below is therefore performed
+with the same bare constants fitted numerically in Section 11.
+
+### 12.2 The Bifurcation Condition
+
+Critical points of $V(\phi)$ satisfy $dV/d\phi = 0$:
+
+$$4\lambda\phi(\phi^2 - v^2) - \epsilon_0\, a(t) = 0$$
+
+This is a depressed cubic in $\phi$:
+
+$$\phi^3 - v^2\phi - \frac{\epsilon_0\, a(t)}{4\lambda} = 0$$
+
+For $\epsilon_0 a(t) = 0$ (the symmetric case), this cubic has three real
+roots — two minima at $\phi = \pm v$ and a maximum at $\phi = 0$: the
+double well. As $\epsilon_0 a(t)$ grows, the asymmetry deepens one
+minimum and shallows the other, until at a critical value the shallow
+minimum merges with the maximum and annihilates — the cubic transitions
+from three real roots to one. Beyond this point $V(\phi)$ is a single
+well: the field has only one stable configuration.
+
+This is the restart condition: not a gradual deepening, but the abrupt
+disappearance of the configuration the field currently occupies.
+
+The transition occurs where the cubic's discriminant vanishes. For a
+depressed cubic $\phi^3 + p\phi + q = 0$ with $p = -v^2$ and
+$q = -\epsilon_0 a(t)/(4\lambda)$, the discriminant is
+$\Delta = -4p^3 - 27q^2$. Setting $\Delta = 0$ and solving for the
+critical combination:
+
+$$\boxed{\epsilon_0\, a(t)_{crit} = \frac{8\sqrt{3}}{9}\,\lambda v^3}$$
+
+At this point the two merging roots coincide at:
+
+$$\phi_{crit} = \frac{v}{\sqrt{3}}$$
+
+### 12.3 Numerical Evaluation Against the Section 11 Fit
+
+Using $(\epsilon_0, \lambda, v) = (1.726\times10^{-3}, 0.1175, 0.3268)$
+from Section 11:
+
+$$\epsilon_0\, a(t)_{crit} = \frac{8\sqrt{3}}{9}(0.1175)(0.3268)^3 \approx 6.314\times10^{-3}$$
+
+Compared to the fitted value $\epsilon_0 \approx 1.726\times10^{-3}$ at
+$a=1$, the ratio is:
+
+$$\frac{a(t)_{crit}}{a(t)_{now}} \approx 3.658$$
+
+and the merging field value is $\phi_{crit} = v/\sqrt{3} \approx 0.1887$
+— between $\phi=0$ (node/accumulation state) and $\phi=v\approx0.327$
+(void state).
+
+### 12.4 Status and the Open Step
+
+This is a closed-form threshold condition derived from parameters already
+fitted to observational data — Problem 1 now has a mapped mathematical
+home and a numerical value, where previously it had neither.
+
+What remains open: the ratio $a(t)_{crit}/a(t)_{now} \approx 3.658$ is
+dimensionless and its physical meaning is not yet established. The
+$a(t)=1$ normalization in Section 11 refers to the present epoch of
+*our* event's local void structure. For the restart threshold, $a(t)$
+must represent whatever clock governs the accumulated field across the
+full cycle — potentially a clock with no fixed relationship to our
+event's expansion history. Converting the ratio 3.658 into a timescale,
+or into a physically meaningful "how much further accumulation," requires
+identifying this clock. This is the next step toward a fully testable
+restart threshold, and the natural continuation of this section.
+
+---
+
 ## The Genesis: Space Has Always Existed
 
 ### The Changed Assumption
