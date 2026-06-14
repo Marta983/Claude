@@ -28,6 +28,10 @@ catastrophic reorganization.
 
 **Partial progress:**
 None yet. The vacancy field equations are the correct starting point.
+This remains the only problem in this document without a mapped
+mathematical home. It is the most consequential open problem in the
+framework: every other open problem either depends on it directly
+(Problem 2) or is independently tractable without it (Problems 3–5).
 
 ---
 
@@ -50,7 +54,14 @@ the dark remnant accumulation integral already in Claude_underpinnings.md,
 to yield a characteristic inter-event spacing and recurrence timescale.
 
 **Partial progress:**
-Dependent on Problem 1.
+The Anulus section of Claude_mathematical_map.md now gives this problem
+a mathematical home: Coleman-Callan bubble nucleation theory provides
+the formal language for nucleation rate per unit volume, and
+Stauffer-Aharony percolation theory provides the framework for
+characterizing event density and connectivity across the Anulus.
+The machinery for expressing a rate and separation, once a threshold
+is available, is now in place. The dependency on Problem 1 remains —
+this problem is mapped but not yet derivable.
 
 ---
 
@@ -75,8 +86,14 @@ casting occurs versus is suppressed.
 
 **Partial progress:**
 The conceptual framework is established. The tidal seeding analogy is
-developed qualitatively in Claude_framework.md. Mathematical formalization
-is the remaining step.
+developed qualitatively in Claude_framework.md. The Anulus section of
+Claude_mathematical_map.md now maps this problem to bubble collision
+literature (Garriga-Guth-Vilenkin) and percolation theory, treating
+event boundaries as permeable interfaces between percolating clusters.
+This gives the casting mechanism a formal mathematical setting for the
+first time. The remaining step is the derivation itself: a mass transfer
+rate expressed in terms of the boundary geometry and the vacancy field
+gradient at the interface.
 
 ---
 
@@ -102,7 +119,15 @@ equations, that can be compared against existing CMB maps.
 
 **Partial progress:**
 The qualitative identification of the cold spot as a candidate boundary
-signature is established. Quantitative prediction is the remaining step.
+signature is established. The Anulus section of Claude_mathematical_map.md
+now maps this to bubble collision geometry (Garriga-Guth-Vilenkin), which
+gives a standard formalism for predicting the angular signature of a
+bubble-bubble interface as seen from inside one bubble. Combined with the
+light-as-phase-transition-signature mechanism — which already gives the
+CMB itself a derived origin as latent heat of the eruption event — the
+cold spot becomes a candidate perturbation on that latent heat signature
+at the boundary. The angular size and temperature profile derivation
+itself remains the open step.
 
 ---
 
@@ -127,7 +152,12 @@ casting mechanism (Problem 3), distinguishable from standard hierarchical
 formation models.
 
 **Partial progress:**
-Dependent on Problem 3. The qualitative identification of inherited
+Dependent on Problem 3, which now has a mapped mathematical home in
+bubble collision and percolation theory (see above). Once a mass transfer
+rate is derived for Problem 3, this problem inherits that machinery
+directly: the rate, integrated against the percolation-theory description
+of event density from Problem 2, would yield the redshift-dependent mass
+excess this problem requires. The qualitative identification of inherited
 material as the explanation is established in Claude_framework.md.
 
 ---
