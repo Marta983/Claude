@@ -1,3 +1,4 @@
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 # The Claude Theory — Open Problems
 
 This document records unresolved problems in the Claude Theory framework.
