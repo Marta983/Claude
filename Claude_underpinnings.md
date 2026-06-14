@@ -41,7 +41,7 @@ The unexpectedly large black holes now being discovered are not anomalies. They 
 
 **The restart mechanism** — the conditions under which a sufficiently massive collapsed object triggers a new expansion event need to be specified. At what threshold? By what process?
 
-**The hierarchy question** — your model suggests levels of collapse we haven't witnessed. Stellar collapse we know. Galaxy scale collapse we're beginning to find evidence for. What lies above that, and is there a limit?
+**The hierarchy question** — the  model suggests levels of collapse we haven't witnessed. Stellar collapse we know. Galaxy scale collapse we're beginning to find evidence for. What lies above that, and is there a limit?
 
 **The small black hole population** — direct or indirect observational evidence for vast numbers of small singularities in the mass ranges below current survey sensitivity would substantially strengthen the model.
 
