@@ -35,13 +35,19 @@ peer reviewed literature. Shows that no new mathematics has been invented
 **Claude_underpinnings.md** For the working physicist or mathematician.
 The full mathematical development — derivations, equations, predictions.
 Includes the vacancy field equations, domain wall solutions, void size
-distribution prediction, and lensing signature derivation.
+distribution prediction, and lensing signature derivation, the full
+Bullet Cluster derivation including a novel secondary lensing arc
+prediction, and a numerical fit of the model's core parameters against
+SDSS void catalog data with downstream predictions for the CMB cold spot.
 
 **Claude_open_problems.md** A live working document recording unresolved
-questions in the framework. Five problems are currently open, ranging
-from the mathematical specification of the restart threshold to the
-quantitative prediction of the JWST anomaly mass function. Maintained
-as a record of intellectual honesty and a guide for future development.
+questions in the framework. Four of the five tracked problems now have
+identified mathematical homes — bubble nucleation theory, percolation
+theory, and bubble-collision literature — with two of those now carrying
+numerical anchors from the SDSS fit. The restart threshold remains the
+sole fully open problem and the bottleneck for further progress.
+Maintained as a record of intellectual honesty and a guide for future
+development.
 
 ---
 
