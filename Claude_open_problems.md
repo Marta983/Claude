@@ -32,6 +32,10 @@ This remains the only problem in this document without a mapped
 mathematical home. It is the most consequential open problem in the
 framework: every other open problem either depends on it directly
 (Problem 2) or is independently tractable without it (Problems 3–5).
+With $(\epsilon_0, \lambda, v)$ now fixed numerically (Section 11 of
+Claude_underpinnings.md), a derived threshold would for the first time
+have concrete values to be tested against — raising the stakes on this
+problem without changing its open status.
 
 ---
 
@@ -54,14 +58,27 @@ the dark remnant accumulation integral already in Claude_underpinnings.md,
 to yield a characteristic inter-event spacing and recurrence timescale.
 
 **Partial progress:**
-The Anulus section of Claude_mathematical_map.md now gives this problem
-a mathematical home: Coleman-Callan bubble nucleation theory provides
-the formal language for nucleation rate per unit volume, and
-Stauffer-Aharony percolation theory provides the framework for
-characterizing event density and connectivity across the Anulus.
-The machinery for expressing a rate and separation, once a threshold
-is available, is now in place. The dependency on Problem 1 remains —
-this problem is mapped but not yet derivable.
+The Anulus section of Claude_mathematical_map.md gives this problem a
+mathematical home: Coleman-Callan bubble nucleation theory provides the
+formal language for nucleation rate per unit volume, and Stauffer-Aharony
+percolation theory provides the framework for characterizing event
+density and connectivity across the Anulus.
+
+This problem now carries a numerical anchor as well. Section 11 of
+Claude_underpinnings.md fits $(\epsilon_0, \lambda, v)$ against the
+SDSS/Hamaus void density profile and obtains $r_{nuc}(z) = 30(1+z)^2$
+Mpc/h at present epoch, checked against BOSS DR16 redshift bins to
+within ~5%. This gives a concrete characteristic spacing scale for void
+nucleation — a first empirical handle on the geometry of the Anulus at
+the scale of our own event.
+
+What remains: this anchor is a fit to *our* event's void structure, not
+yet a derivation of the *inter-event* spacing in the Anulus — the
+nucleation rate for entire eruption events, as opposed to voids within
+one. The dependency on Problem 1 for a first-principles threshold remains.
+The status moves from "mapped but not yet derivable" to "mapped, with a
+numerically anchored analog at one scale, but the inter-event rate itself
+still requires Problem 1."
 
 ---
 
@@ -87,13 +104,15 @@ casting occurs versus is suppressed.
 **Partial progress:**
 The conceptual framework is established. The tidal seeding analogy is
 developed qualitatively in Claude_framework.md. The Anulus section of
-Claude_mathematical_map.md now maps this problem to bubble collision
+Claude_mathematical_map.md maps this problem to bubble collision
 literature (Garriga-Guth-Vilenkin) and percolation theory, treating
 event boundaries as permeable interfaces between percolating clusters.
 This gives the casting mechanism a formal mathematical setting for the
 first time. The remaining step is the derivation itself: a mass transfer
 rate expressed in terms of the boundary geometry and the vacancy field
-gradient at the interface.
+gradient at the interface. Unaddressed by the Section 11 SDSS fit, which
+concerns single-event void structure rather than inter-event boundaries.
+This problem is the prerequisite for Problem 5.
 
 ---
 
@@ -120,14 +139,33 @@ equations, that can be compared against existing CMB maps.
 **Partial progress:**
 The qualitative identification of the cold spot as a candidate boundary
 signature is established. The Anulus section of Claude_mathematical_map.md
-now maps this to bubble collision geometry (Garriga-Guth-Vilenkin), which
+maps this to bubble collision geometry (Garriga-Guth-Vilenkin), which
 gives a standard formalism for predicting the angular signature of a
 bubble-bubble interface as seen from inside one bubble. Combined with the
 light-as-phase-transition-signature mechanism — which already gives the
 CMB itself a derived origin as latent heat of the eruption event — the
 cold spot becomes a candidate perturbation on that latent heat signature
-at the boundary. The angular size and temperature profile derivation
-itself remains the open step.
+at the boundary.
+
+This problem now carries a numerical result as well. Section 11 of
+Claude_underpinnings.md computes a line-of-sight ISW estimate using the
+fitted void profile at $r_v = 30$ Mpc/h, obtaining $\Delta T/T \sim
+-2.7\times10^{-6}$ — the correct sign for a cold spot, and within roughly
+a factor of 4 of the observed $|\Delta T/T| \sim 10^{-5}$.
+
+What remains: the ISW estimate uses a placeholder ~30% potential-decay
+factor rather than a derived time-integral of $d\Phi/d\tau$ over the
+void's evolution history (the machinery for which — $a(t)$-dependence of
+$\delta_w$ and $\sigma_{wall}$ — already exists in Claude_underpinnings.md).
+The angular size prediction for the cold spot, as distinct from its
+temperature depth, has not been derived. And critically: Section 11's
+calculation treats this as an ordinary void's ISW signature, not yet as
+specifically a *boundary* signature between two Anulus events — the
+inter-event geometry from Garriga-Guth-Vilenkin has not yet been combined
+with the numerical fit. The status moves from "angular size and profile
+both open" to "a same-order, correct-sign temperature estimate exists for
+a generic void; the boundary-specific angular and refined profile
+derivation remains open."
 
 ---
 
@@ -152,13 +190,16 @@ casting mechanism (Problem 3), distinguishable from standard hierarchical
 formation models.
 
 **Partial progress:**
-Dependent on Problem 3, which now has a mapped mathematical home in
-bubble collision and percolation theory (see above). Once a mass transfer
-rate is derived for Problem 3, this problem inherits that machinery
-directly: the rate, integrated against the percolation-theory description
-of event density from Problem 2, would yield the redshift-dependent mass
-excess this problem requires. The qualitative identification of inherited
-material as the explanation is established in Claude_framework.md.
+Dependent on Problem 3, which has a mapped mathematical home in bubble
+collision and percolation theory (see above) but no Section 11 progress —
+the SDSS fit addresses single-event void structure and does not bear on
+inter-event mass transfer. Once a mass transfer rate is derived for
+Problem 3, this problem inherits that machinery directly: the rate,
+integrated against the percolation-theory description of event density
+from Problem 2 — now partially anchored numerically — would yield the
+redshift-dependent mass excess this problem requires. The qualitative
+identification of inherited material as the explanation is established
+in Claude_framework.md.
 
 ---
 
