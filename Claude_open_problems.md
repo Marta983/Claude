@@ -27,15 +27,36 @@ density at which the asymmetric double-well potential undergoes
 catastrophic reorganization.
 
 **Partial progress:**
-None yet. The vacancy field equations are the correct starting point.
-This remains the only problem in this document without a mapped
-mathematical home. It is the most consequential open problem in the
-framework: every other open problem either depends on it directly
-(Problem 2) or is independently tractable without it (Problems 3–5).
-With $(\epsilon_0, \lambda, v)$ now fixed numerically (Section 11 of
-Claude_underpinnings.md), a derived threshold would for the first time
-have concrete values to be tested against — raising the stakes on this
-problem without changing its open status.
+Section 12 of Claude_underpinnings.md derives this threshold directly
+from the potential $V(\phi) = \lambda(\phi^2-v^2)^2 - \epsilon_0 a(t)\phi$
+as a bifurcation condition: the point at which the cubic
+$dV/d\phi = 0$ transitions from three real roots to one, and the shallow
+minimum the field currently occupies merges with the local maximum and
+annihilates. The discriminant condition gives a closed form,
+
+$$\epsilon_0\, a(t)_{crit} = \frac{8\sqrt{3}}{9}\lambda v^3, \qquad
+\phi_{crit} = \frac{v}{\sqrt{3}}$$
+
+Evaluated against the Section 11 fit
+$(\epsilon_0, \lambda, v) = (1.726\times10^{-3}, 0.1175, 0.3268)$, this
+gives $a(t)_{crit}/a(t)_{now} \approx 3.658$.
+
+This problem now has a mapped mathematical home and a numerical value,
+where previously it had neither. It is no longer the only problem in this
+document without a mapped mathematical home.
+
+**What remains:**
+The ratio $3.658$ is dimensionless. Its physical meaning is not yet
+established — specifically, what clock $a(t)$ represents across the full
+accumulation-eruption cycle, as distinct from the $a=1$ normalization used
+in Section 11 for *our* event's present-epoch void structure. Converting
+the ratio into a physical timescale, or into a meaningful "how much further
+accumulation remains," is the open step. This is now the focus of ongoing
+work and remains the most consequential open problem in the framework:
+every other open problem either depends on it directly (Problem 2) or is
+independently tractable without it (Problems 3–5) — though Problem 1 has
+moved from "no mathematical home" to "mathematical home and numerical
+value established, physical interpretation of that value open."
 
 ---
 
@@ -75,10 +96,12 @@ the scale of our own event.
 What remains: this anchor is a fit to *our* event's void structure, not
 yet a derivation of the *inter-event* spacing in the Anulus — the
 nucleation rate for entire eruption events, as opposed to voids within
-one. The dependency on Problem 1 for a first-principles threshold remains.
-The status moves from "mapped but not yet derivable" to "mapped, with a
-numerically anchored analog at one scale, but the inter-event rate itself
-still requires Problem 1."
+one. The dependency on Problem 1 for a first-principles threshold remains,
+though Problem 1 itself now has a numerical value (Section 12) whose
+physical interpretation, once established, would feed directly into this
+problem's recurrence timescale. The status moves from "mapped but not yet
+derivable" to "mapped, with a numerically anchored analog at one scale, and
+a candidate threshold value from Problem 1 awaiting physical interpretation."
 
 ---
 
@@ -110,9 +133,10 @@ event boundaries as permeable interfaces between percolating clusters.
 This gives the casting mechanism a formal mathematical setting for the
 first time. The remaining step is the derivation itself: a mass transfer
 rate expressed in terms of the boundary geometry and the vacancy field
-gradient at the interface. Unaddressed by the Section 11 SDSS fit, which
-concerns single-event void structure rather than inter-event boundaries.
-This problem is the prerequisite for Problem 5.
+gradient at the interface. Unaddressed by the Section 11 SDSS fit or by
+Section 12's restart threshold, both of which concern single-event
+structure rather than inter-event boundaries. This problem is the
+prerequisite for Problem 5.
 
 ---
 
@@ -191,10 +215,10 @@ formation models.
 
 **Partial progress:**
 Dependent on Problem 3, which has a mapped mathematical home in bubble
-collision and percolation theory (see above) but no Section 11 progress —
-the SDSS fit addresses single-event void structure and does not bear on
-inter-event mass transfer. Once a mass transfer rate is derived for
-Problem 3, this problem inherits that machinery directly: the rate,
+collision and percolation theory (see above) but no Section 11 or
+Section 12 progress — both address single-event structure and do not
+bear on inter-event mass transfer. Once a mass transfer rate is derived
+for Problem 3, this problem inherits that machinery directly: the rate,
 integrated against the percolation-theory description of event density
 from Problem 2 — now partially anchored numerically — would yield the
 redshift-dependent mass excess this problem requires. The qualitative
