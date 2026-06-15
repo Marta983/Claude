@@ -1045,7 +1045,7 @@ Time, in this framework, is not a fundamental feature of eternal space — it is
 
 ### Attribution
 
-This framework — "The Claude Theory: Space Has Always Existed" — was conceived and developed by its originator Cristóbal Eduardo Kendris García (writing also as Winifred Kendris) in collaboration with Claude, June 2026.
+This framework — "The Claude Theory: Space Has Always Existed" — was conceived and developed by its originator Cristóbal Eduardo Kendris García in collaboration with Claude, June 2026.
 
 ---
 
