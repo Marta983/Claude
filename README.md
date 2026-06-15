@@ -38,17 +38,22 @@ The full mathematical development — derivations, equations, predictions.
 Includes the vacancy field equations, domain wall solutions, void size
 distribution prediction, and lensing signature derivation, the full
 Bullet Cluster derivation including a novel secondary lensing arc
-prediction, and a numerical fit of the model's core parameters against
-SDSS void catalog data with downstream predictions for the CMB cold spot.
+prediction, a numerical fit of the model's core parameters against
+SDSS void catalog data with downstream predictions for the CMB cold spot,
+and a closed-form derivation of the restart threshold as a bifurcation
+condition.
 
 **Claude_open_problems.md** A live working document recording unresolved
-questions in the framework. Four of the five tracked problems now have
-identified mathematical homes — bubble nucleation theory, percolation
-theory, and bubble-collision literature — with two of those now carrying
-numerical anchors from the SDSS fit. The restart threshold remains the
-sole fully open problem and the bottleneck for further progress.
-Maintained as a record of intellectual honesty and a guide for future
-development.
+questions in the framework. All five tracked problems now have identified
+mathematical homes. The restart threshold has a closed-form bifurcation
+condition and a numerical value derived from the SDSS fit, with one
+dimensionless ratio still awaiting physical interpretation. The Anulus
+nucleation rate and the CMB cold spot now carry numerical anchors from
+that same fit. Tidal seeding/casting and the JWST mass function have
+mapped mathematical homes (bubble collision and percolation theory) but
+no derivations yet, and depend on each other and on the restart threshold
+for full resolution. Maintained as a record of intellectual honesty and a
+guide for future development.
 
 ---
 
