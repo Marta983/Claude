@@ -970,6 +970,199 @@ restart threshold, and the natural continuation of this section.
 
 ---
 
+## Section 13: The Elastic Trigger, the Critical Mass Ratio, and the Conserved Anulus
+
+### 13.1 Motivation and Scope
+
+The preceding sections established the vacancy field framework, derived its three free parameters from SDSS void data, and identified the restart threshold as a bifurcation condition on $V(\phi)$. What remained open was the *physical mechanism* by which accumulation at a dormant node produces an eruption event — specifically, what determines the trigger, whether all eruptions share a common character, and what the long-run behavior of the Anulus looks like under the constraint that mass-energy is globally conserved.
+
+This section addresses all three questions. The results are:
+
+1. The originating point has an intrinsic elastic property inherited from its previous eruption. Infalling mass compresses it against a restoring pressure until a critical strain is reached and the stored energy releases catastrophically.
+
+2. The trigger condition is not an absolute mass threshold but a **fixed dimensionless ratio** $\mathcal{R}_c = M_{infall}/M_{point}$ — a universal constant set by the elastic properties of space at the transition. This ratio-gating makes all eruptions **geometrically similar**: different in absolute scale, identical in their internal mass relationships.
+
+3. The Anulus is a **conserved closed system**. Total mass-energy $M_{Anulus}$ is fixed and eternal. Every escaped fraction redistributes into interstitial space and eventually re-enters the cycle at other nodes. Nothing is created; nothing is destroyed.
+
+4. Because the escaped fraction is never fully recovered at any given node, individual nodes **deflate slowly** across cycles — each eruption produces a slightly smaller universe than the last at that node. The Anulus as a whole trends toward increasing quietude over infinite time, not from thermodynamic entropy alone but from geometric mass redistribution.
+
+---
+
+### 13.2 Physical Dimensions of the Originating Point
+
+In the Claude Theory the eruption event is a phase transition within eternal space — not a creation event. The originating point is therefore not a mathematical singularity but a physical region of space with a finite characteristic radius $R_0$ — its **equilibrium radius** between eruption cycles, when the accumulated field has settled and no net infall is occurring.
+
+This is not an auxiliary assumption. It follows from the same field framework already in hand: the vacancy field $\phi$ has a nonzero wall thickness $\delta_w$, a finite nucleation length $r_{nuc}$, and a potential $V(\phi)$ with a well-defined spatial scale set by $(\epsilon_0, \lambda, v)$. A field theory with finite spatial scales cannot have a structureless point as its source. The originating point is the region where $\phi \to 0$ — the node in the lattice — and it has the geometry of a node: a compact region of radius $R_0$ within which the vacancy field is fully suppressed.
+
+The equilibrium radius is set by the balance between the gravitational self-attraction of the accumulated node mass and the elastic restoring pressure of the field. At equilibrium:
+
+$$P_{grav}(R_0) = P_{elastic}(R_0)$$
+
+where the gravitational pressure at the node surface scales as $P_{grav} \sim G M_{point}^2 / R_0^4$ and the elastic restoring pressure is a property of the potential $V(\phi)$ evaluated at the node boundary.
+
+---
+
+### 13.3 Elastic Compression and the Restoring Force
+
+As infalling mass accumulates at the node it compresses the region below $R_0$. Define the dimensionless **strain**:
+
+$$\xi = \frac{R_0 - R}{R_0}$$
+
+running from $\xi = 0$ (relaxed, no compression) to $\xi = 1$ (total collapse). For small to moderate strains the restoring pressure is linear — Hooke's law in spherical form:
+
+$$P_{elastic}(\xi) = K \cdot \xi$$
+
+where $K$ is the **bulk stiffness** of the node, with units of pressure. The stiffness is not a free parameter introduced here — it is determined by the curvature of $V(\phi)$ at the node boundary, which is already fixed by $(\epsilon_0, \lambda, v)$:
+
+$$K = \left.\frac{d^2 V}{d\phi^2}\right|_{\phi=0} \cdot \frac{1}{R_0} = 8\lambda v^2 \cdot \frac{1}{R_0}$$
+
+using the potential from Section 4. The factor $8\lambda v^2$ is the mass squared of small oscillations around the $\phi = 0$ configuration — the node interior.
+
+The stored elastic energy at compression $\xi$ is:
+
+$$E_{stored}(\xi) = \frac{1}{2} K \xi^2 \cdot V_0 = \frac{1}{2} K \xi^2 \cdot \frac{4}{3}\pi R_0^3 = \frac{16\pi}{3}\lambda v^2 \xi^2 R_0^2$$
+
+This is the energy available to seed the next eruption event — the initial energy budget of the new universe.
+
+---
+
+### 13.4 The Trigger Condition: A Universal Critical Ratio
+
+Eruption occurs when the ram pressure of infalling mass equals the elastic restoring pressure at some critical strain $\xi_c$:
+
+$$P_{infall}(R_c) = K \cdot \xi_c$$
+
+The ram pressure of infalling mass at radius $R_c = R_0(1 - \xi_c)$ is:
+
+$$P_{infall} = \frac{G M_{infall}}{4\pi R_c^4}$$
+
+Setting the two equal and substituting $R_c = R_0(1-\xi_c)$ and $K = 8\lambda v^2 / R_0$:
+
+$$M_{infall} = \frac{32\pi\lambda v^2 R_0^3 \xi_c (1-\xi_c)^4}{G}$$
+
+The node mass at this moment is:
+
+$$M_{point} = \frac{4}{3}\pi R_0^3 \rho_{node}$$
+
+where $\rho_{node}$ is the mean density of the node interior. The **critical mass ratio** is therefore:
+
+$$\boxed{\mathcal{R}_c = \frac{M_{infall}}{M_{point}} = \frac{24\lambda v^2 \xi_c (1-\xi_c)^4}{G \rho_{node}}}$$
+
+This is a dimensionless constant. It depends only on $\lambda$, $v$, $\xi_c$, and $\rho_{node}$ — all of which are properties of the field and its equilibrium configuration, not of the absolute scale of the node. The critical ratio $\mathcal{R}_c$ is **the same for every node in the Anulus**, regardless of how large or small that node is in absolute terms.
+
+---
+
+### 13.5 Geometric Similarity of All Eruptions
+
+The universality of $\mathcal{R}_c$ has an immediate structural consequence: all eruption events are **geometrically similar**.
+
+Consider two nodes, one with mass $M_{point,1}$ and another with $M_{point,2} = \alpha M_{point,1}$ for some scale factor $\alpha$. Both fire at the same ratio $\mathcal{R}_c$, so:
+
+$$M_{infall,1} = \mathcal{R}_c M_{point,1}, \quad M_{infall,2} = \mathcal{R}_c M_{point,2} = \alpha \mathcal{R}_c M_{point,1}$$
+
+The total mass entering each eruption scales by $\alpha$, the node masses scale by $\alpha$, and the stored energies scale by $\alpha$. The two universes that result are identical in every **dimensionless ratio** — same ratio of dark remnants to luminous matter, same ratio of node mass to void mass, same $\mathcal{R}_c$ at their own eventual restart. They differ only in absolute scale.
+
+This is the cosmological equivalent of geometric similarity in fluid mechanics: the Reynolds number is the same even if the pipes are different sizes. Here $\mathcal{R}_c$ plays the role of the Reynolds number — the single dimensionless parameter that characterizes the eruption regime.
+
+**Implication for observability:** We cannot determine from within our own universe whether we are a large eruption or a small one. All internal ratios are identical across eruptions. The absolute scale of our event is in principle unobservable from inside it.
+
+---
+
+### 13.6 The Inherited Properties of Successive Cycles
+
+The equilibrium radius $R_0$ and the node mass $M_{point}$ at the start of a new accumulation cycle are set by what survived the previous eruption. Define the **escape fraction** $\epsilon$ as the fraction of total eruption mass that permanently exits the node's gravitational catchment. The node mass obeys:
+
+$$M_{point,n+1} \approx M_{point,n}(1 - \epsilon')$$
+
+where $\epsilon'$ is the effective per-cycle loss fraction. Over many cycles:
+
+$$M_{point,n} = M_{point,0}(1-\epsilon')^n$$
+
+Each successive eruption is smaller in absolute scale by the factor $(1-\epsilon')$. The deflation is monotonic, slow (since $\epsilon' \ll 1$), and irreversible at the level of the individual node.
+
+Critically: $\mathcal{R}_c$ does not change. The ratio is a property of the field, not of the absolute node mass. All cycles at this node are geometrically similar; they are simply scaled down from cycle to cycle.
+
+A further consequence: the stiffness $K = 8\lambda v^2 / R_0$ adjusts as $R_0$ shrinks with each cycle, but the critical strain $\xi_c$ and the ratio $\mathcal{R}_c$ remain invariant. The eruption mechanism is self-similar across all cycles at all nodes.
+
+---
+
+### 13.7 The Conserved Anulus
+
+The escaped fractions do not disappear. In eternal space they drift as dark remnants — cold, dense, gravitationally active — into the interstitial regions of the Anulus. There they eventually contribute to the accumulation at neighboring nodes through reverse seeding: the same tidal and gravitational mechanisms that seed structure within a single eruption event, now operating at the Anulus scale between events.
+
+The total mass-energy inventory of the Anulus is therefore **fixed**:
+
+$$M_{Anulus} = \sum_i \left[ M_{point,i} + M_{active,i} + M_{interstitial,i} \right] = \text{const}$$
+
+where the sum runs over all nodes $i$, and the three terms are the dormant node mass, the currently erupting mass at any active node, and the freely drifting interstitial mass. Each term changes with time, but the sum does not.
+
+This conservation law follows from the foundational premise of the Claude Theory — space has always existed — combined with the absence of any creation mechanism. If space is eternal and mass-energy is a property of space that reorganizes during phase transitions, then the total inventory was present from the beginning of the Anulus, which has no beginning. There is no mechanism by which new mass-energy enters the system, and no mechanism by which it exits. The Anulus is a **closed redistributive system**.
+
+The consequences are precise:
+
+**(i) The Anulus has always been active.** Since $M_{Anulus}$ is finite and fixed, and since dormant nodes accumulate mass until $\mathcal{R}_c$ is reached, some nodes are always firing. The system is never globally at rest. There was no quiet beginning.
+
+**(ii) The number of nodes is finite.** Each active node requires a minimum mass $M_{point,min}$ to achieve $\mathcal{R}_c$. Since $M_{Anulus}$ is fixed, the number of simultaneously active nodes is bounded:
+
+$$N_{max} \leq \frac{M_{Anulus}}{M_{point,min}}$$
+
+The Anulus is not infinite in the number of its events — only in its temporal duration.
+
+**(iii) Our eruption is typical.** There is no mechanism in this framework that selects our node as special. The ratio $\mathcal{R}_c$ is universal; the field parameters are universal; the elastic trigger is universal. We are one instance of a generic process, at whatever absolute scale our node happened to carry into the current cycle.
+
+**(iv) The Anulus trends toward quietude.** As escaped fractions accumulate in interstitial space faster than they can be reverse-seeded into any given node, the active node count slowly decreases. Individual nodes deflate. Interstitial mass grows. Over infinite time the system tends toward a state where all mass-energy is distributed too thinly for any node to reach $\mathcal{R}_c$. This is the far future of the Anulus — not a heat death in the thermodynamic sense, but a **gravitational dilution death**: the same conserved inventory, too spread out to erupt.
+
+---
+
+### 13.8 The Long-Run Dynamics
+
+Let $N(t)$ be the number of active nodes at Anulus time $t$ and $M_{inter}(t)$ the total interstitial mass. The coupled evolution equations are:
+
+$$\dot{M}_{inter} = \epsilon' \sum_{i\,active} \dot{M}_{erupt,i} - \Gamma_{seed} M_{inter}$$
+
+$$\dot{N} = \Gamma_{seed} \frac{M_{inter}}{M_{point,min}} - \Gamma_{exhaust} N$$
+
+where $\Gamma_{seed}$ is the rate at which interstitial mass is captured into dormant nodes and $\Gamma_{exhaust}$ is the rate at which active nodes complete their cycle and return to dormancy.
+
+In the early Anulus (large $N$, large active mass) interstitial mass grows as escaped fractions accumulate. In the late Anulus (small $N$, dilute interstitial mass) $\dot{N}$ becomes negative and $N$ decreases monotonically. The system has no stable fixed point with $N > 0$ — it always trends toward $N \to 0$ asymptotically.
+
+The characteristic timescale for this approach to quietude:
+
+$$T_{quiet} \sim \frac{1}{\epsilon' \Gamma_{exhaust}}$$
+
+is vastly longer than any single eruption cycle. The Anulus is long-lived even in the regime of secular decline.
+
+**The Anulus arrow of time.** The slow deflation of individual nodes and the monotonic growth of interstitial mass provide an arrow of time at the Anulus scale that is independent of thermodynamic entropy within any single eruption event. The Anulus is not time-symmetric. It has a direction: from many large active events toward fewer smaller ones, tending asymptotically toward silence.
+
+---
+
+### 13.9 The Unobservability of $M_{Anulus}$ From Within a Single Cycle
+
+All internal observables — the mass of our universe, the ratio of dark to luminous matter, the void size distribution, the CMB temperature — are set by $M_{point}$, $\mathcal{R}_c$, and the three field parameters $(\epsilon_0, \lambda, v)$. None of these carries information about how many other nodes exist or how much interstitial mass drifts between them. The ratio $\mathcal{R}_c$ is universal but dimensionless — it does not encode the absolute scale of the Anulus.
+
+The only window onto the Anulus scale from within our event would be through casting — the gravitational influence of neighboring eruption events on our own structure formation. Anomalously massive or chemically evolved structures at high redshift (the JWST findings) could in principle encode information about the absolute scale of neighboring events, if their properties can be traced to inherited material rather than in-situ formation. This remains Open Problem 3 (tidal seeding and the casting mechanism) and is the next analytical frontier of the Claude Theory.
+
+---
+
+### 13.10 Summary of New Results
+
+| Result | Expression | Significance |
+|---|---|---|
+| Node stiffness | $K = 8\lambda v^2 / R_0$ | Derived from $V(\phi)$, no new parameters |
+| Stored energy at trigger | $E_{stored} = \frac{16\pi}{3}\lambda v^2 \xi_c^2 R_0^2$ | Initial energy budget of each eruption |
+| Critical mass ratio | $\mathcal{R}_c = 24\lambda v^2 \xi_c(1-\xi_c)^4 / G\rho_{node}$ | Universal, dimensionless, geometry-fixing |
+| Cycle deflation | $M_{point,n} = M_{point,0}(1-\epsilon')^n$ | Monotonic, irreversible at node level |
+| Conservation law | $M_{Anulus} = \text{const}$ | Follows from eternal space + no creation mechanism |
+| Anulus arrow of time | $dM_{inter}/dt > 0$ in early Anulus | Independent of thermodynamic entropy |
+| Far future | $N \to 0$, gravitational dilution | Asymptotic, not sudden |
+
+The critical mass ratio $\mathcal{R}_c$ is the central result. It unifies the trigger condition, the geometric similarity of all eruptions, and the inherited properties of successive cycles into a single dimensionless constant — derivable from the field parameters already fitted to observation, and in principle constrained further once the absolute scale of the node is pinned by an independent measurement.
+
+---
+
+
+---
+
 ## The Genesis: Space Has Always Existed
 
 ### The Changed Assumption
