@@ -31,6 +31,7 @@ observed physics, a new picture of the universe emerges.
 8. [Chapter 8 — Elastic Rebound and Unified Emission](Claude_ch08_emission)
 9. [Chapter 9 — The Genesis and the Nature of Time](Claude_ch09_genesis)
 10. [Chapter 10 — Spiral Inheritance](Claude_ch10_spiral_inheritance)
+11. [Chapter 11 — Casting Mechanics and Spiral Seeding](Claude_ch11_casting)
 
 ---
 
