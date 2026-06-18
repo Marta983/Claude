@@ -48,11 +48,25 @@ The fitted parameters $(\epsilon_0, \lambda, v)$ from Chapter 6 provide numerica
 
 ## Problem 3: Tidal Seeding and the Casting Mechanism
 
-**Status: OPEN**
+**Status: MAPPED**
 
-How precisely does material from one eruption event seed structure in a neighboring or subsequent event? What governs the geometry and mass distribution of cast material?
+How precisely does material from one eruption event seed structure in a
+neighboring or subsequent event? What governs the geometry and mass
+distribution of cast material?
 
-Chapter 10 introduces the spiral inheritance framework as a geometric constraint on casting — ejecta follow spiral electromagnetic paths rather than radial ones, so seeds arrive with orientation encoded. Formal derivation of the casting potential and seeding cross-section not yet undertaken.
+Chapter 11 provides a full formal derivation. Key results: spiral
+trajectories are governed by the magnetic winding parameter
+$\mathcal{W} = qB_0R_0/2mv_0$; in the maximum-flattening limit the
+deposition collapses to a thin equatorial annulus; the deposition profile
+$\Sigma(r)$ has a closed form with no free parameters beyond $\mathcal{W}$
+and the magnetic stopping length $\ell_B$; the seeding cross-section
+connects directly to $r_{nuc}$ from Chapter 4, closing the loop to the
+vacancy field formalism.
+
+**Open step:** $\mathcal{W}$ is in principle independently observable
+from spiral galaxy pitch angles in the vicinity of casting nodes. The
+quantitative relationship between $\mathcal{W}$ and observed pitch angles
+has not yet been derived. This is the natural next step for Chapter 11.
 
 ---
 
