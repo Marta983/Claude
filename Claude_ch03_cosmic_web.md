@@ -135,7 +135,6 @@ $$r_{nuc}(z) = \frac{r_{nuc,0}}{1+z} \cdot f(\epsilon_0, \lambda, v)$$
 Where $f$ is a function of the potential parameters solved for in Chapter 4.
 
 ---
----
 ## A Living Document
 
 Some conceptual areas explored here are still under active development. The current status of open problems and unresolved assumptions is maintained in [Claude_status.md]. Readers are directed there for the most current picture.
