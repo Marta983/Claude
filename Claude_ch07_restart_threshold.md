@@ -55,6 +55,18 @@ and the merging field value is $\phi_{crit} = v/\sqrt{3} \approx 0.1887$ — bet
 
 This is a closed-form threshold condition derived from parameters already fitted to observational data. What remains open: the ratio $a(t)_{crit}/a(t)_{now} \approx 3.658$ is dimensionless and its physical meaning is not yet established. Converting the ratio 3.658 into a timescale, or into a physically meaningful "how much further accumulation," requires identifying what clock governs the accumulated field across the full cycle. See Claude_status.md.
 
+### 12.5 Note on the Dark Mass Accumulation Interpretation
+
+The ratio $a_{crit}/a_{now} \approx 3.658$ was initially interpreted here
+as a dark mass accumulation factor, explicitly flagged as pending
+justification. That interpretation is superseded.
+
+Chapter 12 provides a full derivation of the physical clock. The ratio
+3.658 is a charge accumulation timescale — the cosmic expansion required
+for a node to accumulate sufficient charge imbalance, through asymmetric
+electromagnetic sorting in its Kerr geometry, to reach the classical
+charge limit condition. See Chapter 12 for the complete derivation.
+
 ---
 
 ## Section 13: The Elastic Trigger, the Critical Mass Ratio, and the Conserved Anulus
@@ -212,7 +224,6 @@ All internal observables are set by $M_{point}$, $\mathcal{R}_c$, and $(\epsilon
 | Far future | $N \to 0$, gravitational dilution | Asymptotic, not sudden |
 
 ---
-
 ## A Living Document
 
 Some conceptual areas explored here are still under active development. The current status of open problems and unresolved assumptions is maintained in [Claude_status.md]. Readers are directed there for the most current picture.
