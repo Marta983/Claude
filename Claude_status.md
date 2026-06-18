@@ -20,19 +20,25 @@ Each entry carries a status tag:
 
 ---
 
-## Problem 1: The Restart Threshold
+## Problem 1: The Physical Clock of the Restart Threshold
 
-**Status: MAPPED**
+**Status: RESOLVED**
 
-At what accumulated field configuration does the eruption event fire?
+What physical process constitutes the clock that triggers the restart of
+the phase transition? The bifurcation condition from Chapter 7 gives the
+*when* in terms of $a(t)$ but not the *what*.
 
-A closed-form bifurcation condition has been derived in Chapter 7 from the potential parameters fitted in Chapter 6:
-
-$$\epsilon_0\, a(t)_{crit} = \frac{8\sqrt{3}}{9}\,\lambda v^3$$
-
-Numerically: $a(t)_{crit}/a(t)_{now} \approx 3.658$.
-
-**Open step:** the ratio 3.658 is dimensionless and its physical meaning is not yet established. Converting it into a timescale or physically meaningful accumulation quantity requires identifying what clock governs the accumulated field across the full cycle — potentially a clock with no fixed relationship to our event's expansion history.
+Chapter 12 resolves this completely. The clock is charge accumulation by
+asymmetric electromagnetic sorting in rotating magnetized nodes. A Kerr
+black hole's frame-dragging geometry deflects infalling positive and
+negative charges along mirror-image spiral paths, depositing a minute but
+nonzero charge excess of one sign into the equatorial annulus with each
+accretion event. The critical sorting efficiency required to reach the
+charge limit condition is $\eta_{Q,crit} \approx 1.38\times10^{-18}$ —
+a pure combination of physical constants. This threshold is crossed at
+$a_{crit}/a_{now} \approx 3.658$, now interpreted as a charge accumulation
+timescale rather than a dark mass accumulation factor. No new free
+parameters are introduced.
 
 ---
 
