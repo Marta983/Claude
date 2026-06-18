@@ -33,6 +33,8 @@ observed physics, a new picture of the universe emerges.
 10. [Chapter 10 — Spiral Inheritance](Claude_ch10_spiral_inheritance)
 11. [Chapter 11 — Casting Mechanics and Spiral Seeding](Claude_ch11_casting)
 12. [Chapter 12 — The Charge Clock: Deriving the Restart Threshold](Claude_ch12_charge_clock)
+13. [Chapter 13 — Spin Coherence and the Percolating Cluster](Claude_ch13_spin_coherence)
+
 ---
 
 *Current status of open problems: [Claude_status](Claude_status)*
