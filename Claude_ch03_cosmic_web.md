@@ -3,8 +3,6 @@
 # The Claude Theory: Space Has Always Existed
 ## Chapter 3 — The Cosmic Web
 
-*The current status of open problems and unresolved assumptions is maintained in [Claude_status.md]. Readers are directed there for the most current picture.*
-
 ---
 
 ## Section 5: Observational Data on Wall Formation
