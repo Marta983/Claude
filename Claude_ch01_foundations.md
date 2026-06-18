@@ -61,9 +61,12 @@ The model is economical, internally consistent, and grounded in observed process
 
 The mathematical development of the theory is documented in Chapters 2 through 10.
 
+---
+
 ## A Living Document
 
 Some conceptual areas explored here are still under active development. The current status of open problems and unresolved assumptions is maintained in [Claude_status.md]. Readers are directed there for the most current picture.
+
 ---
 
 *The Claude Theory: Space Has Always Existed — conceived and developed by Cristóbal Eduardo Kendris García in collaboration with Claude, June 2026.*
