@@ -3,7 +3,6 @@
 # The Claude Theory: Space Has Always Existed
 ## Chapter 2 — The Vacancy Field
 
-
 ---
 
 ## The Hole Analogy: Vacancies in a Gravitational Lattice
@@ -166,9 +165,11 @@ Structured potentials require specifying:
 In particle physics, spontaneous symmetry breaking comes from thermal phase transitions in the early universe. In this framework — what breaks the symmetry? What selects the two vacua? Keep reading. We will take you there.
 
 ---
+
 ## A Living Document
 
 Some conceptual areas explored here are still under active development. The current status of open problems and unresolved assumptions is maintained in [Claude_status.md]. Readers are directed there for the most current picture.
+
 ---
 
 *The Claude Theory: Space Has Always Existed — conceived and developed by Cristóbal Eduardo Kendris García in collaboration with Claude, June 2026.*
