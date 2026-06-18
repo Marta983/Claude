@@ -3,6 +3,7 @@
 # The Claude Theory: Space Has Always Existed
 ## Chapter 10 — Spiral Inheritance and Electromagnetic Geometry
 
+---
 
 ## The Observational Foundation
 
