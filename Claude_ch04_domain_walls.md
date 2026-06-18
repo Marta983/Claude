@@ -249,6 +249,7 @@ Fit $\epsilon_0$, $\lambda$, $v$ to the observed void size distribution, then **
 ## A Living Document
 
 Some conceptual areas explored here are still under active development. The current status of open problems and unresolved assumptions is maintained in [Claude_status.md]. Readers are directed there for the most current picture.
+
 ---
 
 
