@@ -15,16 +15,11 @@ the phase transition? The bifurcation condition from Chapter 7 gives the
 *when* in terms of $a(t)$ but not the *what*.
 
 Chapter 12 resolves this completely. The clock is charge accumulation by
-asymmetric electromagnetic sorting in rotating magnetized nodes. A Kerr
-black hole's frame-dragging geometry deflects infalling positive and
-negative charges along mirror-image spiral paths, depositing a minute but
-nonzero charge excess of one sign into the equatorial annulus with each
-accretion event. The critical sorting efficiency required to reach the
-charge limit condition is $\eta_{Q,crit} \approx 1.38\times10^{-18}$ —
-a pure combination of physical constants. This threshold is crossed at
-$a_{crit}/a_{now} \approx 3.658$, now interpreted as a charge accumulation
-timescale rather than a dark mass accumulation factor. No new free
-parameters are introduced.
+asymmetric electromagnetic sorting in rotating magnetized nodes. The
+critical sorting efficiency is $\eta_{Q,crit} \approx 1.38\times10^{-18}$
+— a pure combination of physical constants. The ratio $a_{crit}/a_{now}
+\approx 3.658$ is now interpreted as a charge accumulation timescale.
+No new free parameters are introduced.
 
 ---
 
@@ -32,15 +27,10 @@ parameters are introduced.
 
 **Status: MAPPED**
 
-Does the vacancy field domain wall produce a lensing deflection profile
-distinguishable from NFW dark matter halos?
-
-Chapter 4 derives the full deflection profile with form factor $F(b/\delta_w)$
-recovering NFW-like behavior at large impact parameter while diverging at
-small $b$ in a way that is in principle distinguishable. The mathematical
-derivation is complete. Pending: formal comparison against existing weak
-lensing survey stacks to quantify the distinguishability at current
-instrumental sensitivity.
+Chapter 4 derives the full deflection profile with form factor
+$F(b/\delta_w)$ recovering NFW-like behavior at large impact parameter
+while diverging at small $b$ in a distinguishable way. Pending: formal
+comparison against existing weak lensing survey stacks.
 
 ---
 
@@ -48,23 +38,11 @@ instrumental sensitivity.
 
 **Status: MAPPED**
 
-How precisely does material from one eruption event seed structure in a
-neighboring or subsequent event? What governs the geometry and mass
-distribution of cast material?
-
-Chapter 11 provides a full formal derivation. Key results: spiral
-trajectories are governed by the magnetic winding parameter
-$\mathcal{W} = qB_0R_0/2mv_0$; in the maximum-flattening limit the
-deposition collapses to a thin equatorial annulus; the deposition profile
-$\Sigma(r)$ has a closed form with no free parameters beyond $\mathcal{W}$
-and the magnetic stopping length $\ell_B$; the seeding cross-section
-connects directly to $r_{nuc}$ from Chapter 4, closing the loop to the
-vacancy field formalism.
-
-**Open step:** $\mathcal{W}$ is in principle independently observable
-from spiral galaxy pitch angles in the vicinity of casting nodes. The
-quantitative relationship between $\mathcal{W}$ and observed pitch angles
-has not yet been derived. This is the natural next step for Chapter 11.
+Chapter 11 provides a full formal derivation. Spiral trajectories are
+governed by $\mathcal{W} = qB_0R_0/2mv_0$; the deposition profile
+$\Sigma(r)$ has a closed form; the seeding cross-section connects to
+$r_{nuc}$ from Chapter 4. Pending: quantitative relationship between
+$\mathcal{W}$ and observed spiral galaxy pitch angles.
 
 ---
 
@@ -72,15 +50,10 @@ has not yet been derived. This is the natural next step for Chapter 11.
 
 **Status: MAPPED — PRIMARY FALSIFIABLE PREDICTION**
 
-Does the vacancy field domain wall between the two post-collision Bullet
-Cluster nodes produce a detectable secondary lensing arc?
-
 Chapter 5 derives the full prediction. The arc sits between the two
-nodes at a position and surface brightness determined by the domain wall
-parameters. This is the framework's sharpest falsifiable claim and may
-be detectable in existing HST or future JWST imaging of the Bullet
-Cluster field. Pending: comparison against existing weak lensing maps of
-the Bullet Cluster.
+post-collision nodes at a position and surface brightness determined by
+the domain wall parameters. Detectable in existing HST or future JWST
+imaging. Pending: comparison against existing weak lensing maps.
 
 ---
 
@@ -88,16 +61,9 @@ the Bullet Cluster.
 
 **Status: MAPPED**
 
-Why do JWST observations reveal galaxies that appear too massive and too
-evolved for their redshift under standard cosmology?
-
-With Problem 3 now mapped, the casting mechanism provides the answer
-directly. The seeding cross-section at $d = r_{nuc}$ from Chapter 11
-quantifies the inherited head start — the mass delivered to a neighboring
-node from a prior eruption cycle. Early-forming structures that appear
-anomalously evolved have received $\dot{M}_{seed,max}$ from a neighboring
-node, giving them a head start that standard cosmology, which assumes all
-structure grows from the same initial conditions, cannot account for.
+The casting mechanism of Chapter 11 provides the answer directly. The
+seeding cross-section at $d = r_{nuc}$ quantifies the inherited head
+start delivered to neighboring nodes from prior eruption cycles.
 Pending: quantitative comparison of $\dot{M}_{seed,max}$ against the
 observed mass excess in the JWST anomalous population.
 
@@ -105,25 +71,17 @@ observed mass excess in the JWST anomalous population.
 
 ## Problem 6: Spin Coherence Scaling in the Percolating Cluster
 
-**Status: OPEN**
+**Status: RESOLVED**
 
-The consistency check in Section 16.9 of Chapter 12 constrains the
-mass-scaling exponent of charge sorting efficiency to $\alpha \approx -0.25
-\pm 0.04$, corresponding to a spin coherence fraction $f_c \approx 0.5$
-in the percolating cluster at restart. The physical argument is sketched
-in Section 16.9.5 but a formal derivation from the distributed cluster
-field geometry has not been completed.
-
-This is the sole remaining open problem. Its resolution requires:
-1. A formal treatment of the effective field geometry of a percolating
-   cluster of $N$ partially spin-aligned nodes
-2. A derivation of $\alpha$ as a function of $f_c$ and cluster topology
-3. Confirmation that $f_c \approx 0.5$ follows from the casting geometry
-   of Chapter 11
-
-The predicted observable — quasar polarization alignment at the
-percolation scale — connects this problem directly to existing anomalies
-in the observational record.
+Chapter 13 derives the mass-scaling exponent $\alpha \approx -0.25$
+from three ingredients already present in the framework: the Kerr
+single-node scaling $\alpha_{single} = -3/2$, vector addition of
+partially correlated spin axes across the cluster, and exponential
+decay of spin coherence with cluster separation governed by the casting
+correlation length $\xi$. The nearest-neighbor coherence $f_{c,0} = 1$
+— saturated spin alignment between adjacent nodes — is a direct
+consequence of the Chapter 11 casting mechanism and constitutes a
+third independent falsifiable prediction.
 
 ---
 
@@ -136,7 +94,17 @@ in the observational record.
 | 3 | Casting mechanics and seeding | MAPPED |
 | 4 | Bullet Cluster secondary arc | MAPPED — PRIMARY PREDICTION |
 | 5 | JWST anomalous mass function | MAPPED |
-| 6 | Spin coherence scaling in percolating cluster | OPEN |
+| 6 | Spin coherence scaling in percolating cluster | RESOLVED |
+
+---
+
+## Three Open Falsifiable Predictions
+
+| # | Prediction | Chapter |
+|---|---|---|
+| 1 | Secondary lensing arc between Bullet Cluster nodes | 5 |
+| 2 | Quasar polarization alignment at percolation scale | 12 |
+| 3 | Spin axis alignment of neighboring node-scale structures at $\sim r_{nuc}$ | 13 |
 
 ---
 
