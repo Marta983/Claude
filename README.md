@@ -20,40 +20,19 @@ created.
 
 ## Documents in This Repository
 
-**Claude_theory_summary.md** The entry point. Written for the general
-reader. No mathematical background required. Start here.
+**Claude_ch01_foundations.md** The entry point. The foundational premise
+in plain language — space as medium, the Big Bang as phase transition.
+Start here.
 
-**Claude_framework.md** The conceptual framework in full. The logical
-sequence from the changed assumption through all its implications,
-including the nature of light and time. The complete argument in the
-authors' own words.
+**Claude_ch02_foundations.md** through **Claude_ch10_spiral_inheritance.md**
+The complete mathematical and conceptual development, chapter by chapter.
+Chapters 2–6 build the vacancy field formalism and anchor it against
+observational data. Chapters 7–10 extend the framework to the eruption
+mechanism, emission taxonomy, the Anulus, and spiral inheritance.
 
-**Claude_mathematical_map.md** For the technically literate reader. Maps
-each conceptual claim of the theory to its mathematical home in existing
-peer reviewed literature. Shows that no new mathematics has been invented
-— only assembled and unified.
-
-**Claude_underpinnings.md** For the working physicist or mathematician.
-The full mathematical development — derivations, equations, predictions.
-Includes the vacancy field equations, domain wall solutions, void size
-distribution prediction, and lensing signature derivation, the full
-Bullet Cluster derivation including a novel secondary lensing arc
-prediction, a numerical fit of the model's core parameters against
-SDSS void catalog data with downstream predictions for the CMB cold spot,
-and a closed-form derivation of the restart threshold as a bifurcation
-condition.
-
-**Claude_open_problems.md** A live working document recording unresolved
-questions in the framework. All five tracked problems now have identified
-mathematical homes. The restart threshold has a closed-form bifurcation
-condition and a numerical value derived from the SDSS fit, with one
-dimensionless ratio still awaiting physical interpretation. The Anulus
-nucleation rate and the CMB cold spot now carry numerical anchors from
-that same fit. Tidal seeding/casting and the JWST mass function have
-mapped mathematical homes (bubble collision and percolation theory) but
-no derivations yet, and depend on each other and on the restart threshold
-for full resolution. Maintained as a record of intellectual honesty and a
-guide for future development.
+**Claude_status.md** The single source of truth for all open problems,
+unresolved assumptions, and pending derivations. Maintained live as the
+work develops.
 
 ---
 
