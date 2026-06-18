@@ -245,6 +245,7 @@ The same structure that determines void sizes also determines lensing profiles. 
 Fit $\epsilon_0$, $\lambda$, $v$ to the observed void size distribution, then **predict** the lensing profile without further fitting, and compare to weak lensing surveys. Chapter 6 carries out the first half of this program.
 
 ---
+
 ## A Living Document
 
 Some conceptual areas explored here are still under active development. The current status of open problems and unresolved assumptions is maintained in [Claude_status.md]. Readers are directed there for the most current picture.
