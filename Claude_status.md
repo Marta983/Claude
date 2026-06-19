@@ -118,6 +118,54 @@ This constitutes a subsidiary bifurcation condition: the minimum ejection veloci
 
 ---
 
+## Problem 9: The Fine Structure Constant as a Geometric Ratio
+
+**Status: MAPPED**
+
+The fine structure constant $\alpha \approx 1/137$ governs the strength of the electromagnetic interaction. In standard physics it is measured and inserted by hand — its value unexplained. Feynman called it one of the great mysteries of physics.
+
+Chapter 15 proposes that charge is the spatial response to rotational distortion, and that the strength of that response is determined by the geometry of space itself. Under this interpretation the fine structure constant is the geometric conversion factor between the rotational distortion field and the force space generates in response — derivable in principle from the geometry of the rotational distortion, as fixed and as fundamental as $\pi$.
+
+**Open step:** formal derivation of $\alpha$ from the spatial response function to rotational distortion. This is the deepest open mathematical problem in the framework.
+
+---
+
+## Problem 10: Proton-Electron Charge Equality as Spatial Response
+
+**Status: MAPPED**
+
+The proton and electron carry exactly equal and opposite charges despite differing in mass by a factor of 1836. This equality has never been derived — it is observed and accepted.
+
+Chapter 15 resolves this as a consequence of the response belonging to space rather than to matter. If charge is space's response to rotational distortion, and the response function is a property of space itself, then the magnitude of the response is determined by the geometry of the distortion — not by the mass of the object producing it. Equal and opposite rotational distortions produce equal and opposite responses regardless of the mass of the rotating object.
+
+**Open step:** formal derivation of the charge equality from the spatial response function. Requires the same geometric framework as Problem 9.
+
+---
+
+## Problem 11: The Gyromagnetic Ratio from Kerr Geometry
+
+**Status: MAPPED**
+
+The electron gyromagnetic ratio $g \approx 2$ is derived in quantum electrodynamics through elaborate perturbative calculation. Its value is one of the most precisely verified predictions in physics — and one of the least geometrically understood.
+
+Chapter 15 identifies the gyromagnetic ratio as a geometric property of the Kerr rotational distortion at quantum scales — the conversion factor between spin rate and the strength of the rotational spatial distortion. Under this interpretation $g \approx 2$ is not a perturbative miracle but a geometric consequence of how space responds to rotation at the scale of the electron.
+
+**Open step:** derivation of $g$ from the Kerr rotational distortion geometry at quantum scales, without perturbative expansion.
+
+---
+
+## Problem 12: Attraction and Repulsion from Rotational Distortion Handedness
+
+**Status: MAPPED**
+
+Chapter 15 proposes that like-handedness rotational distortions repel and opposite-handedness rotational distortions attract — giving rise to electromagnetic force as a geometric consequence of space's response to overlapping rotational distortions.
+
+The yin-yang complementarity of opposite charges is then not a declared property but a derived one: space finds its equilibrium by driving opposite rotational distortions together and like rotational distortions apart.
+
+**Open step:** formal derivation of the attractive and repulsive force laws from the overlap of same- and opposite-handedness Kerr rotational distortion fields. Show that the derived force law recovers Coulomb's law in the appropriate limit.
+
+---
+
 ## Unresolved Assumption: Symmetry Breaking Origin
 
 **Status: OPEN**
