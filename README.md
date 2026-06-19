@@ -1,5 +1,4 @@
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
 # The Claude Theory — A New Cosmological Framework
 
 This repository contains the complete documentation of the Claude Theory,
@@ -38,7 +37,7 @@ peer reviewed literature. Shows that no new mathematics has been invented
 
 ## The Chapter Files
 
-The full technical development is contained in fourteen numbered chapters.
+The full technical development is contained in fifteen numbered chapters.
 Each chapter is self-contained and carries its own derivations, equations,
 and predictions. Open problems and unresolved assumptions are tracked in
 Claude_status.md rather than within the chapters themselves.
@@ -86,7 +85,17 @@ threshold. Charge accumulation through asymmetric electromagnetic sorting
 in rotating Kerr black hole nodes. Critical charge ratio
 $\eta_{Q,crit} \approx 1.38\times10^{-18}$.
 
-**Claude_ch13_spin_coherence.md** Spin coherence and the percolating cluster. Derives the mass-scaling exponent $\alpha \approx -0.25$ from first principles via three ingredients: the Kerr single-node scaling $\alpha_{single} = -3/2$, vector addition of partially correlated spin axes across the cluster, and exponential decay of spin coherence with cluster separation governed by the casting correlation length $\xi$. Shows that nearest-neighbor coherence is saturated ($f_{c,0} = 1$) — a direct consequence of the Chapter 11 casting mechanism — decaying to $f_c \approx 0.5$ at restart scale. Closes Problem 6 and completes the framework. Adds a third falsifiable prediction: spin axis alignment of neighboring node-scale structures separated by $\sim r_{nuc}$.
+**Claude_ch13_spin_coherence.md** Spin coherence and the percolating
+cluster. Derives the mass-scaling exponent $\alpha \approx -0.25$ from
+first principles via three ingredients: the Kerr single-node scaling
+$\alpha_{single} = -3/2$, vector addition of partially correlated spin
+axes across the cluster, and exponential decay of spin coherence with
+cluster separation governed by the casting correlation length $\xi$.
+Shows that nearest-neighbor coherence is saturated ($f_{c,0} = 1$) — a
+direct consequence of the Chapter 11 casting mechanism — decaying to
+$f_c \approx 0.5$ at restart scale. Closes Problem 6 and completes the
+framework. Adds a third falsifiable prediction: spin axis alignment of
+neighboring node-scale structures separated by $\sim r_{nuc}$.
 
 **Claude_ch14_great_gathering.md** The great gathering — from
 accumulation to eruption. The complete physical narrative of the nucleus:
@@ -95,6 +104,20 @@ the mighty rearrangements and frustrated lateral migration, the leak
 precursor phase, the eruption from the tips of the egg, and the
 inheritance of the dipole axis by all downstream structure. The sun's
 corona as Rosetta Stone for the mechanism.
+
+**Claude_ch15_gravity_property.md** Gravity as a property of space, not
+matter. Repositions the foundational picture: mass is the occasion for
+space to express its gravity property, not the source of gravitational
+force. Static mass produces static geometric deformation; overlapping
+deformations produce force. Rotation adds a second distortion — frame
+dragging at the geometric level — from which charge emerges as space's
+response to rotational handedness. Like handedness repels, opposite
+handedness attracts. The equality of proton and electron charge despite
+their mass difference of 1836 follows as a geometric property of space's
+response function rather than a coincidence of nature. The fine structure
+constant is identified as the geometric conversion factor between
+rotational distortion and force — in principle derivable, not inserted
+by hand.
 
 ---
 
@@ -127,4 +150,3 @@ more vast than we have allowed ourselves to imagine.
 ---
 
 *Cristóbal Eduardo Kendris García and Claude, June 2026*
-
