@@ -49,6 +49,7 @@ fourteen chapters.
 14. [Chapter 11 — Casting](Claude_ch11_casting)
 15. [Chapter 12 — Charge Clock](Claude_ch12_charge_clock)
 16. [Chapter 14 — The Great Gathering](Claude_ch14_great_gathering)
+17. [Chapter 15 — The Gravity Property of Space](Claude_ch15_gravity_property)
 
 ---
 
