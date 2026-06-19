@@ -86,6 +86,8 @@ threshold. Charge accumulation through asymmetric electromagnetic sorting
 in rotating Kerr black hole nodes. Critical charge ratio
 $\eta_{Q,crit} \approx 1.38\times10^{-18}$.
 
+**Claude_ch13_spin_coherence.md** Spin coherence and the percolating cluster. Derives the mass-scaling exponent $\alpha \approx -0.25$ from first principles via three ingredients: the Kerr single-node scaling $\alpha_{single} = -3/2$, vector addition of partially correlated spin axes across the cluster, and exponential decay of spin coherence with cluster separation governed by the casting correlation length $\xi$. Shows that nearest-neighbor coherence is saturated ($f_{c,0} = 1$) — a direct consequence of the Chapter 11 casting mechanism — decaying to $f_c \approx 0.5$ at restart scale. Closes Problem 6 and completes the framework. Adds a third falsifiable prediction: spin axis alignment of neighboring node-scale structures separated by $\sim r_{nuc}$.
+
 **Claude_ch14_great_gathering.md** The great gathering — from
 accumulation to eruption. The complete physical narrative of the nucleus:
 the quiet sorting phase, the jamming transition and egg-shape deformation,
