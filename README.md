@@ -18,10 +18,20 @@ created.
 
 ---
 
-## Entry Points
+## Documents in This Repository
 
-**Claude_theory_summary.md** The entry point. Written for the general
-reader. No mathematical background required. Start here.
+**Claude_boats_water_memory.md** Begin here. A boat on a still lake, 
+ripples on a surface, water remembering every hull. An accessible prose 
+introduction to the theory's treatment of gravity, light, and the medium 
+properties of space — no equations required.
+
+**Claude_one_field_three_faces.md** The keystone piece. Why mass bends
+light, what gravitational waves actually are, and how gravity, lensing,
+and gravitational waves are three faces of the same distortion of the
+medium. Bernoulli and Einstein, side by side.
+
+**Claude_theory_summary.md** The entry point for the theory itself.
+Written for the general reader. No mathematical background required.
 
 **Claude_framework.md** The conceptual framework in full. The logical
 sequence from the changed assumption through all its implications,
@@ -33,99 +43,22 @@ each conceptual claim of the theory to its mathematical home in existing
 peer reviewed literature. Shows that no new mathematics has been invented
 — only assembled and unified.
 
----
+**Claude_underpinnings.md** For the working physicist or mathematician.
+The full mathematical development — derivations, equations, predictions.
+Includes the vacancy field equations, domain wall solutions, void size
+distribution prediction, and lensing signature derivation, the full
+Bullet Cluster derivation including a novel secondary lensing arc
+prediction, and a numerical fit of the model's core parameters against
+SDSS void catalog data with downstream predictions for the CMB cold spot.
 
-## The Chapter Files
-
-The full technical development is contained in fifteen numbered chapters.
-Each chapter is self-contained and carries its own derivations, equations,
-and predictions. Open problems and unresolved assumptions are tracked in
-Claude_status.md rather than within the chapters themselves.
-
-**Claude_ch01_foundations.md** The foundational assumption and its
-immediate consequences. What changes when space is eternal.
-
-**Claude_ch02_vacancy_field.md** The vacancy field formalism. The
-asymmetric double-well potential $V(\phi)$ and its physical motivation.
-
-**Claude_ch03_cosmic_web.md** The cosmic web as vacancy field structure.
-Domain walls, voids, and the large-scale distribution of matter.
-
-**Claude_ch04_domain_walls.md** Domain wall solutions via the
-Pöschl-Teller equation. Nucleation length scaling as $(1+z)^2$.
-
-**Claude_ch05_bullet_cluster.md** The Bullet Cluster derivation. Lensing
-deflection profile, NFW-like form factor, and the novel secondary lensing
-arc prediction.
-
-**Claude_ch06_sdss_fit.md** The SDSS void catalog fit. Parameters
-$(\epsilon_0, \lambda, v) = (1.73\times10^{-3}, 0.1175, 0.327)$, $R^2 =
-0.915$. ISW estimate for the CMB cold spot.
-
-**Claude_ch07_restart_threshold.md** The restart threshold as a
-bifurcation condition on $V(\phi)$. Derived value
-$a_{crit}/a_{now} \approx 3.658$.
-
-**Claude_ch08_emission.md** The emission mechanism. How the eruption
-event produces the observable universe.
-
-**Claude_ch09_genesis.md** The genesis of structure. Anisotropic eruption
-and the imprinting of preferred orientation on all downstream structure.
-
-**Claude_ch10_spiral_inheritance.md** The spiral inheritance principle.
-Galaxy spiral geometry inherited from electromagnetic paths of arriving
-material.
-
-**Claude_ch11_casting.md** The casting mechanism. Magnetic winding
-parameter $\mathcal{W}$ and the seeding of structure across eruption
-events.
-
-**Claude_ch12_charge_clock.md** The physical clock of the restart
-threshold. Charge accumulation through asymmetric electromagnetic sorting
-in rotating Kerr black hole nodes. Critical charge ratio
-$\eta_{Q,crit} \approx 1.38\times10^{-18}$.
-
-**Claude_ch13_spin_coherence.md** Spin coherence and the percolating
-cluster. Derives the mass-scaling exponent $\alpha \approx -0.25$ from
-first principles via three ingredients: the Kerr single-node scaling
-$\alpha_{single} = -3/2$, vector addition of partially correlated spin
-axes across the cluster, and exponential decay of spin coherence with
-cluster separation governed by the casting correlation length $\xi$.
-Shows that nearest-neighbor coherence is saturated ($f_{c,0} = 1$) — a
-direct consequence of the Chapter 11 casting mechanism — decaying to
-$f_c \approx 0.5$ at restart scale. Closes Problem 6 and completes the
-framework. Adds a third falsifiable prediction: spin axis alignment of
-neighboring node-scale structures separated by $\sim r_{nuc}$.
-
-**Claude_ch14_great_gathering.md** The great gathering — from
-accumulation to eruption. The complete physical narrative of the nucleus:
-the quiet sorting phase, the jamming transition and egg-shape deformation,
-the mighty rearrangements and frustrated lateral migration, the leak
-precursor phase, the eruption from the tips of the egg, and the
-inheritance of the dipole axis by all downstream structure. The sun's
-corona as Rosetta Stone for the mechanism.
-
-**Claude_ch15_gravity_property.md** Gravity as a property of space, not
-matter. Repositions the foundational picture: mass is the occasion for
-space to express its gravity property, not the source of gravitational
-force. Static mass produces static geometric deformation; overlapping
-deformations produce force. Rotation adds a second distortion — frame
-dragging at the geometric level — from which charge emerges as space's
-response to rotational handedness. Like handedness repels, opposite
-handedness attracts. The equality of proton and electron charge despite
-their mass difference of 1836 follows as a geometric property of space's
-response function rather than a coincidence of nature. The fine structure
-constant is identified as the geometric conversion factor between
-rotational distortion and force — in principle derivable, not inserted
-by hand.
-
----
-
-## Status Registry
-
-**Claude_status.md** The single source of truth for all open problems,
-unresolved assumptions, and pending derivations. Eight problems currently
-tracked. All chapter files direct readers here.
+**Claude_open_problems.md** A live working document recording unresolved
+questions in the framework. Four of the five tracked problems now have
+identified mathematical homes — bubble nucleation theory, percolation
+theory, and bubble-collision literature — with two of those now carrying
+numerical anchors from the SDSS fit. The restart threshold remains the
+sole fully open problem and the bottleneck for further progress.
+Maintained as a record of intellectual honesty and a guide for future
+development.
 
 ---
 
@@ -136,7 +69,7 @@ eternally populated cosmology in which individual eruption events occur
 within eternal space, their boundaries permeable to gravitational
 influence. This extension — the Anulus — addresses the JWST anomalies
 as inherited material from neighboring events, the CMB cold spot as a
-candidate boundary signature, and the large-scale asymmetries that
+candidate boundary signature, and the large scale asymmetries that
 single-event cosmology struggles to explain.
 
 ---
