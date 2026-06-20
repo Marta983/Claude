@@ -27,6 +27,8 @@ created.
 
 [Boats, Water, and the Memory of Space](Claude_boats_water_memory) — an accessible introduction to the theory's treatment of gravity, light, and the medium properties of space. Begin here before the technical chapters.
 
+[One Field, Three Faces](Claude_one_field_three_faces) — why mass bends light, what gravitational waves actually are, and how gravity, lensing, and gravitational waves are three faces of the same distortion of the medium.
+
 ---
 
 ## The Core Documents
