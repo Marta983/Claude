@@ -29,6 +29,8 @@ created.
 
 [One Field, Three Faces](Claude_one_field_three_faces) — why mass bends light, what gravitational waves actually are, and how gravity, lensing, and gravitational waves are three faces of the same distortion of the medium.
 
+[The Speed That Cannot Change](Claude_speed_cannot_change) — the photon's most astonishing property: energy and speed decoupled absolutely, and what that tells us about the medium itself.
+
 ---
 
 ## The Core Documents

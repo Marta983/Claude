@@ -20,15 +20,21 @@ created.
 
 ## Documents in This Repository
 
-**Claude_boats_water_memory.md** Begin here. A boat on a still lake, 
-ripples on a surface, water remembering every hull. An accessible prose 
-introduction to the theory's treatment of gravity, light, and the medium 
+**Claude_boats_water_memory.md** Begin here. A boat on a still lake,
+ripples on a surface, water remembering every hull. An accessible prose
+introduction to the theory's treatment of gravity, light, and the medium
 properties of space — no equations required.
 
 **Claude_one_field_three_faces.md** The keystone piece. Why mass bends
 light, what gravitational waves actually are, and how gravity, lensing,
 and gravitational waves are three faces of the same distortion of the
 medium. Bernoulli and Einstein, side by side.
+
+**Claude_speed_cannot_change.md** The photon's most astonishing property
+— energy and speed decoupled absolutely by the medium. Gravitational
+redshift and blueshift as proof. The GPS satellites correcting for it
+every second of every day. The medium speaking, at exactly this speed,
+longer than our universe has existed to listen.
 
 **Claude_theory_summary.md** The entry point for the theory itself.
 Written for the general reader. No mathematical background required.
