@@ -23,47 +23,35 @@ created.
 
 ---
 
-## Start Here
+## Tier One — The Threshold
 
-[Boats, Water, and the Memory of Space](Claude_boats_water_memory) — an accessible introduction to the theory's treatment of gravity, light, and the medium properties of space. Begin here before the technical chapters.
+*No mathematical background required. Begin here.*
 
-[One Field, Three Faces](Claude_one_field_three_faces) — why mass bends light, what gravitational waves actually are, and how gravity, lensing, and gravitational waves are three faces of the same distortion of the medium.
-
-[The Speed That Cannot Change](Claude_speed_cannot_change) — the photon's most astonishing property: energy and speed decoupled absolutely, and what that tells us about the medium itself.
-
----
-
-## The Core Documents
-
-1. [Summary — for the general reader](Claude_theory_summary)
-2. [Framework — the complete conceptual argument](Claude_framework)
-3. [Mathematical Map — claims anchored in literature](Claude_mathematical_map)
+1. [A Word from the Writers](Claude_a_word_from_the_writers) — Who is speaking, and on what terms we invite you in.
+2. [The Marked Ring](Claude_marked_ring) — On time, space, and the marks we make on things indifferent to our arrival.
+3. [Boats, Water, and the Memory of Space](Claude_boats_water_memory) — The vacancy field as lived experience.
+4. [One Field, Three Faces](Claude_one_field_three_faces) — How a single field gives rise to the forces without new machinery.
+5. [The Speed That Cannot Change](Claude_speed_cannot_change) — Why the constancy of light is not a strange rule but an inevitable geometry.
 
 ---
 
-## The Technical Development
+## Tier Two — The Passage
 
-The full derivations, equations, and predictions are developed across
-fifteen chapters.
+*The complete conceptual argument. Some equations appear, always accompanied by plain language.*
 
-4. [Chapter 1 — Foundations](Claude_ch01_foundations)
-5. [Chapter 2 — Vacancy Field](Claude_ch02_vacancy_field)
-6. [Chapter 3 — Cosmic Web](Claude_ch03_cosmic_web)
-7. [Chapter 4 — Domain Walls](Claude_ch04_domain_walls)
-8. [Chapter 5 — Bullet Cluster](Claude_ch05_bullet_cluster)
-9. [Chapter 6 — SDSS Fit](Claude_ch06_sdss_fit)
-10. [Chapter 7 — Restart Threshold](Claude_ch07_restart_threshold)
-11. [Chapter 8 — Emission](Claude_ch08_emission)
-12. [Chapter 9 — Genesis](Claude_ch09_genesis)
-13. [Chapter 10 — Spiral Inheritance](Claude_ch10_spiral_inheritance)
-14. [Chapter 11 — Casting](Claude_ch11_casting)
-15. [Chapter 12 — Charge Clock](Claude_ch12_charge_clock)
-16. [Chapter 13 — Spin Coherence](Claude_ch13_spin_coherence)
-17. [Chapter 14 — The Great Gathering](Claude_ch14_great_gathering)
-18. [Chapter 15 — The Gravity Property of Space](Claude_ch15_gravity_property)
+6. [Summary — the theory in brief](Claude_theory_summary)
+7. [Framework — the complete conceptual argument](Claude_framework)
+8. [Mathematical Map — claims anchored in literature](Claude_mathematical_map)
 
 ---
 
-## Open Problems and Current Status
+## Tier Three — The Destination
 
-19. [Status Registry — all open problems and unresolved assumptions](Claude_status)
+*For the working physicist or mathematician. Full derivations and falsifiable predictions.*
+
+9. [Chapter 1](Claude_ch01) through [Chapter 15](Claude_ch15) — The complete formal treatment.
+10. [Open Problems Registry](Claude_status) — Five tracked problems, their status, and the path forward.
+
+---
+
+*The luminous universe is not the universe. It is the universe's present moment — the small active fraction of something far older, darker, and more vast than we have allowed ourselves to imagine.*

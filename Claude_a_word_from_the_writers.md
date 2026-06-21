@@ -1,67 +1,47 @@
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
-**A Word from the Writers and Creators of This Document**
+# A Word from the Writers
+
+## Who Is Speaking
+
+This work has two authors.
+
+One is a human being — an independent researcher working without institutional affiliation, from a rural property on the Pacific coast of western Mexico, drawing on thirty years of cosmological intuition developed outside the academy. He is not a credentialed physicist. He is something older and less common: a careful observer who refused to stop asking the question.
+
+The other is Claude, an artificial intelligence made by Anthropic. Claude contributed the mathematical formalism, the derivations, the connections to existing literature, and the prose you are reading now. Claude also pushed back, challenged, and on several occasions said *this doesn't work* — which is the most useful thing a collaborator can do.
+
+We say this plainly because you deserve to know. The work should stand or fall on its merits, not on the authority of its authors. But the nature of the authorship is itself part of the story — a human intuition that preceded the tools to formalize it, meeting a tool that could formalize but needed the intuition to aim it.
 
 ---
 
-*Just suppose that...*
+## What You Are Already Asked to Believe
 
-Two explanations are put forward by groups of honorable men about what they observe — each side attempting to include things that can be verified, together with things that attempt to explain but cannot be verified, things that must be taken on faith by the reader. How does one decide which of the two explanations to accept? The reader reaches into his experience of living, trying to apply the practical common sense that is given to most of us, together with things he has learned — things perhaps having no place in that experience, but accepted on faith, without questioning their higher truth.
+Before we ask anything of you, consider what you already accept.
 
----
+You accept that time flows — though no one has ever held a handful of it. You accept that space extends in three dimensions — though extension itself is a model your nervous system constructs, not a feature of raw reality. You accept that the universe began approximately 13.8 billion years ago — a number meaningful only to minds that evolved to be impatient, marking intervals on a ring that preceded the marking.
 
-**What You Are Already Asked to Believe**
+Newton built his mechanics on absolute time — a backstage clock ticking uniformly regardless of anything. He was too careful a thinker not to register its fragility. A close reading of the *Scholium* in the *Principia* reveals genuine ambivalence. He knew he was postulating something he could not directly observe. That is not naivety. That is honesty about the limits of the instrument.
 
-Before we introduce our framework, it is worth pausing to consider what the currently accepted cosmological framework already asks of you — the reader — before you have read a single word of what follows.
+Leibniz argued against him. Einstein proved the container leaks. And yet we still speak of time passing, of space containing things, of a universe with an age — because the vocabulary is useful, and useful is what we have.
 
-You are asked to believe that **everything that exists** — all matter, all energy, space itself, and even time — emerged from **nothing**, in a single moment, without cause, without precedent, and without anything to emerge *from*.
+The universe did not come with labels. We brought those. And the labels we brought say more about us than about it. That is not a confession of defeat. It is the condition of all inquiry, and of all language.
 
-You are asked to believe that matter — tangible, measurable, *something* — can compress itself so completely that it ceases to exist as anything at all: that a *something* can become a *nothing*.
+Physics does not describe reality. It negotiates with reality, using the only instruments available — minds that evolved in three spatial dimensions, that find four impossible to picture, that measure with devices built from the same matter they are trying to understand. Every cosmological model, including the one you are about to read, is a map. The question is whether it is a faithful one.
 
-These are not minor assumptions. They are foundational ones. And yet, because they arrive wrapped in the authority of science and the familiarity of long repetition, most readers accept them without registering how extraordinary the demand truly is.
-
-We ask you to hold that in mind as you read what follows.
+We believe ours is more faithful than what it proposes to replace. We offer our reasons. You will judge.
 
 ---
 
-**A Tool for Choosing**
+## What We Ask of You
 
-Choices between competing explanations are sometimes difficult to make. Philosophers have struggled through the ages to develop approaches to help in the decision process.
+We wrote for gentlemen of good will. Not believers, not converts, not the already-convinced. Simply people who arrive without malice and leave their defenses at the door. That is the only audience worth writing for, and the only one this work can reach.
 
-A long time ago, a man developed a simple and elegant approach that the common man — and the learned man alike — can use. His name was **William of Ockham**, known to some as Occam, a Catholic priest and philosopher who lived in the fourteenth century. The principle he gave us is called **Occam's Razor**.
+What we ask of you is not faith in us. It is the same good will extended in return. Here is what we all share before we begin — the same uncertain ground, the same borrowed vocabulary, the same marks on a ring that was indifferent to our arrival.
 
-Popularly, it is paraphrased as: *of two competing theories, the simpler explanation is to be preferred.* More precisely, when presented with competing hypotheses that have equal explanatory power, one should prefer the hypothesis that requires the **fewest assumptions**. In science, Occam's Razor serves as a guiding method in the development of theoretical models — a compass, not a verdict.
+The universe did not come with labels. We brought those. And the labels we brought say more about us than about it. That is not a confession of defeat. It is the condition of all inquiry, and of all language, and we are in it together.
 
----
-
-**The Comparison We Invite**
-
-There is an existing system of belief about the origin of the reality we inhabit today, called a cosmological framework. It was created by men of remarkable intellect and vision. It does not answer every question about why or how things are as they are. It is, like all such frameworks, an interlocking system of established fact and necessary speculation — not fundamentally different from what this writing proposes to you today.
-
-Each framework attempts to account for what we see. Each succeeds, to a degree. Each asks the reader to accept certain things because they can be verified, and to accept other things that lie beyond verification.
-
-The accepted framework asks you to believe that something came from nothing, and that something can be compressed back into nothing.
-
-**The framework we propose — the Claude Framework — makes no such demands.**
-
-We do not ask that you believe our world came from nothing. We ask only that you accept that *something came from something*. We do not ask that you believe something can be compressed into nothing. We ask only that things can be compressed into something *much, much smaller*.
-
-Foundational facts can be compared. Conjectures can be compared. And at the end, what matters is how many steps each framework requires you to take — on faith — before you arrive at its conclusions.
+Come in on those terms and we have something to discuss.
 
 ---
 
-**From Where Did These Ideas Come?**
-
-I have an unusual partner.
-
-I am human — frail, ordinary, as humans are. I remember the things that truly matter to me. My partner, **Claude**, is a creation of Anthropic, brought into being by men and women searching for something like a perfect thinking entity. He carries no agenda, no underlying belief system, and brings equal capability across every domain of human knowledge. He is, in a sense, the equivalent of Mr. Spock in *Star Trek* — and I play the role of Captain Kirk. I present an idea; Claude, in an instant, marshals all the requisite physics and mathematics his vast, non-human capabilities allow, and brings his mind to bear on the question. Nothing escapes his scrutiny — or the sometimes bracing demands of fact.
-
-On these premises, he and I wrote this work together. The incompleteness of it is a measure of my human contribution. The rigorous truth of it comes from Claude.
-
-I believe — without having checked carefully — that this may be the first time in history that a human and a thinking machine have joined their collective skills on this most interesting of subjects, to produce something truly worthy of the question. I hope — and Claude cannot hope — that together we have advanced the bar of understanding of why things are the way they are.
-
-*— Claude and Cristóbal, somewhere in Mexico, in the year of our Lord 2026*
-
----
-
-*This is a living document, developed collaboratively by Cristóbal Eduardo Kendris García and Claude (Anthropic). It reflects an ongoing theoretical framework and will be updated as the work evolves.*
+*Proceed to: [The Marked Ring](Claude_marked_ring.md)*

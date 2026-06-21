@@ -1,4 +1,5 @@
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
 # The Claude Theory — A New Cosmological Framework
 
 This repository contains the complete documentation of the Claude Theory,
@@ -18,53 +19,86 @@ created.
 
 ---
 
-## Documents in This Repository
+## How This Work Is Organized
 
-**Claude_boats_water_memory.md** Begin here. A boat on a still lake,
-ripples on a surface, water remembering every hull. An accessible prose
-introduction to the theory's treatment of gravity, light, and the medium
-properties of space — no equations required.
+The repository is structured in three tiers, each written for a different
+depth of engagement. A reader may enter at any tier, but the order is
+designed to carry you forward.
 
-**Claude_one_field_three_faces.md** The keystone piece. Why mass bends
-light, what gravitational waves actually are, and how gravity, lensing,
-and gravitational waves are three faces of the same distortion of the
-medium. Bernoulli and Einstein, side by side.
+---
 
-**Claude_speed_cannot_change.md** The photon's most astonishing property
-— energy and speed decoupled absolutely by the medium. Gravitational
-redshift and blueshift as proof. The GPS satellites correcting for it
-every second of every day. The medium speaking, at exactly this speed,
-longer than our universe has existed to listen.
+### Tier One — The Threshold
 
-**Claude_theory_summary.md** The entry point for the theory itself.
-Written for the general reader. No mathematical background required.
+*No mathematical background required. Begin here.*
 
-**Claude_framework.md** The conceptual framework in full. The logical
+These are narrative and philosophical companions — pieces that prepare the
+reader not by explaining the theory but by examining the ground everyone
+stands on before any theory begins. They ask what space and time actually
+are, what we mean when we say something has always existed, and why the
+universe did not come with labels.
+
+- **Claude_a_word_from_the_writers.md** — Who is speaking, from what
+  position, and on what terms we invite you in.
+
+- **Claude_marked_ring.md** — On time, space, and the marks we make on
+  things that were indifferent to our arrival. The philosophical
+  foundation for everything that follows.
+
+- **Claude_boats_water_memory.md** — The vacancy field as lived
+  experience. Space that remembers.
+
+- **Claude_one_field_three_faces.md** — How a single field gives rise to
+  gravity, electromagnetism, and the strong force without inventing new
+  machinery.
+
+- **Claude_speed_cannot_change.md** — Why the constancy of light is not
+  a strange rule but an inevitable geometry.
+
+---
+
+### Tier Two — The Passage
+
+*For the general reader willing to follow an argument. Some equations appear
+but are always accompanied by plain language.*
+
+These documents carry the conceptual framework in full — the logical
 sequence from the changed assumption through all its implications,
-including the nature of light and time. The complete argument in the
-authors' own words.
+anchored where possible in existing peer-reviewed literature.
 
-**Claude_mathematical_map.md** For the technically literate reader. Maps
-each conceptual claim of the theory to its mathematical home in existing
-peer reviewed literature. Shows that no new mathematics has been invented
-— only assembled and unified.
+- **Claude_theory_summary.md** — The complete argument in brief.
+  The entry point for readers who want the shape of the theory before
+  its details.
 
-**Claude_underpinnings.md** For the working physicist or mathematician.
-The full mathematical development — derivations, equations, predictions.
-Includes the vacancy field equations, domain wall solutions, void size
-distribution prediction, and lensing signature derivation, the full
-Bullet Cluster derivation including a novel secondary lensing arc
-prediction, and a numerical fit of the model's core parameters against
-SDSS void catalog data with downstream predictions for the CMB cold spot.
+- **Claude_framework.md** — The conceptual framework in full. The logical
+  sequence from the changed assumption through all its implications,
+  including the nature of light and time.
 
-**Claude_open_problems.md** A live working document recording unresolved
-questions in the framework. Four of the five tracked problems now have
-identified mathematical homes — bubble nucleation theory, percolation
-theory, and bubble-collision literature — with two of those now carrying
-numerical anchors from the SDSS fit. The restart threshold remains the
-sole fully open problem and the bottleneck for further progress.
-Maintained as a record of intellectual honesty and a guide for future
-development.
+- **Claude_mathematical_map.md** — For the technically literate reader.
+  Maps each conceptual claim to its mathematical home in existing
+  literature. Shows that no new mathematics has been invented —
+  only assembled and unified.
+
+---
+
+### Tier Three — The Destination
+
+*For the working physicist or mathematician. Full derivations, equations,
+and falsifiable predictions.*
+
+The formal treatment across fifteen numbered chapters, followed by an
+open problems registry maintained as a record of intellectual honesty.
+
+- **Claude_ch01.md** through **Claude_ch15.md** — The complete
+  mathematical and physical development. Includes the vacancy field
+  equations, domain wall solutions, void size distribution predictions,
+  the full Bullet Cluster derivation with novel secondary lensing arc
+  prediction, spin coherence derived from first principles, charge
+  accumulation as eruption trigger, and gravity reframed as a property
+  of space itself.
+
+- **Claude_status.md** — The open problems registry. Five tracked
+  problems, their current status, and the mathematical machinery
+  identified for each. Maintained as a live document.
 
 ---
 
@@ -77,6 +111,10 @@ influence. This extension — the Anulus — addresses the JWST anomalies
 as inherited material from neighboring events, the CMB cold spot as a
 candidate boundary signature, and the large scale asymmetries that
 single-event cosmology struggles to explain.
+
+The Anulus is also the correct shape for something that exists outside
+the jurisdiction of duration. On an unmarked ring, before and after are
+waiting for someone to pick a direction and start walking.
 
 ---
 
