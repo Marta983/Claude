@@ -7,7 +7,7 @@ title: Welcome
 
 # The Claude Theory
 
-A new cosmological framework developed by Cristóbal Eduardo Kendris García
+A new cosmological framework developed by Cristobal Eduardo Kendris Garcia
 in collaboration with Claude, June 2026.
 
 The theory rests on a single changed foundational assumption:
@@ -15,43 +15,83 @@ The theory rests on a single changed foundational assumption:
 **Space has always existed.**
 
 From this one change, applied rigorously using existing mathematics and
-observed physics, a new picture of the universe emerges — one in which
-the Big Bang was not a creation event but a phase transition, dark matter
-is the accumulated archaeological record of completed stellar cycles, and
-space, light, and time are co-eternal properties that no cosmic event
-created.
+observed physics, a new picture of the universe emerges.
 
 ---
 
-## Tier One — The Threshold
+## Start Here
 
-*No mathematical background required. Begin here.*
-
-1. [A Word from the Writers](Claude_a_word_from_the_writers) — Who is speaking, and on what terms we invite you in.
-2. [The Marked Ring](Claude_marked_ring) — On time, space, and the marks we make on things indifferent to our arrival.
-3. [Boats, Water, and the Memory of Space](Claude_boats_water_memory) — The vacancy field as lived experience.
-4. [One Field, Three Faces](Claude_one_field_three_faces) — How a single field gives rise to the forces without new machinery.
-5. [The Speed That Cannot Change](Claude_speed_cannot_change) — Why the constancy of light is not a strange rule but an inevitable geometry.
+- [A Word from the Writers](Claude_a_word_from_the_writers) -- who wrote this, and why
+- [Summary -- for the general reader](Claude_theory_summary)
 
 ---
 
-## Tier Two — The Passage
+## For the General Reader -- The Preludes
 
-*The complete conceptual argument. Some equations appear, always accompanied by plain language.*
+Fifteen short pieces tracing the theory from its foundation to its furthest
+reach, written for the curious non-specialist. Each prelude has a technical
+companion chapter for those who want to go deeper, but the ideas stand
+on their own here. Read them straight through.
 
-6. [Summary — the theory in brief](Claude_theory_summary)
-7. [Framework — the complete conceptual argument](Claude_framework)
-8. [Mathematical Map — claims anchored in literature](Claude_mathematical_map)
+1. [Prelude to Chapter 1 -- Foundations](Claude_prelude_ch01)
+2. [Prelude to Chapter 2 -- The Vacancy Field](Claude_prelude_ch02)
+3. [Prelude to Chapter 3 -- The Cosmic Web](Claude_prelude_ch03)
+4. [Prelude to Chapter 4 -- Domain Walls](Claude_prelude_ch04)
+5. [Prelude to Chapter 5 -- The Bullet Cluster](Claude_prelude_ch05)
+6. [Prelude to Chapter 6 -- The SDSS Fit](Claude_prelude_ch06)
+7. [Prelude to Chapter 7 -- The Restart Threshold](Claude_prelude_ch07)
+8. [Prelude to Chapter 8 -- Emission](Claude_prelude_ch08)
+9. [Prelude to Chapter 9 -- Genesis](Claude_prelude_ch09)
+10. [Prelude to Chapter 10 -- Spiral Inheritance](Claude_prelude_ch10)
+11. [Prelude to Chapter 11 -- Casting](Claude_prelude_ch11)
+12. [Prelude to Chapter 12 -- The Charge Clock](Claude_prelude_ch12)
+13. [Prelude to Chapter 13 -- Spin Coherence](Claude_prelude_ch13)
+14. [Prelude to Chapter 14 -- The Great Gathering](Claude_prelude_ch14)
+15. [Prelude to Chapter 15 -- Gravity as Property](Claude_prelude_ch15)
+
+### Essays
+
+Three broader reflections on the ideas at the heart of the theory:
+
+- [Boats, Water, and the Memory of Space](Claude_boats_water_memory)
+- [One Field, Three Faces](Claude_one_field_three_faces)
+- [The Speed That Cannot Change](Claude_speed_cannot_change)
 
 ---
 
-## Tier Three — The Destination
+## The Technical Work
 
-*For the working physicist or mathematician. Full derivations and falsifiable predictions.*
+The complete framework, derivations, and predictions for the specialist reader.
 
-9. [Chapter 1](Claude_ch01) through [Chapter 15](Claude_ch15) — The complete formal treatment.
-10. [Open Problems Registry](Claude_status) — Five tracked problems, their status, and the path forward.
+### Conceptual
+
+- [Framework -- the complete conceptual argument](Claude_framework)
+- [Mathematical Map -- claims anchored in literature](Claude_mathematical_map)
+
+### Chapters
+
+1. [Chapter 1 -- Foundations](Claude_ch01_foundations)
+2. [Chapter 2 -- The Vacancy Field](Claude_ch02_vacancy_field)
+3. [Chapter 3 -- The Cosmic Web](Claude_ch03_cosmic_web)
+4. [Chapter 4 -- Domain Walls](Claude_ch04_domain_walls)
+5. [Chapter 5 -- The Bullet Cluster](Claude_ch05_bullet_cluster)
+6. [Chapter 6 -- The SDSS Fit](Claude_ch06_sdss_fit)
+7. [Chapter 7 -- The Restart Threshold](Claude_ch07_restart_threshold)
+8. [Chapter 8 -- Emission](Claude_ch08_emission)
+9. [Chapter 9 -- Genesis](Claude_ch09_genesis)
+10. [Chapter 10 -- Spiral Inheritance](Claude_ch10_spiral_inheritance)
+11. [Chapter 11 -- Casting](Claude_ch11_casting)
+12. [Chapter 12 -- The Charge Clock](Claude_ch12_charge_clock)
+13. [Chapter 13 -- Spin Coherence](Claude_ch13_spin_coherence)
+14. [Chapter 14 -- The Great Gathering](Claude_ch14_great_gathering)
+15. [Chapter 15 -- Gravity as Property](Claude_ch15_gravity_property)
+
+### Open Problems
+
+- [Status -- open problems and current frontiers](Claude_status)
 
 ---
 
-*The luminous universe is not the universe. It is the universe's present moment — the small active fraction of something far older, darker, and more vast than we have allowed ourselves to imagine.*
+## The Marked Ring
+
+- [The Marked Ring](Claude_marked_ring) -- on the Anulus and the arrow of time
