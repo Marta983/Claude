@@ -32,12 +32,17 @@ No mathematical background required.
 
 ### For the General Reader -- The Preludes
 
+**Claude_preludes.md** All fifteen preludes collected in a single
+document, plus three essays -- the recommended way to read the theory
+for the first time. Start here if you want to read straight through.
+
 Fifteen short pieces tracing the theory from its foundation to its
 furthest reach, written for the curious non-specialist. Each prelude
 has a technical companion chapter for those who want to go deeper,
-but the ideas stand on their own here. Read them straight through.
+but the ideas stand on their own here.
 
-Claude_prelude_ch01.md through Claude_prelude_ch15.md
+Claude_prelude_ch01.md through Claude_prelude_ch15.md -- the individual
+prelude files, each linking to its companion chapter.
 
 ### Essays
 
