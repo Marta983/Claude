@@ -32,17 +32,23 @@ No mathematical background required.
 
 ### For the General Reader -- The Preludes
 
-**Claude_preludes.md** All fifteen preludes collected in a single
+**Claude_preludes.md** All seventeen preludes collected in a single
 document, plus three essays -- the recommended way to read the theory
 for the first time. Start here if you want to read straight through.
 
-Fifteen short pieces tracing the theory from its foundation to its
+Seventeen short pieces tracing the theory from its foundation to its
 furthest reach, written for the curious non-specialist. Each prelude
 has a technical companion chapter for those who want to go deeper,
 but the ideas stand on their own here.
 
 Claude_prelude_ch01.md through Claude_prelude_ch15.md -- the individual
 prelude files, each linking to its companion chapter.
+
+**Claude_prelude_rings_ratios.md** Prelude 16 -- on rings, ratios, and
+the cosmic background radiation.
+
+**Claude_prelude_stadium_candles.md** Prelude 17 -- on the stadium
+analogy and what the cosmic background radiation tells us.
 
 ### Essays
 
