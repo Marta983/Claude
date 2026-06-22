@@ -28,9 +28,9 @@ observed physics, a new picture of the universe emerges.
 
 ## For the General Reader -- The Preludes
 
-- [The Preludes -- all fifteen collected, plus three essays](Claude_preludes)
+- [The Preludes -- all seventeen collected, plus three essays](Claude_preludes)
 
-Fifteen short pieces tracing the theory from its foundation to its furthest
+Seventeen short pieces tracing the theory from its foundation to its furthest
 reach, written for the curious non-specialist. Each prelude has a technical
 companion chapter for those who want to go deeper, but the ideas stand
 on their own here. Read them straight through.
@@ -50,6 +50,8 @@ on their own here. Read them straight through.
 13. [Prelude to Chapter 13 -- Spin Coherence](Claude_prelude_ch13)
 14. [Prelude to Chapter 14 -- The Great Gathering](Claude_prelude_ch14)
 15. [Prelude to Chapter 15 -- Gravity as Property](Claude_prelude_ch15)
+16. [Prelude 16 -- Rings and Ratios](Claude_prelude_rings_ratios)
+17. [Prelude 17 -- Stadium and Candles](Claude_prelude_stadium_candles)
 
 ### Essays
 
