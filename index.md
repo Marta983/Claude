@@ -30,7 +30,7 @@ observed physics, a new picture of the universe emerges.
 
 - [The Preludes -- all seventeen collected, plus three essays](Claude_preludes)
 
-Seventeen short pieces tracing the theory from its foundation to its furthest
+Here are short pieces tracing the theory from its foundation to its furthest
 reach, written for the curious non-specialist. Each prelude has a technical
 companion chapter for those who want to go deeper, but the ideas stand
 on their own here. Read them straight through.
@@ -53,13 +53,14 @@ on their own here. Read them straight through.
 
 ### Essays
 
-Three broader reflections on the ideas at the heart of the theory:
+Broader reflections on the ideas at the heart of the theory:
 
 - [Boats, Water, and the Memory of Space](Claude_boats_water_memory)
 - [One Field, Three Faces](Claude_one_field_three_faces)
 - [The Speed That Cannot Change](Claude_speed_cannot_change)
 - [Rings and Ratios](Claude_prelude_rings_ratios_center)
 - [Stadium and Candles](Claude_prelude_stadium_candles)
+- [The Big Turnaround and a ratio](Claude_prelude_turnaround_ratio.md)
 
 ---
 
