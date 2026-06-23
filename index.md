@@ -50,8 +50,6 @@ on their own here. Read them straight through.
 13. [Prelude to Chapter 13 -- Spin Coherence](Claude_prelude_ch13)
 14. [Prelude to Chapter 14 -- The Great Gathering](Claude_prelude_ch14)
 15. [Prelude to Chapter 15 -- Gravity as Property](Claude_prelude_ch15)
-16. [Prelude 16 -- Rings and Ratios](Claude_prelude_rings_ratios)
-17. [Prelude 17 -- Stadium and Candles](Claude_prelude_stadium_candles)
 
 ### Essays
 
@@ -60,6 +58,8 @@ Three broader reflections on the ideas at the heart of the theory:
 - [Boats, Water, and the Memory of Space](Claude_boats_water_memory)
 - [One Field, Three Faces](Claude_one_field_three_faces)
 - [The Speed That Cannot Change](Claude_speed_cannot_change)
+- [Rings and Ratios](Claude_prelude_rings_ratios_center)
+- [Stadium and Candles](Claude_prelude_stadium_candles)
 
 ---
 
@@ -89,7 +89,7 @@ The complete framework, derivations, and predictions for the specialist reader.
 13. [Chapter 13 -- Spin Coherence](Claude_ch13_spin_coherence)
 14. [Chapter 14 -- The Great Gathering](Claude_ch14_great_gathering)
 15. [Chapter 15 -- Gravity as Property](Claude_ch15_gravity_property)
-16. [Chapter 16 -- Rings and Ratios](Claude_prelude_rings_ratios_center)
+
 
 ### Open Problems
 
