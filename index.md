@@ -89,6 +89,7 @@ The complete framework, derivations, and predictions for the specialist reader.
 13. [Chapter 13 -- Spin Coherence](Claude_ch13_spin_coherence)
 14. [Chapter 14 -- The Great Gathering](Claude_ch14_great_gathering)
 15. [Chapter 15 -- Gravity as Property](Claude_ch15_gravity_property)
+16. [Chapter 16 -- Rings and Ratios](Claude_prelude_rings_ratios_center)
 
 ### Open Problems
 
