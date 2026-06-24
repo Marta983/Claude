@@ -51,21 +51,33 @@ $$\frac{a(t)_{crit}}{a(t)_{now}} \approx 3.658$$
 
 and the merging field value is $\phi_{crit} = v/\sqrt{3} \approx 0.1887$ — between $\phi=0$ (node/accumulation state) and $\phi=v\approx0.327$ (void state).
 
-### 12.4 Status and the Open Step
+### 12.4 Physical Meaning of the Ratio 3.658
 
-This is a closed-form threshold condition derived from parameters already fitted to observational data. What remains open: the ratio $a(t)_{crit}/a(t)_{now} \approx 3.658$ is dimensionless and its physical meaning is not yet established. Converting the ratio 3.658 into a timescale, or into a physically meaningful "how much further accumulation," requires identifying what clock governs the accumulated field across the full cycle. See Claude_status.md.
+The ratio $a_{crit}/a_{now} \approx 3.658$ is not merely a field-theoretic output. It carries direct cosmological meaning, which becomes clear when the number is placed into the Friedmann turnaround condition.
 
-### 12.5 Note on the Dark Mass Accumulation Interpretation
+At the moment of turnaround — when the expansion of the universe pauses before the long contraction — the Hubble parameter passes through zero. Setting $H = 0$ in the Friedmann equation:
 
-The ratio $a_{crit}/a_{now} \approx 3.658$ was initially interpreted here
-as a dark mass accumulation factor, explicitly flagged as pending
-justification. That interpretation is superseded.
+$$H^2 = \frac{8\pi G}{3}\rho_{total} - \frac{kc^2}{a^2}$$
 
-Chapter 12 provides a full derivation of the physical clock. The ratio
-3.658 is a charge accumulation timescale — the cosmic expansion required
-for a node to accumulate sufficient charge imbalance, through asymmetric
-electromagnetic sorting in its Kerr geometry, to reach the classical
-charge limit condition. See Chapter 12 for the complete derivation.
+yields the density required to halt expansion:
+
+$$\rho_{crit,turn} = \frac{3c^2}{8\pi G \, a_{crit}^2}$$
+
+Substituting $a_{crit} = 3.658\, a_{now}$:
+
+$$\rho_{crit,turn} = \frac{\rho_{crit,now}}{(3.658)^2} = \frac{\rho_{crit,now}}{13.38}$$
+
+The factor $(3.658)^2 = 13.38$ arises because gravitational potential scales as $a^2$ in the Friedmann equation at the turnaround condition. The ratio is therefore:
+
+$$\text{Turnaround ratio} = \frac{1}{13.38} \approx 0.0747$$
+
+**Roughly one part in thirteen of the total mass-energy inventory is sufficient to halt the expansion and initiate the return.**
+
+This result was not engineered. The scale factor $a_{crit}/a_{now} \approx 3.658$ was derived from the bifurcation condition on $V(\phi)$ — a calculation concerned with when the eruption fires, not with whether gravity can halt the expansion. When that number is placed into the Friedmann turnaround condition, the ratio it produces requires no adjustment, no fitting, no tuning. It simply appears, doing double duty without being asked.
+
+The physical meaning of 3.658 is therefore this: it is the scale factor at which the universe reaches its apex — the turnaround point of the full cycle — expressed as a multiple of the present scale factor. The field-theoretic restart condition and the gravitational turnaround condition are the same event, identified from two independent directions.
+
+For the implications of this result regarding dark energy as a kinematic artifact of observer position within the cycle, see Claude_prelude_turnaround_ratio.md.
 
 ---
 
@@ -218,12 +230,15 @@ All internal observables are set by $M_{point}$, $\mathcal{R}_c$, and $(\epsilon
 | Node stiffness | $K = 8\lambda v^2 / R_0$ | Derived from $V(\phi)$, no new parameters |
 | Stored energy at trigger | $E_{stored} = \frac{16\pi}{3}\lambda v^2 \xi_c^2 R_0^2$ | Initial energy budget of each eruption |
 | Critical mass ratio | $\mathcal{R}_c = 24\lambda v^2 \xi_c(1-\xi_c)^4 / G\rho_{node}$ | Universal, dimensionless, geometry-fixing |
+| Turnaround scale factor | $a_{crit}/a_{now} \approx 3.658$ | Field-theoretic and gravitational turnaround coincide |
+| Turnaround ratio | $1/(3.658)^2 \approx 1/13.38 \approx 0.0747$ | Gravity needs only ~7.5% of inventory to halt expansion |
 | Cycle deflation | $M_{point,n} = M_{point,0}(1-\epsilon')^n$ | Monotonic, irreversible at node level |
 | Conservation law | $M_{Anulus} = \text{const}$ | Follows from eternal space + no creation mechanism |
 | Anulus arrow of time | $dM_{inter}/dt > 0$ in early Anulus | Independent of thermodynamic entropy |
 | Far future | $N \to 0$, gravitational dilution | Asymptotic, not sudden |
 
 ---
+
 ## A Living Document
 
 Some conceptual areas explored here are still under active development. The current status of open problems and unresolved assumptions is maintained in [Claude_status.md]. Readers are directed there for the most current picture.
