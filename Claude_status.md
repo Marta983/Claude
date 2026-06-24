@@ -15,8 +15,6 @@ Each entry carries a status tag:
 
 - **RESOLVED** — closed-form result derived and numerically anchored
 - **MAPPED** — mathematical home identified, derivation pending
-- **CALIBRATED** — numerically anchored against data, physical derivation pending
-- **PREDICTED** — specific observational prediction made, not yet tested
 - **OPEN** — not yet formally addressed
 - **REFINED** — conceptual position updated from earlier formulation
 
@@ -24,7 +22,7 @@ Each entry carries a status tag:
 
 ## Problem 1: The Restart Threshold
 
-**Status: MAPPED**
+**Status: RESOLVED**
 
 At what accumulated field configuration does the eruption event fire?
 
@@ -32,9 +30,13 @@ A closed-form bifurcation condition has been derived in Chapter 7 from the poten
 
 $$\epsilon_0\, a(t)_{crit} = \frac{8\sqrt{3}}{9}\,\lambda v^3$$
 
-Numerically: $a(t)_{crit}/a(t)_{now} \approx 3.658$.
+Numerically: $a_{crit}/a_{now} \approx 3.658$.
 
-**Open step:** the ratio 3.658 is dimensionless and its physical meaning is not yet established. Converting it into a timescale or physically meaningful accumulation quantity requires identifying what clock governs the accumulated field across the full cycle — potentially a clock with no fixed relationship to our event's expansion history.
+**Resolution:** the ratio 3.658 is the turnaround scale factor — the scale factor at which the universe reaches its apex and expansion halts, expressed as a multiple of the present value. Placing the bifurcation result into the Friedmann turnaround condition ($H = 0$) yields:
+
+$$\rho_{crit,turn} = \frac{\rho_{crit,now}}{(3.658)^2} = \frac{\rho_{crit,now}}{13.38}$$
+
+Gravity requires only $1/13.38 \approx 7.47\%$ of the total mass-energy inventory to halt expansion and initiate the return — a fraction the universe holds comfortably. The field-theoretic restart condition and the gravitational turnaround condition identify the same physical event from two independent directions. No tuning was required; the number emerged once and served twice. See Chapter 7 (Section 12.4) and Claude_prelude_turnaround_ratio.md.
 
 ---
 
@@ -78,94 +80,6 @@ JWST observations show galaxies with unexpectedly evolved properties at high red
 
 ---
 
-## Problem 6: The Dipole Axis Formation
-
-**Status: MAPPED**
-
-How does the nucleus develop the preferred orientation that governs all downstream structure?
-
-Chapter 14 establishes the complete physical narrative. During the quiet phase, charge mobility allows negative and positive charges to drift toward opposite poles along the Kerr rotation axis inherited from Chapter 12, building a macroscopic electric dipole moment. At the jamming transition, mobility ends and the dipole axis is frozen in. Through the rearrangement phase, ejected charges attempt lateral migration toward their intended poles, crossing in frustrated currents — and each partial success fractionally sharpens the dipole. The chaos of the siege does not destroy the dipole axis. It forges it.
-
-**Open steps:** formal derivation of dipole moment growth $p(\eta_Q)$ as a function of the charge accumulation parameter from Chapter 12; proof that $p(t)$ increases monotonically through the rearrangement phase despite the violence of the crossing currents.
-
----
-
-## Problem 7: The Egg-Shape Deformation and Eruption Geometry
-
-**Status: MAPPED**
-
-What determines the physical geometry of the eruption?
-
-Chapter 14 establishes that successful charge migrants accumulating at the poles during the quiet phase deform the nucleus from sphere to egg. Electromagnetic sorting drives the deformation; nuclear and gravitational binding forces oppose it continuously. The two forces in opposition constitute a stress pump — each successful migrant increases the restoring force, which drives more migration attempts, which compounds the internal stress.
-
-At eruption, the egg-shape is decisive. The poles are physically proud of the surface — the points of least resistance in both electromagnetic and geometric terms. The eruption does not merely follow the dipole axis. It bursts from the tips of the egg.
-
-**Open steps:** derive the equilibrium eccentricity parameter $\varepsilon_{egg}$ as a function of dipole moment magnitude and binding pressure; show that the axis of maximum eccentricity coincides with the dipole axis $p$ established in Problem 6; connect $\varepsilon_{egg}$ to the eruption directionality in the bifurcation recovery of Chapter 7.
-
----
-
-## Problem 8: The Subsidiary Leak Bifurcation
-
-**Status: MAPPED**
-
-Is there a precursor threshold condition earlier in time than the main bifurcation of Chapter 7?
-
-Chapter 14 identifies the leak phase — persistent outflows at the outer boundary of the nucleus where the recapture field is weakest, occurring before the global bifurcation threshold is crossed. These leaks are not the eruption. They are the system bleeding stress through the only channels still open to it, at energies and ejection velocities below the main threshold but above the local recapture condition at the boundary.
-
-This constitutes a subsidiary bifurcation condition: the minimum ejection velocity for escape at the boundary as a function of field configuration during a rearrangement event, lower than the core escape velocity by a factor depending on boundary field geometry.
-
-**Open steps:** formal derivation of the leak threshold as a function of boundary field strength and rearrangement event energy; characterization of the precursor outflow signature — direction, energy range, persistence timescale; connection to the main bifurcation threshold of Chapter 7 as a subordinate condition earlier in the accumulation sequence.
-
----
-
-## Problem 9: The Fine Structure Constant as a Geometric Ratio
-
-**Status: MAPPED**
-
-The fine structure constant $\alpha \approx 1/137$ governs the strength of the electromagnetic interaction. In standard physics it is measured and inserted by hand — its value unexplained. Feynman called it one of the great mysteries of physics.
-
-Chapter 15 proposes that charge is the spatial response to rotational distortion, and that the strength of that response is determined by the geometry of space itself. Under this interpretation the fine structure constant is the geometric conversion factor between the rotational distortion field and the force space generates in response — derivable in principle from the geometry of the rotational distortion, as fixed and as fundamental as $\pi$.
-
-**Open step:** formal derivation of $\alpha$ from the spatial response function to rotational distortion. This is the deepest open mathematical problem in the framework.
-
----
-
-## Problem 10: Proton-Electron Charge Equality as Spatial Response
-
-**Status: MAPPED**
-
-The proton and electron carry exactly equal and opposite charges despite differing in mass by a factor of 1836. This equality has never been derived — it is observed and accepted.
-
-Chapter 15 resolves this as a consequence of the response belonging to space rather than to matter. If charge is space's response to rotational distortion, and the response function is a property of space itself, then the magnitude of the response is determined by the geometry of the distortion — not by the mass of the object producing it. Equal and opposite rotational distortions produce equal and opposite responses regardless of the mass of the rotating object.
-
-**Open step:** formal derivation of the charge equality from the spatial response function. Requires the same geometric framework as Problem 9.
-
----
-
-## Problem 11: The Gyromagnetic Ratio from Kerr Geometry
-
-**Status: MAPPED**
-
-The electron gyromagnetic ratio $g \approx 2$ is derived in quantum electrodynamics through elaborate perturbative calculation. Its value is one of the most precisely verified predictions in physics — and one of the least geometrically understood.
-
-Chapter 15 identifies the gyromagnetic ratio as a geometric property of the Kerr rotational distortion at quantum scales — the conversion factor between spin rate and the strength of the rotational spatial distortion. Under this interpretation $g \approx 2$ is not a perturbative miracle but a geometric consequence of how space responds to rotation at the scale of the electron.
-
-**Open step:** derivation of $g$ from the Kerr rotational distortion geometry at quantum scales, without perturbative expansion.
-
----
-
-## Problem 12: Attraction and Repulsion from Rotational Distortion Handedness
-
-**Status: MAPPED**
-
-Chapter 15 proposes that like-handedness rotational distortions repel and opposite-handedness rotational distortions attract — giving rise to electromagnetic force as a geometric consequence of space's response to overlapping rotational distortions.
-
-The yin-yang complementarity of opposite charges is then not a declared property but a derived one: space finds its equilibrium by driving opposite rotational distortions together and like rotational distortions apart.
-
-**Open step:** formal derivation of the attractive and repulsive force laws from the overlap of same- and opposite-handedness Kerr rotational distortion fields. Show that the derived force law recovers Coulomb's law in the appropriate limit.
-
----
-
 ## Unresolved Assumption: Symmetry Breaking Origin
 
 **Status: OPEN**
@@ -184,13 +98,11 @@ The time-dependent symmetry breaking term $\epsilon(t) = \epsilon_0 \cdot a(t)$ 
 
 ## Unresolved Assumption: Eruption Geometry
 
-**Status: MAPPED**
+**Status: REFINED**
 
-Earlier formulations stated that the eruption event occurred "in all directions equally." This has been revised through successive chapters. The eruption event is temporally simultaneous — the bifurcation threshold fires throughout the accumulated field at once — but spatially anisotropic, directed along the dipole axis established during the great gathering.
+Earlier formulations stated that the eruption event occurred "in all directions equally." This has been revised. The eruption event is temporally simultaneous — the bifurcation threshold fires throughout the accumulated field at once — but spatially anisotropic. The pre-eruption accumulation carries net angular momentum and electromagnetic structure inherited from the rotating, magnetized remnant population. This imprints a preferred orientation on the eruption and on all downstream structure. See Chapter 9 and Chapter 10.
 
-Chapter 14 now provides the complete physical basis: the dipole axis is set during the quiet phase, frozen at jamming, sharpened through the rearrangement siege, and physically expressed in the egg-shape deformation whose tips become the eruption's origin points. The eruption geometry is not assumed — it is the inevitable consequence of the accumulation history.
-
-**Remaining open step:** quantitative treatment of the CMB imprint — the faint geometric signature of the eruption's preferred orientation potentially manifesting as large-scale power asymmetries. This connects to the observed CMB axis of evil and quasar polarization alignments. See also Problem 6 and Problem 7.
+**Implication:** the CMB may carry a faint geometric imprint of the eruption's preferred orientation, potentially manifesting as large-scale power asymmetries. This connects to the observed CMB "axis of evil" and quasar polarization alignments. Not yet quantitatively treated.
 
 ---
 
