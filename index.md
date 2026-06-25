@@ -55,12 +55,14 @@ on their own here. Read them straight through.
 
 Broader reflections on the ideas at the heart of the theory:
 
+- [The big picture told](Claude_declaration.md)
 - [Boats, Water, and the Memory of Space](Claude_boats_water_memory)
 - [One Field, Three Faces](Claude_one_field_three_faces)
 - [The Speed That Cannot Change](Claude_speed_cannot_change)
 - [Rings and Ratios](Claude_prelude_rings_ratios_center)
 - [Stadium and Candles](Claude_prelude_stadium_candles)
 - [The Big Turnaround and a ratio](Claude_prelude_turnaround_ratio.md)
+- [Cold spot and more](Claude_prelude_cold_spot.md)
 
 ---
 
