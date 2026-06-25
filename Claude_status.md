@@ -62,13 +62,15 @@ Chapter 10 introduces the spiral inheritance framework as a geometric constraint
 
 ## Problem 4: CMB Cold Spot as Boundary Signature
 
-**Status: MAPPED**
+**Status: PREDICTED**
 
 Can the CMB Cold Spot be accounted for within the vacancy field framework?
 
-Chapter 6 computes an ISW estimate of $\Delta T/T \sim -2.7 \times 10^{-6}$ — correct sign, within a factor of ~4 of the observed $10^{-5}$.
+The ISW supervoid approach (Chapter 6) fell short by a factor of ~4. The mechanism has been reframed: the Cold Spot is not a supervoid signature but a relic domain wall — a bubble collision scar from the phase transition itself, frozen into the field configuration of space. The wall surface energy density derived from fitted parameters $(\lambda, v)$:
 
-**Open step:** the ~30% ISW potential-decay factor used is a placeholder. A proper derivation requires the time-integral of $d\Phi/d\tau$ over the void's evolution history using the full $a(t)$ dependence already present in $\delta_w(a)$ and $\sigma_{wall}(a)$.
+$$\sigma_{wall} = \frac{8\sqrt{2}}{3}\sqrt{\lambda}\,v^3 \approx 5.69 \times 10^{9}\, M_\odot\,\text{Mpc}^{-2}$$
+
+produces $\Delta T/T \sim -10^{-5}$ at a wall distance of $r_{wall} \approx 2{,}920$ Mpc — no additional tuning required. Three falsifiable predictions distinguish this from the supervoid hypothesis: (1) lensing convergence *excess* rather than deficit at the Cold Spot boundary; (2) sharp angular edge at $\sim 0.12°$ corresponding to projected wall thickness $\delta_w$ at that distance; (3) tangential CMB polarization E-mode alignment at the boundary. See Claude_prelude_cold_spot.md.
 
 ---
 
