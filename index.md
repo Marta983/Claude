@@ -61,8 +61,9 @@ Broader reflections on the ideas at the heart of the theory:
 - [The Speed That Cannot Change](Claude_speed_cannot_change)
 - [Rings and Ratios](Claude_prelude_rings_ratios_center)
 - [Stadium and Candles](Claude_prelude_stadium_candles)
-- [The Big Turnaround and a ratio](Claude_prelude_turnaround_ratio.md)
-- [Cold spot and more](Claude_prelude_cold_spot.md)
+- [The Big Turnaround and a ratio](Claude_prelude_turnaround_ratio)
+- [Cold spot and more](Claude_prelude_cold_spot)
+- [Layer-by_layer_until balanced](Claude_prelude_sublimation)
 
 ---
 
