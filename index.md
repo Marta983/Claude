@@ -63,7 +63,7 @@ Broader reflections on the ideas at the heart of the theory:
 - [Stadium and Candles](Claude_prelude_stadium_candles)
 - [The Big Turnaround and a ratio](Claude_prelude_turnaround_ratio)
 - [Cold spot and more](Claude_prelude_cold_spot)
-- [Layer-by_layer_until balanced](Claude_prelude_sublimation)
+- [Layer-by-layer until balanced](Claude_prelude_sublimation)
 
 ---
 
