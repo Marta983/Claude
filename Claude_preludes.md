@@ -5,7 +5,7 @@
 
 ---
 
-These fifteen pieces were written for the curious reader who has no
+These various pieces were written for the curious reader who has no
 background in physics or mathematics. Each one is a prelude to a
 technical chapter -- an invitation to the ideas before the equations
 begin. They can be read straight through, from the first changed
@@ -16,7 +16,7 @@ For those who want more, each prelude links to its companion chapter,
 where the full mathematical development is laid out. But the ideas
 stand on their own here. That was the intention.
 
-Following the fifteen preludes are three broader essays -- reflections
+Following the various preludes are a number of broader essays -- reflections
 on the themes that run beneath the theory's surface. They are not
 summaries. They are a different kind of looking at the same thing.
 
@@ -35,7 +35,7 @@ That sentence sounds like poetry. It is also physics -- or rather, it
 is the question physics has been avoiding since the morning someone
 first asked what the Big Bang expanded *into*, and the room went quiet.
 
-The standard answer is that space itself was created in that instant --
+The standard Cosmological Framework answer is that space itself was created in that instant --
 that before the beginning there was no before, no space, no stage, no
 waiting. It is a tidy answer. It is also an answer that quietly removes
 the question rather than resolving it, the way a magician removes a
@@ -119,7 +119,7 @@ it travels.
 This is the vacancy field. And it does real work.
 
 The great puzzle of modern cosmology is what is called dark matter --
-the invisible something that accounts for five parts in every six of
+the invisible something that supposedly accounts for five parts in every six of
 all the mass the universe contains. We can measure its gravitational
 effect everywhere we look. We cannot find it. Decades of increasingly
 sensitive experiments have returned empty-handed.
@@ -155,8 +155,7 @@ This is the cosmic web. It is not a theory or a simulation artifact.
 It is what the universe actually looks like at the largest scales we
 can measure -- confirmed by surveys of hundreds of thousands of
 galaxies, mapped in three dimensions, statistically characterized. It
-is the most dominant structure in existence, and almost no one who has
-not studied cosmology knows it is there.
+is the most dominant structure in existence, and almost everyone who has studied cosmology knows it is there.
 
 The voids are not randomly sized. They follow a distribution with a
 preferred scale, a peak, a shape that mathematicians recognize. Not the
@@ -702,7 +701,7 @@ space's response to rotational distortion. It is, in principle, as
 derivable as pi.
 
 *Space has always existed* means more than it first appeared to mean.
-It took fifteen chapters to say it fully.
+It took all these chapters to say it fully.
 
 *[Chapter Fifteen -- The Gravity Property of Space](Claude_ch15_gravity_property)*
 
