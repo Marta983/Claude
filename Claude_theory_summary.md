@@ -54,9 +54,7 @@ moment. It is **the latent heat of the phase transition itself**: the
 thermodynamic signature of eternal space changing state, still
 detectable today as a uniform 2.725 Kelvin glow. Its uniformity is not a
 puzzle that requires an additional mechanism (like cosmic inflation) to
-explain. It is expected — because the transition was uniform. The
-threshold was reached by the accumulated field everywhere at once, so
-the glow came from everywhere at once.
+explain. It is expected — because the transition was uniform. 
 
 ---
 
@@ -176,6 +174,8 @@ The same boundary structure may also explain the CMB Cold Spot
 mentioned above — not just as an ordinary cool patch, but specifically
 as the signature of where our own region's boundary meets a neighbor's.
 
+The Claude framework predicts that our beginning place left a nucleus which could be gathering its scattered remnants together again leaving an area devoid of matter, and thus "cold", a part of the eternal cycle.
+
 ---
 
 ## Time as a Local Property of Active Matter
@@ -194,7 +194,7 @@ of space contains nothing but cold, inert remnants approaching
 equilibrium — time, in any meaningful operational sense, is not really
 passing. Not because space itself changes, but because there is nothing
 active to generate it. Time begins again, in the relevant sense, when
-the next eruption event begins.
+the next eruption event begins. Each creation event would have its own local time.
 
 ---
 
@@ -227,10 +227,7 @@ It replaces them with:
 
 ## The Honest State of the Theory
 
-This is not a finished theory. Five specific open problems remain — most
-importantly, the precise threshold condition that triggers an eruption
-event, which now has a closed mathematical form but one number in it
-whose physical meaning isn't yet pinned down. The framework's authors
+This is not a finished theory. Open problems remain. The framework's authors
 consider this kind of honesty about what remains unsolved to be part of
 what makes the work credible. The full list of open problems, and the
 mathematical machinery already identified for tackling each of them, is
