@@ -144,8 +144,8 @@ And somewhere in the darkness at the center of the largest void we can find with
 
 ---
 
-**→ For the mathematical framework underlying the sublimation mechanism, see [Chapter 14: The Pre-Eruption Nucleus](Claude_ch14_pre_eruption_nucleus.md)**
+**→ For the mathematical framework underlying the sublimation mechanism, see [Chapter 14: The Great Gathering](Claude_ch14_great_gathering.md)**
 
 **→ For the restart threshold derivation, see [Chapter 7: The Restart Threshold](Claude_ch07_restart_threshold.md)**
 
-**→ For observational signatures in the void distribution, see [Chapter 11: The Casting Mechanism](Claude_ch11_casting_mechanism.md)**
+**→ For observational signatures in the void distribution, see [Chapter 11: The Casting Mechanism](Claude_ch11_casting.md)**
