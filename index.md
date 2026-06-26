@@ -28,7 +28,7 @@ observed physics, a new picture of the universe emerges.
 
 ## For the General Reader -- The Preludes
 
-- [The Preludes -- all seventeen collected, plus three essays](Claude_preludes)
+- [The Preludes -- all collected in order, plus various essays](Claude_preludes)
 
 Here are short pieces tracing the theory from its foundation to its furthest
 reach, written for the curious non-specialist. Each prelude has a technical
