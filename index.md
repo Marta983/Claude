@@ -64,6 +64,8 @@ Broader reflections on the ideas at the heart of the theory:
 - [The Big Turnaround and a ratio](Claude_prelude_turnaround_ratio)
 - [Cold spot and more](Claude_prelude_cold_spot)
 - [Layer-by-layer until balanced](Claude_prelude_sublimation)
+- [What light thru yon window break? CMB](Claude_prelude_CMB_faded_light)
+- [Redshift, you lying ....Damaged goods delivered](Claude_prelude_redshift_distance)
 
 ---
 
