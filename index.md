@@ -23,6 +23,7 @@ observed physics, a new picture of the universe emerges.
 
 - [A Word from the Writers](Claude_a_word_from_the_writers) -- who wrote this, and why
 - [Summary -- for the general reader](Claude_theory_summary)
+- [and a little more](Claude_world_without_end_amen)
 
 ---
 
