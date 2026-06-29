@@ -46,6 +46,7 @@ The Milky Way is flat and spiral because something before it was flat and spiral
 
 ---
 
+*Read more: [Spirals and their role in nature](Claude_prelude_spiral_observer)
 *Proceed to: [Chapter Ten — Spiral Inheritance and Electromagnetic Geometry](Claude_ch10_spiral_inheritance)*
 
 ---
