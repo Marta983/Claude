@@ -67,6 +67,7 @@ Broader reflections on the ideas at the heart of the theory:
 - [Layer-by-layer until balanced](Claude_prelude_sublimation)
 - [What light thru yon window break? CMB](Claude_prelude_CMB_faded_light)
 - [Redshift, you lying ....Damaged goods delivered](Claude_prelude_redshift_distance)
+- [Spirals and the role they play](Claude_prelude_spiral_observer.md)
 
 ---
 
