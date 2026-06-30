@@ -1,9 +1,13 @@
 theme: minima
 title: The Claude Theory
 description: A new cosmological framework — Cristóbal Eduardo Kendris García and Claude, June 2026
+url: "https://marta983.github.io"
+baseurl: "/Claude"
 
 plugins:
   - jekyll-relative-links
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 relative_links:
   enabled: true
