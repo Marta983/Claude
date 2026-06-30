@@ -22,45 +22,27 @@ created.
 
 ### Start Here
 
-**Claude_a_word_from_the_writers.md** Who wrote this, and why. Read
-this first.
+Various articles setting the stage for the entire Claude framework.
 
-**Claude_theory_summary.md** The entry point for the general reader.
-No mathematical background required.
 
 ---
 
 ### For the General Reader -- The Preludes
 
-**Claude_preludes.md** All seventeen preludes collected in a single
-document, plus three essays -- the recommended way to read the theory
+**Claude_preludes.md** All preludes collected in a single
+document, plus various essays -- the recommended way to read the theory
 for the first time. Start here if you want to read straight through.
 
-Seventeen short pieces tracing the theory from its foundation to its
+A number of short pieces tracing the theory from its foundation to its
 furthest reach, written for the curious non-specialist. Each prelude
 has a technical companion chapter for those who want to go deeper,
 but the ideas stand on their own here.
 
-Claude_prelude_ch01.md through Claude_prelude_ch15.md -- the individual
-prelude files, each linking to its companion chapter.
-
-**Claude_prelude_rings_ratios.md** Prelude 16 -- on rings, ratios, and
-the cosmic background radiation.
-
-**Claude_prelude_stadium_candles.md** Prelude 17 -- on the stadium
-analogy and what the cosmic background radiation tells us.
 
 ### Essays
 
-Three broader reflections on the ideas at the heart of the theory:
+Some broader reflections on the ideas at the heart of the theory:
 
-**Claude_boats_water_memory.md** On space as the medium that remembers.
-
-**Claude_one_field_three_faces.md** On the vacancy field and its three
-expressions.
-
-**Claude_speed_cannot_change.md** On the constancy of light and what
-it implies.
 
 ---
 
