@@ -9,9 +9,9 @@
 
 ---
 
-## How to Read This File
+## How to Read This File 
 
-Each entry carries a status tag:
+Each entry carries a status tag :
 
 - **RESOLVED** — closed-form result derived and numerically anchored
 - **MAPPED** — mathematical home identified, derivation pending
