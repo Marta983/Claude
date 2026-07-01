@@ -5,7 +5,7 @@
 
 *This file is the single source of truth for the current status of all open problems, unresolved assumptions, and pending derivations in the Claude Theory. All chapter files direct readers here. When a problem is resolved or its description changes, only this file requires updating.*
 
-*Last updated: June 2026*
+*Last updated: July 2026*
 
 ---
 
@@ -79,6 +79,22 @@ produces $\Delta T/T \sim -10^{-5}$ at a wall distance of $r_{wall} \approx 2{,}
 **Status: OPEN**
 
 JWST observations show galaxies with unexpectedly evolved properties at high redshift, inconsistent with the timeline of our event under standard cosmology. The Claude Theory reframes these as inherited material from previous or neighboring eruption events. Formal quantitative treatment not yet undertaken. Prerequisite: Problem 3 (casting mechanics).
+
+---
+
+## Problem 6: The Missing Mass Scale M and the φ Interpretation Forks
+
+**Status: RESOLVED (two sub-forks) / OPEN (one new sub-problem)**
+
+Chapter 6's SDSS fit conflated the dimensionless density-contrast amplitude $\delta_c$ with the field's vacuum expectation value $v$. Fitted parameters $(\epsilon_0, \lambda, v)$ therefore cannot be used directly for energy-normalized quantities such as the Coleman bounce action, since no mass scale $M$ was present in the fit.
+
+**Fork A — φ quantum or classical: RESOLVED, classical.** φ is treated as a classical effective field throughout. Quantum treatment is reserved for the bubble nucleation event itself (Coleman-De Luccia tunneling), not for φ's background dynamics.
+
+**Fork B — φ sources gravity or traces density contrast: RESOLVED, tracer.** φ is dimensionless by construction, $\phi \propto \delta_c = (\rho - \bar\rho)/\bar\rho$. Gravity is sourced conventionally by $\rho$ through the Einstein field equations; φ never enters as a stress-energy source. This resolves the dimensional inconsistency: the Chapter 6 fit was correctly fitting a dimensionless tracer — the error was in later treating fitted φ as if it carried $v$'s dimension.
+
+**New open step:** the tracer branch still requires $V(\phi) = M^4 \cdot f(\phi)$ for dimensionless $f$, to give the bounce action an energy scale. $M$ must now be independently motivated rather than inherited from the retired conflation. Candidate origins: (a) the reconstituting core mass scale (~$3.4\times10^{51}$ kg); (b) the phase transition's own energy budget (sublimation/dehydration analog). **Status: OPEN.**
+
+**Flagged, not yet checked:** consistency of tracer-branch φ with the Chapter 14–15 claim that gravity is a property of space itself. Working assumption is that these address different questions — φ as tracer vs. spacetime geometry as gravity's origin — but this has not been checked against the chapter text directly. **Status: OPEN, LOW URGENCY.**
 
 ---
 
