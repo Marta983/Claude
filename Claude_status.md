@@ -5,7 +5,7 @@
 
 *This file is the single source of truth for the current status of all open problems, unresolved assumptions, and pending derivations in the Claude Theory. All chapter files direct readers here. When a problem is resolved or its description changes, only this file requires updating.*
 
-*Last updated: July 2026*
+*Last updated: July 2026 (finite-thickness shell rederivation)*
 
 ---
 
@@ -62,17 +62,19 @@ Chapter 10 introduces the spiral inheritance framework as a geometric constraint
 
 ## Problem 4: CMB Cold Spot as Boundary Signature
 
-**Status: PREDICTED**
+**Status: PREDICTED, PENDING $\Delta T/T$ RECOMPUTATION**
 
 Can the CMB Cold Spot be accounted for within the vacancy field framework?
 
-The ISW supervoid approach (Chapter 6) fell short by a factor of ~4. The mechanism has been reframed: the Cold Spot is not a supervoid signature but a relic domain wall — a bubble collision scar from the phase transition itself, frozen into the field configuration of space. The wall surface energy density derived from fitted parameters $(\lambda, v)$:
+The ISW supervoid approach (Chapter 6) fell short by a factor of ~4. The mechanism was reframed: the Cold Spot is not a supervoid signature but a relic domain wall — a bubble collision scar from the phase transition itself, frozen into the field configuration of space. The original (Fork-A) wall surface energy density, derived from fitted parameters $(\lambda, v)$ via the canonical field self-energy formula:
 
 $$\sigma_{wall} = \frac{8\sqrt{2}}{3}\sqrt{\lambda}\,v^3 \approx 5.69 \times 10^{9}\, M_\odot\,\text{Mpc}^{-2}$$
 
-produces $\Delta T/T \sim -10^{-5}$ at a wall distance of $r_{wall} \approx 2{,}920$ Mpc — no additional tuning required. Three falsifiable predictions distinguish this from the supervoid hypothesis: (1) lensing convergence *excess* rather than deficit at the Cold Spot boundary; (2) sharp angular edge at $\sim 0.12°$ corresponding to projected wall thickness $\delta_w$ at that distance; (3) tangential CMB polarization E-mode alignment at the boundary. See Claude_prelude_cold_spot.md.
+produced $\Delta T/T \sim -10^{-5}$ at $r_{wall} \approx 2{,}920$ Mpc with no additional tuning. Three falsifiable predictions were built on this: (1) lensing convergence *excess* rather than deficit at the boundary; (2) a sharp angular edge at $\sim0.12°$; (3) tangential E-mode polarization alignment at the boundary. See Claude_prelude_cold_spot.md.
 
-**Flag (July 2026):** the $\sigma_{wall}$ formula above uses the canonical field self-energy form $\int[\frac12\phi'^2 + V(\phi)]dx$, which assumes $\phi$ sources gravity directly. This is the fork we did *not* adopt (see Problem 6, Fork B). Chapter 6's own Cold Spot potential calculation (Section 11.7) instead sources gravity from real $\bar\rho_m$ weighted by the dimensionless tracer profile, with no missing scale required — the two approaches are inconsistent with each other. Two independent tracer-method estimates now bracket this: a flat-slab approximation gave $\Sigma_{wall}\approx2.4\times10^{11}\,M_\odot\,\text{Mpc}^{-2}$ (~40x the stated value); a mass-conservation calculation (missing void-interior mass concentrated in a shell at $r_s$) gave $\Sigma_{wall}\approx2.77\times10^{11}\,M_\odot\,\text{Mpc}^{-2}$ (~49x). The two independent methods agreeing in order of magnitude is a real, useful signal — but neither is a verdict on the correct value, since the mass-conservation estimate assumes an idealized infinitesimally thin shell rather than a realistic finite-thickness profile, which would reduce the surface density. The $\Delta T/T$ result and the three falsifiable predictions should be treated as provisional pending a rederivation using a physically realistic (non-delta-function) shell profile. **Status: PREDICTED, PENDING REDERIVATION.**
+**Update (July 2026) — finite-thickness shell rederivation complete.** This formula used the Fork-A self-energy form, which we've since determined is not the physically appropriate quantity under the adopted Fork B (tracer) sourcing. The rederivation under Fork B — see Problem 6 below — gives a converged value of $\Sigma_{wall}\approx8\times10^{10}\,M_\odot\,\text{Mpc}^{-2}$, roughly **14–15×** the Fork-A value used above.
+
+**New flag — possible $\Delta T/T$ overshoot.** If $\Delta T/T$ scales close to linearly with $\Sigma_{wall}$, as is typical for thin-wall ISW/Rees-Sciama-type estimates, the corrected surface density would push the predicted signal to roughly $-1.4\times10^{-4}$ — about an order of magnitude *larger* than the observed Cold Spot amplitude ($\sim-10^{-5}$). This is a more serious problem than the earlier magnitude gap: rather than an unexplained excess in a derived parameter, it risks an outright overshoot of the observational target the whole mechanism was built to match. The linearity assumption itself has not yet been checked against the actual ISW/Rees-Sciama formula used in Chapter 6 — this is the immediate next step, ahead of touching Chapter 5's Bullet Cluster arc. **All three falsifiable predictions above, and the $\Delta T/T$ headline result, should be treated as unconfirmed pending this recomputation.**
 
 ---
 
@@ -86,21 +88,38 @@ JWST observations show galaxies with unexpectedly evolved properties at high red
 
 ## Problem 6: The Missing Mass Scale M and the φ Interpretation Forks
 
-**Status: RESOLVED (two sub-forks) / NARROWED (mass-scale sub-problem) / OPEN (structural rederivation)**
+**Status: RESOLVED (forks) / RESOLVED (finite-thickness surface density) / OPEN (bounce-action mass scale, Chapters 4–5 rebuild)**
 
 Chapter 6's SDSS fit conflated the dimensionless density-contrast amplitude $\delta_c$ with the field's vacuum expectation value $v$. Fitted parameters $(\epsilon_0, \lambda, v)$ therefore cannot be used directly for energy-normalized quantities such as the Coleman bounce action, since no mass scale $M$ was present in the fit.
 
 **Fork A — φ quantum or classical: RESOLVED, classical.** φ is treated as a classical effective field throughout. Quantum treatment is reserved for the bubble nucleation event itself (Coleman-De Luccia tunneling), not for φ's background dynamics.
 
-**Fork B — φ sources gravity or traces density contrast: RESOLVED, tracer.** φ is dimensionless by construction, $\phi \propto \delta_c = (\rho - \bar\rho)/\bar\rho$. Gravity is sourced conventionally by $\rho$ through the Einstein field equations; φ never enters as a stress-energy source. This resolves the dimensional inconsistency: the Chapter 6 fit was correctly fitting a dimensionless tracer — the error was in later treating fitted φ as if it carried $v$'s dimension.
+**Fork B — φ sources gravity or traces density contrast: RESOLVED, tracer.** φ is dimensionless by construction, $\phi \propto \delta_c = (\rho - \bar\rho)/\bar\rho$. Gravity is sourced conventionally by $\rho$ through the Einstein field equations; φ never enters as a stress-energy source.
 
-**Narrowed:** the missing mass scale $M$ is *not* needed for the domain wall's gravitational or lensing effects. Chapter 6 Section 11.7 already sources the Cold Spot's gravitational potential correctly, from real $\bar\rho_m$ weighted by the dimensionless tracer profile — no $M$ required, consistent with the resolved Fork B. $M$ (or equivalently $\varepsilon = \Delta V$ in the Coleman bounce formula) remains genuinely needed only for the bounce action itself, since bubble nucleation concerns the field's actual dynamics during the phase transition, not its settled tracer profile after the fact.
+**Narrowed:** the missing mass scale $M$ is *not* needed for the domain wall's gravitational or lensing effects — only for the Coleman bounce action itself, since bubble nucleation concerns the field's actual dynamics during the phase transition, not its settled tracer profile after the fact.
 
-**Structural issue identified:** Chapters 4 and 5 derive $\sigma_{wall}$ and $m_{eff} = \sigma_{wall}/c^2$ using the canonical field self-energy formula $\int[\frac12\phi'^2 + V(\phi)]dx$ — valid only under Fork A (φ sources gravity), which was not the branch adopted. These derivations need to be rebuilt using the tracer method validated in Chapter 6 Section 11.7.
+**Finite-thickness shell rederivation (RESOLVED, July 2026).** Chapter 6's void profile is $\delta_\phi(r) = \delta_c\cdot\tfrac12(1-\tanh((r-r_s)/\delta_w))$, with $\delta_c=-0.6537$, $r_s=15.45$ Mpc/h, $\delta_w=6.31$ Mpc/h — a monotonic step, not a symmetric bump. The wall is the transition edge of the void itself. The correct finite-thickness surface density is defined as the mass redistributed by the smooth tanh edge relative to an idealized sharp-edged void of the same $\delta_c$ and same boundary $r_s$:
 
-**Numerical check (July 2026):** two independent tracer-method calculations were run. (1) Flat-slab approximation: $\Sigma_{wall}\approx\bar\rho_m|\delta_c|\delta_w\approx2.4\times10^{11}\,M_\odot\,\text{Mpc}^{-2}$. (2) Mass-conservation calculation — numerically integrating the total mass missing from the void interior ($M_{missing}=-4\pi\bar\rho_m\int_0^\infty r^2\delta_\phi(r)\,dr\approx1.70\times10^{15}\,M_\odot$) and spreading it over the spherical shell at $r_s$: $\Sigma_{wall}=M_{missing}/(4\pi r_s^2)\approx2.77\times10^{11}\,M_\odot\,\text{Mpc}^{-2}$. Both methods land within ~20% of each other and roughly 40–49x above the current field-theoretic value ($5.69\times10^9\,M_\odot\,\text{Mpc}^{-2}$).
+$$\Sigma_{wall} = \bar\rho_m\int_{-\infty}^{\infty}\Big[\delta_\phi(r) - \delta_c\,\Theta(r_s-r)\Big]dr = \bar\rho_m\cdot\frac{\ln2}{2}\,|\delta_c|\,\delta_w \approx 0.347\,\bar\rho_m|\delta_c|\delta_w$$
 
-**Caveat:** the two tracer-method numbers agreeing with each other is a genuine consistency signal for the *method*, not a validated final value. The mass-conservation calculation assumes all missing interior mass concentrates in an infinitesimally thin shell exactly at $r_s$ — a real simplifying assumption, not an established physical fact. A realistic finite-thickness shell (plausibly on the order of $\delta_w$ itself) would spread this mass over a larger area and reduce $\Sigma_{wall}$, potentially closing some or all of the ~40–49x gap with the stated value. This affects Problem 4's $\Delta T/T$ result and predictions, the lensing notch calibration, and the Bullet Cluster secondary lensing arc (Chapter 5), all of which currently rest on the Fork-A-relic $\sigma_{wall}$. **Status: OPEN — finite-thickness shell profile and full rederivation pending.**
+This replaces the earlier flat-slab top-hat assumption (implicit coefficient 1) with the analytically correct kink-profile coefficient $\ln2/2\approx0.347$ — a genuine shape correction, not an ad hoc adjustment.
+
+A full 3D rebuild of the mass-conservation method, using the same deviation-from-sharp-step logic applied to $4\pi r^2\delta_\phi(r)\,dr$ rather than a thin-shell-at-$r_s$ trick, gives a closed form:
+
+$$\Sigma_{wall,3D} = \frac{\pi^2}{12}\,\bar\rho_m|\delta_c|\,\frac{\delta_w^2}{r_s} \approx 0.823\,\bar\rho_m|\delta_c|\frac{\delta_w^2}{r_s}$$
+
+With $\delta_w/r_s = 0.408$, this evaluates to $\approx0.968\times$ the flat-derivation result — a ~3% difference. **The two independently rebuilt methods converge to within ~3–4%** (down from ~20% apart in the original flawed versions), giving:
+
+$$\boxed{\Sigma_{wall}\approx8\times10^{10}\ M_\odot\,\text{Mpc}^{-2}}$$
+
+This is roughly **14–15×** the Fork-A field-theoretic value ($5.69\times10^9$), down from the original ~40–49× gap. The tight convergence of the two independent 1D and 3D derivations is a genuine consistency result — both are now measuring the same well-defined physical quantity. The residual ~15× gap most plausibly reflects that Fork A (field self-energy) and Fork B (real matter column) are measuring genuinely different physical quantities and may not be expected to fully converge.
+
+**Structural rebuild required — OPEN.** Chapters 4 and 5 derive $\sigma_{wall}$ and $m_{eff}=\sigma_{wall}/c^2$ from the Fork-A self-energy formula and need to be rebuilt on the $\Sigma_{wall}\approx8\times10^{10}$ result above. This directly affects:
+- **Chapter 5's Bullet Cluster secondary lensing arc** — the offset prediction $\delta_w\cdot\mathcal{G}$ used the old $\sigma_{wall}$; the ~14× larger surface density likely changes the predicted arc amplitude materially, and its detectability against existing deep lensing maps needs rechecking.
+- **Chapter 6's lensing notch calibration** — needs the corrected $\Sigma_{wall}$ substituted in.
+- **Chapter 6's Cold Spot $\Delta T/T$ result** — see the overshoot flag under Problem 4. This is the most urgent of the three, since it risks invalidating the headline result rather than just shifting a derived number.
+
+$M$ (equivalently $\varepsilon=\Delta V$ in the Coleman bounce formula) remains genuinely open and unaffected by the above — it is needed only for the bounce action itself.
 
 ---
 
@@ -132,21 +151,21 @@ Earlier formulations stated that the eruption event occurred "in all directions 
 
 ## Lensing Notch: Calibrated, Untested
 
-**Status: CALIBRATED**
+**Status: CALIBRATED, PENDING RECALIBRATION**
 
 Chapter 6 predicts a lensing convergence notch — deflection suppressed to 50% of asymptotic value at domain wall centers, recovering to >95% by $b \approx 12.6$ Mpc/h. This non-monotonic feature is absent from all particle dark matter models and constitutes a direct observational test. Not yet compared against actual weak lensing stacks.
 
-**Flag (July 2026):** this calibration rests on the same Fork-A-relic $\sigma_{wall}$ flagged in Problem 6. Pending rederivation via the tracer method, including the finite-thickness shell profile.
+**Update (July 2026):** this calibration rests on the Fork-A-relic $\sigma_{wall}$. The finite-thickness rederivation (Problem 6) gives $\Sigma_{wall}\approx8\times10^{10}\,M_\odot\,\text{Mpc}^{-2}$, ~14–15× larger. Recalibration with the corrected value is pending.
 
 ---
 
 ## Secondary Lensing Arc (Bullet Cluster): Predicted, Undetected
 
-**Status: PREDICTED**
+**Status: PREDICTED, PENDING RECALCULATION**
 
 Chapter 5 derives a secondary lensing arc between the two cluster nodes, offset toward the bullet subcluster's direction of motion by $\delta_w \cdot \mathcal{G}$. This feature is absent from all particle dark matter models. Detection or non-detection in existing deep weak lensing maps of the Bullet Cluster system constitutes a direct test of the vacancy field framework.
 
-**Flag (July 2026):** this derivation rests on the same Fork-A-relic $\sigma_{wall}$ flagged in Problem 6. Pending rederivation via the tracer method, including the finite-thickness shell profile.
+**Update (July 2026):** this derivation rests on the Fork-A-relic $\sigma_{wall}$. With the corrected $\Sigma_{wall}\approx8\times10^{10}\,M_\odot\,\text{Mpc}^{-2}$ (~14–15× larger), the predicted arc amplitude needs recomputation before comparison against existing lensing maps.
 
 ---
 
