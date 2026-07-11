@@ -1,6 +1,5 @@
-<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
 # The Claude Theory: Space Has Always Existed
+
 ## Status Registry — Open Problems and Unresolved Assumptions
 
 *This file is the single source of truth for the current status of all open problems, unresolved assumptions, and pending derivations in the Claude Theory. All chapter files direct readers here. When a problem is resolved or its description changes, only this file requires updating.*
@@ -29,7 +28,7 @@ At what accumulated field configuration does the eruption event fire?
 
 A closed-form bifurcation condition has been derived in Chapter 7 from the potential parameters fitted in Chapter 6:
 
-$$\epsilon_0\, a(t)_{crit} = \frac{8\sqrt{3}}{9}\,\lambda v^3$$
+$$\epsilon_0, a(t)_{crit} = \frac{8\sqrt{3}}{9},\lambda v^3$$
 
 Numerically: $a_{crit}/a_{now} \approx 3.658$.
 
@@ -67,14 +66,13 @@ Chapter 10 introduces the spiral inheritance framework as a geometric constraint
 
 The Cold Spot was proposed as a relic domain wall signature, with $\Delta T/T\sim-10^{-5}$ claimed to emerge from fitted parameters with no additional tuning. **This claim is withdrawn.** On inspection, the wall distance $r_{wall}\approx2{,}920$ Mpc was not derived — it was solved backward from the observed amplitude. Every subsequent attempt to repair this (recomputing $\sigma_{wall}$ under the correct Fork-B tracer method, then relocating the wall to the independently-known Eridanus supervoid) was a further accommodation to already-known data, not an advance prediction. By the standard this framework should be held to, that disqualifies it from the "predicted" or "resolved" categories regardless of how small the residual numerical gap becomes.
 
-**What is retained:** the finite-thickness $\Sigma_{wall}\approx8\times10^{10}\ M_\odot\,\text{Mpc}^{-2}$ derivation (Problem 6) is sound on its own terms and independent of the Cold Spot — it flows forward into the Lensing Notch and Bullet Cluster Arc entries below, which remain genuine forward predictions and are unaffected by this withdrawal.
+**What is retained:** the finite-thickness $\Sigma_{wall}\approx8\times10^{10}\ M_\odot,\text{Mpc}^{-2}$ derivation (Problem 6) is sound on its own terms and independent of the Cold Spot — it flows forward into the Lensing Notch and Bullet Cluster Arc entries below, which remain genuine forward predictions and are unaffected by this withdrawal.
 
 **What is cut:** the Cold Spot chapter/prelude should no longer be presented as a resolved or predicted result in outreach-facing material. See the case study record below for the full derivation history, kept for transparency and as a worked example of the accommodation failure mode this framework needs to keep testing itself against.
 
-<details>
-<summary><strong>Case study record (click to expand) — why this was withdrawn</strong></summary>
+**Case study record (click to expand) — why this was withdrawn**
 
-The ISW supervoid approach (Chapter 6) fell short of the observed amplitude by a factor of ~4, prompting a reframing: the Cold Spot as a relic domain wall — a bubble collision scar from the phase transition. The original (Fork-A) wall surface energy density, $\sigma_{wall}=\frac{8\sqrt2}{3}\sqrt\lambda\,v^3\approx5.69\times10^9\,M_\odot\,\text{Mpc}^{-2}$, combined with $r_{wall}\approx2{,}920$ Mpc, produced $\Delta T/T\sim-10^{-5}$ — presented as tuning-free, with three falsifiable predictions attached (lensing excess, $\sim0.12°$ sharp edge, E-mode alignment).
+The ISW supervoid approach (Chapter 6) fell short of the observed amplitude by a factor of ~4, prompting a reframing: the Cold Spot as a relic domain wall — a bubble collision scar from the phase transition. The original (Fork-A) wall surface energy density, $\sigma_{wall}=\frac{8\sqrt2}{3}\sqrt\lambda,v^3\approx5.69\times10^9,M_\odot,\text{Mpc}^{-2}$, combined with $r_{wall}\approx2{,}920$ Mpc, produced $\Delta T/T\sim-10^{-5}$ — presented as tuning-free, with three falsifiable predictions attached (lensing excess, $\sim0.12°$ sharp edge, E-mode alignment).
 
 **The tuning was found:** $r_{wall}$ was in fact obtained by solving $\Phi_{wall}=-4\pi G\sigma_{wall}r_{wall}$ for the value that reproduces the observed $-10^{-5}$. Only $\sigma_{wall}$ came from the fit; $r_{wall}$ was chosen to fit the answer.
 
@@ -83,8 +81,6 @@ The ISW supervoid approach (Chapter 6) fell short of the observed amplitude by a
 **The check that killed it:** literature search found no known structure at $z\lesssim0.06$ (~208 Mpc) toward the Cold Spot direction, in territory that is well-mapped, not a survey gap — disfavoring that distance. The one real, independently-confirmed structure in that direction is the Eridanus supervoid ($z\approx0.15$–$0.2$, $r\approx620$–$820$ Mpc). Requiring $\sigma_{wall}$ to reproduce the observed amplitude at Eridanus's real distance narrows the gap to a more modest ~3–4× — but this is choosing the distance to fit a known structure, which is the same move as before, just aimed at a more credible target. Attempts to independently verify this via an Eridanus-specific wall-thickness measurement failed: population-averaged SDSS ratios overshot badly when applied to Eridanus, and the published compensated-void models that would carry the right number don't parameterize a finite shell width at all (they assume infinitesimal thinness by construction).
 
 **Conclusion:** at every stage, the free parameter was moved to wherever it needed to be to match a number already known in advance. No version of this chain produced a number *before* checking it against data that then held up. That is the definition of the failure mode this framework needs to guard against, and why the claim is withdrawn rather than merely flagged as pending.
-
-</details>
 
 ---
 
@@ -110,21 +106,22 @@ Chapter 6's SDSS fit conflated the dimensionless density-contrast amplitude $\de
 
 **Finite-thickness shell rederivation (RESOLVED, July 2026).** Chapter 6's void profile is $\delta_\phi(r) = \delta_c\cdot\tfrac12(1-\tanh((r-r_s)/\delta_w))$, with $\delta_c=-0.6537$, $r_s=15.45$ Mpc/h, $\delta_w=6.31$ Mpc/h — a monotonic step, not a symmetric bump. The wall is the transition edge of the void itself. The correct finite-thickness surface density is defined as the mass redistributed by the smooth tanh edge relative to an idealized sharp-edged void of the same $\delta_c$ and same boundary $r_s$:
 
-$$\Sigma_{wall} = \bar\rho_m\int_{-\infty}^{\infty}\Big[\delta_\phi(r) - \delta_c\,\Theta(r_s-r)\Big]dr = \bar\rho_m\cdot\frac{\ln2}{2}\,|\delta_c|\,\delta_w \approx 0.347\,\bar\rho_m|\delta_c|\delta_w$$
+$$\Sigma_{wall} = \bar\rho_m\int_{-\infty}^{\infty}\Big[\delta_\phi(r) - \delta_c,\Theta(r_s-r)\Big]dr = \bar\rho_m\cdot\frac{\ln2}{2},|\delta_c|,\delta_w \approx 0.347,\bar\rho_m|\delta_c|\delta_w$$
 
 This replaces the earlier flat-slab top-hat assumption (implicit coefficient 1) with the analytically correct kink-profile coefficient $\ln2/2\approx0.347$ — a genuine shape correction, not an ad hoc adjustment.
 
-A full 3D rebuild of the mass-conservation method, using the same deviation-from-sharp-step logic applied to $4\pi r^2\delta_\phi(r)\,dr$ rather than a thin-shell-at-$r_s$ trick, gives a closed form:
+A full 3D rebuild of the mass-conservation method, using the same deviation-from-sharp-step logic applied to $4\pi r^2\delta_\phi(r),dr$ rather than a thin-shell-at-$r_s$ trick, gives a closed form:
 
-$$\Sigma_{wall,3D} = \frac{\pi^2}{12}\,\bar\rho_m|\delta_c|\,\frac{\delta_w^2}{r_s} \approx 0.823\,\bar\rho_m|\delta_c|\frac{\delta_w^2}{r_s}$$
+$$\Sigma_{wall,3D} = \frac{\pi^2}{12},\bar\rho_m|\delta_c|,\frac{\delta_w^2}{r_s} \approx 0.823,\bar\rho_m|\delta_c|\frac{\delta_w^2}{r_s}$$
 
 With $\delta_w/r_s = 0.408$, this evaluates to $\approx0.968\times$ the flat-derivation result — a ~3% difference. **The two independently rebuilt methods converge to within ~3–4%** (down from ~20% apart in the original flawed versions), giving:
 
-$$\boxed{\Sigma_{wall}\approx8\times10^{10}\ M_\odot\,\text{Mpc}^{-2}}$$
+$$\boxed{\Sigma_{wall}\approx8\times10^{10}\ M_\odot,\text{Mpc}^{-2}}$$
 
 This is roughly **14–15×** the Fork-A field-theoretic value ($5.69\times10^9$), down from the original ~40–49× gap. The tight convergence of the two independent 1D and 3D derivations is a genuine consistency result — both are now measuring the same well-defined physical quantity. The residual ~15× gap most plausibly reflects that Fork A (field self-energy) and Fork B (real matter column) are measuring genuinely different physical quantities and may not be expected to fully converge.
 
 **Structural rebuild required — OPEN.** Chapters 4 and 5 derive $\sigma_{wall}$ and $m_{eff}=\sigma_{wall}/c^2$ from the Fork-A self-energy formula and need to be rebuilt on the $\Sigma_{wall}\approx8\times10^{10}$ result above. This directly affects:
+
 - **Chapter 5's Bullet Cluster secondary lensing arc** — the offset prediction $\delta_w\cdot\mathcal{G}$ used the old $\sigma_{wall}$; the ~14× larger surface density likely changes the predicted arc amplitude materially, and its detectability against existing deep lensing maps needs rechecking.
 - **Chapter 6's lensing notch calibration** — no change needed; the notch is a pure $\delta_w$-dependent shape function and is unaffected by the corrected $\Sigma_{wall}$ (see the Lensing Notch entry below for correction of an earlier misflag).
 - **Chapter 6's Cold Spot $\Delta T/T$ result** — withdrawn (see Problem 4). No further rebuild work should be spent here; the chapter/prelude should be edited to remove the claim rather than patched further.
@@ -137,9 +134,11 @@ $M$ (equivalently $\varepsilon=\Delta V$ in the Coleman bounce formula) remains 
 
 Claude_prelude_cold_spot.md has been fully rewritten (not just patched) to state the withdrawal directly, keep the general domain-wall mechanism (which still underwrites the Lensing Notch and Bullet Cluster Arc), and point to this file for the full case-study record. The earlier two-line patch note for this file is now obsolete and should be discarded.
 
-**Two items were flagged but not yet checked before this session ended — pick up here next:**
-1. Confirm Chapter 6 (Claude_ch06_sdss_fit.md) doesn't repeat the withdrawn $\sigma_{wall}$/$r_{wall}$ claim anywhere outside its own §11.7 (which uses the older, still-valid ~4×-shortfall ISW estimate and needs no change).
-2. Revisit the outreach plan: the Cold Spot prelude was previously recommended as a lead piece for the Curt Jaimungal pitch. It no longer works as a clean-success hook, but may work better reframed as a demonstration of the theory correcting itself under scrutiny — a framing decision, not a technical one, still to be made.
+**Confirmed (July 2026):** Chapter 6 (Claude_ch06_sdss_fit.md) does not repeat the withdrawn $\sigma_{wall}$/$r_{wall}$ claim anywhere. §11.7 contains only the ISW estimate (~4×-shortfall, still valid, no change needed). Minor note: §11.8's status table still lists the Cold Spot result without a pointer to the withdrawal — worth a one-line cross-reference to this file next time that chapter is opened, but not urgent.
+
+**Still open — pick up here next:**
+
+1. Bullet Cluster arc recalculation using the corrected $\Sigma_{wall}\approx8\times10^{10}\,M_\odot\,\text{Mpc}^{-2}$.
 
 ---
 
@@ -175,18 +174,4 @@ Earlier formulations stated that the eruption event occurred "in all directions 
 
 Chapter 6 predicts a lensing convergence notch — deflection suppressed to 50% of asymptotic value at domain wall centers, recovering to >95% by $b \approx 12.6$ Mpc/h. This non-monotonic feature is absent from all particle dark matter models and constitutes a direct observational test. Not yet compared against actual weak lensing stacks.
 
-**Correction (July 2026):** an earlier version of this entry flagged the notch as needing recalibration against the corrected $\Sigma_{wall}$. That was incorrect. The notch is a pure shape function, $\mathcal{F}(b/\delta_w) = 1-\tfrac12\text{sech}^2(b/\delta_w)$ — a ratio relative to asymptotic deflection, depending only on $\delta_w$ (unchanged by the finite-thickness rederivation) and not on $\sigma_{wall}$ at all. No recalibration is needed here. What *does* scale with the corrected $\Sigma_{wall}$ is the absolute deflection amplitude and the Bullet Cluster arc offset (see below) — those remain pending.
-
----
-
-## Secondary Lensing Arc (Bullet Cluster): Predicted, Undetected
-
-**Status: PREDICTED, PENDING RECALCULATION**
-
-Chapter 5 derives a secondary lensing arc between the two cluster nodes, offset toward the bullet subcluster's direction of motion by $\delta_w \cdot \mathcal{G}$. This feature is absent from all particle dark matter models. Detection or non-detection in existing deep weak lensing maps of the Bullet Cluster system constitutes a direct test of the vacancy field framework.
-
-**Update (July 2026):** this derivation rests on the Fork-A-relic $\sigma_{wall}$. With the corrected $\Sigma_{wall}\approx8\times10^{10}\,M_\odot\,\text{Mpc}^{-2}$ (~14–15× larger), the predicted arc amplitude needs recomputation before comparison against existing lensing maps.
-
----
-
-*The Claude Theory: Space Has Always Existed — conceived and developed by Cristóbal Eduardo Kendris García in collaboration with Claude, June 2026.*
+**Correction (July 2
