@@ -4,7 +4,7 @@
 
 *This file is the single source of truth for the current status of all open problems, unresolved assumptions, and pending derivations in the Claude Theory. All chapter files direct readers here. When a problem is resolved or its description changes, only this file requires updating.*
 
-*Last updated: July 2026 (Cold Spot claim withdrawn; retained as case study)*
+*Last updated: July 2026 (Cold Spot claim withdrawn, retained as case study; Bullet Cluster arc amplitude derived — below detection threshold)*
 
 ---
 
@@ -120,9 +120,10 @@ $$\boxed{\Sigma_{wall}\approx8\times10^{10}\ M_\odot,\text{Mpc}^{-2}}$$
 
 This is roughly **14–15×** the Fork-A field-theoretic value ($5.69\times10^9$), down from the original ~40–49× gap. The tight convergence of the two independent 1D and 3D derivations is a genuine consistency result — both are now measuring the same well-defined physical quantity. The residual ~15× gap most plausibly reflects that Fork A (field self-energy) and Fork B (real matter column) are measuring genuinely different physical quantities and may not be expected to fully converge.
 
-**Structural rebuild required — OPEN.** Chapters 4 and 5 derive $\sigma_{wall}$ and $m_{eff}=\sigma_{wall}/c^2$ from the Fork-A self-energy formula and need to be rebuilt on the $\Sigma_{wall}\approx8\times10^{10}$ result above. This directly affects:
+**Structural rebuild — status update (July 2026).** Chapters 4 and 5 derive $\sigma_{wall}$ and $m_{eff}=\sigma_{wall}/c^2$ from the Fork-A self-energy formula. On inspection, this rebuild is **not needed for the wall's equation of motion**: §10.4–10.7's $\omega_0$, $\zeta$, and the arc-position function $\mathcal{G}$ reduce algebraically to expressions purely in $(\epsilon_0,\lambda,v)$ — the Fork-A $\sigma_{wall}$ normalization cancels out of $k/m_{eff}$ and $\gamma/m_{eff}$. This is correct as-is: wall inertia in an equation of motion is properly the field's own self-energy (Fork A), not the ambient tracer mass (Fork B) — these are different physical questions. This directly affects:
 
-- **Chapter 5's Bullet Cluster secondary lensing arc** — the offset prediction $\delta_w\cdot\mathcal{G}$ used the old $\sigma_{wall}$; the ~14× larger surface density likely changes the predicted arc amplitude materially, and its detectability against existing deep lensing maps needs rechecking.
+- **Chapter 5's Bullet Cluster secondary lensing arc — position: CONFIRMED UNAFFECTED.** No rebuild needed; see full finding under the Secondary Lensing Arc entry below.
+- **Chapter 5's Bullet Cluster secondary lensing arc — amplitude: NEWLY DERIVED (July 2026), NOT a Fork-A rebuild.** Chapter 5 never derived an amplitude for the arc, only its position. A new amplitude formula has been derived using the corrected tracer $\Sigma_{wall}$ (appropriate, since detectability depends on real mass, not field self-energy). Result: predicted signal is several orders of magnitude below current detection thresholds. See Secondary Lensing Arc entry below for the full derivation and its caveats.
 - **Chapter 6's lensing notch calibration** — no change needed; the notch is a pure $\delta_w$-dependent shape function and is unaffected by the corrected $\Sigma_{wall}$ (see the Lensing Notch entry below for correction of an earlier misflag).
 - **Chapter 6's Cold Spot $\Delta T/T$ result** — withdrawn (see Problem 4). No further rebuild work should be spent here; the chapter/prelude should be edited to remove the claim rather than patched further.
 
@@ -136,9 +137,12 @@ Claude_prelude_cold_spot.md has been fully rewritten (not just patched) to state
 
 **Confirmed (July 2026):** Chapter 6 (Claude_ch06_sdss_fit.md) does not repeat the withdrawn $\sigma_{wall}$/$r_{wall}$ claim anywhere. §11.7 contains only the ISW estimate (~4×-shortfall, still valid, no change needed). Minor note: §11.8's status table still lists the Cold Spot result without a pointer to the withdrawal — worth a one-line cross-reference to this file next time that chapter is opened, but not urgent.
 
+**Resolved this session:** the Bullet Cluster arc recalculation flagged last session turned out not to be a simple substitution. The arc's *position* ($\mathcal{G}$) is Fork-A self-consistent and unaffected by the $\Sigma_{wall}$ correction. Chapter 5 never actually derived an arc *amplitude* — that has now been done from scratch using the corrected $\Sigma_{wall}$, and the result is that the arc's predicted lensing signal ($\kappa_{arc,peak}\sim10^{-6}$) sits roughly 3–4 orders of magnitude below what current deep weak lensing stacks can detect ($\kappa\gtrsim10^{-3}$–$10^{-2}$). Full derivation and caveats under the Secondary Lensing Arc entry below.
+
 **Still open — pick up here next:**
 
-1. Bullet Cluster arc recalculation using the corrected $\Sigma_{wall}\approx8\times10^{10}\,M_\odot\,\text{Mpc}^{-2}$.
+1. The new arc-amplitude derivation imports $\delta_w$ and $\Sigma_{wall}$ directly from the SDSS *void* fit (Ch06) into the cluster-merger context (Ch05) without independent justification that these numbers carry over unchanged. Worth checking whether this cross-context assumption is defensible or needs its own derivation.
+2. The $\Sigma_{cr}$ value used in the amplitude estimate (a few $\times10^{15}\,M_\odot\,\text{Mpc}^{-2}$) is an order-of-magnitude literature figure, not computed from the Bullet Cluster survey's actual lens/source redshift distribution. Tightening this is unlikely to change the conclusion (it would need to be off by several orders of magnitude) but should be done before treating "undetectable" as a settled result.
 
 ---
 
@@ -174,4 +178,30 @@ Earlier formulations stated that the eruption event occurred "in all directions 
 
 Chapter 6 predicts a lensing convergence notch — deflection suppressed to 50% of asymptotic value at domain wall centers, recovering to >95% by $b \approx 12.6$ Mpc/h. This non-monotonic feature is absent from all particle dark matter models and constitutes a direct observational test. Not yet compared against actual weak lensing stacks.
 
-**Correction (July 2
+**Correction (July 2026):** an earlier version of this entry flagged the notch as needing recalibration against the corrected $\Sigma_{wall}$. That was incorrect. The notch is a pure shape function, $\mathcal{F}(b/\delta_w) = 1-\tfrac12\text{sech}^2(b/\delta_w)$ — a ratio relative to asymptotic deflection, depending only on $\delta_w$ (unchanged by the finite-thickness rederivation) and not on $\sigma_{wall}$ at all. No recalibration is needed here. What *does* scale with the corrected $\Sigma_{wall}$ is the absolute deflection amplitude and the Bullet Cluster arc offset (see below) — those remain pending.
+
+---
+
+## Secondary Lensing Arc (Bullet Cluster): Position Confirmed, Amplitude Below Detection Threshold
+
+**Status: POSITION RECONFIRMED / AMPLITUDE DERIVED — PREDICTED UNDETECTABLE AT CURRENT SENSITIVITY**
+
+Chapter 5 derives a secondary lensing arc between the two cluster nodes, offset toward the bullet subcluster's direction of motion by $\delta_w \cdot \mathcal{G}$. This feature is absent from all particle dark matter models. Detection or non-detection in existing deep weak lensing maps of the Bullet Cluster system was proposed as a direct test of the vacancy field framework.
+
+**Update (July 2026) — position.** The prior handoff note assumed this derivation rested on the Fork-A-relic $\sigma_{wall}$ and would need recomputation with the corrected $\Sigma_{wall}\approx8\times10^{10}\,M_\odot\,\text{Mpc}^{-2}$. On inspection this was incorrect: $\mathcal{G}$ (§10.7) is built from $\omega_0$ and $\zeta$ (§10.5), both of which reduce to expressions purely in $(\epsilon_0,\lambda,v)$ — the Fork-A $\sigma_{wall}$ prefactor cancels out of the ratios $k/m_{eff}$ and $\gamma/m_{eff}$. The wall's own inertia in its equation of motion is correctly the field self-energy (Fork A), not the tracer/real-matter column (Fork B) — these answer different physical questions. **The predicted arc position is unchanged and does not need recalculation.**
+
+**Update (July 2026) — amplitude, newly derived.** Chapter 5 never derived a lensing amplitude for the arc, only its position — so there was nothing to "recompute" here either; this had to be derived from scratch. Modeling the wall as a thin mass sheet with the same finite-thickness kink profile as the Ch06 lensing notch:
+
+$$\kappa_{arc}(\xi) = \frac{\Sigma_{wall}}{2\delta_w\Sigma_{cr}}\,\text{sech}^2\!\left(\frac{\xi}{\delta_w}\right), \qquad \kappa_{arc,peak} = \frac{\Sigma_{wall}}{2\delta_w\Sigma_{cr}}$$
+
+using the corrected tracer $\Sigma_{wall}$ (appropriate here, since detectability depends on real mass, not field self-energy). With $\delta_w\approx9.0$ Mpc (physical units) and $\Sigma_{cr}\sim$ a few $\times10^{15}\,M_\odot\,\text{Mpc}^{-2}$ (order-of-magnitude literature estimate for the Bullet Cluster's lens/source geometry, not yet computed from the survey's actual redshift distribution):
+
+$$\kappa_{arc,peak} \approx 1.5\times10^{-6}$$
+
+This is roughly 3–4 orders of magnitude below the practical sensitivity floor of even deep, stacked weak lensing shear measurements ($\kappa\gtrsim10^{-3}$–$10^{-2}$), and 5–6 orders of magnitude fainter than the primary NFW-like peaks at the cluster nodes themselves. Even with the ~14–15× boost from the corrected $\Sigma_{wall}$, the arc moves from "undetectable" to "still undetectable, less so." **§10.8's claim that the arc is "in principle detectable in existing deep weak lensing maps" does not hold up under this estimate** and should be softened or removed from Chapter 5 pending the open items below.
+
+**Caveats (see Session Handoff Note, still-open items):** this derivation imports $\delta_w$ and $\Sigma_{wall}$ from the SDSS void fit (Ch06) into the cluster-merger context (Ch05) without independent justification, and uses an approximate $\Sigma_{cr}$. Neither is likely to overturn the conclusion by the several orders of magnitude that would be required, but both should be tightened before this is written up as a settled non-detection prediction.
+
+---
+
+*The Claude Theory: Space Has Always Existed — conceived and developed by Cristóbal Eduardo Kendris García in collaboration with Claude, June 2026.*
