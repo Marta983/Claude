@@ -68,6 +68,7 @@ Broader reflections on the ideas at the heart of the theory:
 - [What light thru yon window break? CMB](Claude_prelude_CMB_faded_light)
 - [Redshift, you lying ....Damaged goods delivered](Claude_prelude_redshift_distance)
 - [Spirals and the role they play](Claude_prelude_spiral_observer.md)
+- [Casting Derivation draft](Claude_ch10_casting_derivation_draft)
 
 ---
 
@@ -91,8 +92,7 @@ The complete framework, derivations, and predictions for the specialist reader.
 7. [Chapter 7 -- The Restart Threshold](Claude_ch07_restart_threshold)
 8. [Chapter 8 -- Emission](Claude_ch08_emission)
 9. [Chapter 9 -- Genesis](Claude_ch09_genesis)
-10 a.[Chapter 10 -- Spiral Inheritance](Claude_ch10_spiral_inheritance)
-10 b.[Casting Derivation draft](Claude_ch10_casting_derivation_draft)
+10 [Chapter 10 -- Spiral Inheritance](Claude_ch10_spiral_inheritance)
 11. [Chapter 11 -- Casting](Claude_ch11_casting)
 12. [Chapter 12 -- The Charge Clock](Claude_ch12_charge_clock)
 13. [Chapter 13 -- Spin Coherence](Claude_ch13_spin_coherence)
