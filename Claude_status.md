@@ -17,22 +17,34 @@ Each entry carries a status tag:
 - **MAPPED** — mathematical home identified, derivation pending
 - **OPEN** — not yet formally addressed
 - **REFINED** — conceptual position updated from earlier formulation
+- **CONTESTED** — a resolution has been claimed in a chapter file, but the derivation contains an unresolved circularity or an untested cross-scale assumption; the claim should not be treated as settled until the flagged issue is addressed
 
 ---
 
 ## Problem 1: The Restart Threshold
 
-**Status: MAPPED**
+**Status: CONTESTED** *(Chapter 12 claims RESOLVED; see below for why that claim is not yet accepted)*
 
 At what accumulated field configuration does the eruption event fire?
 
-A closed-form bifurcation condition has been derived in Chapter 7 from the potential parameters fitted in Chapter 6:
+A closed-form bifurcation condition was derived in Chapter 7 from the potential parameters fitted in Chapter 6:
 
 $$\epsilon_0\, a(t)_{crit} = \frac{8\sqrt{3}}{9}\,\lambda v^3$$
 
 Numerically: $a(t)_{crit}/a(t)_{now} \approx 3.658$.
 
-**Open step:** the ratio 3.658 is dimensionless and its physical meaning is not yet established. Converting it into a timescale or physically meaningful accumulation quantity requires identifying what clock governs the accumulated field across the full cycle — potentially a clock with no fixed relationship to our event's expansion history.
+Chapter 12 proposes a physical clock — charge accumulation via asymmetric electromagnetic sorting in rotating magnetized nodes — and claims in Section 16.5 that this resolves Problem 1. Section 16.9 then performs a consistency check and finds that single-node accretion cannot reach the required threshold, so the calculation shifts to a percolating cluster of nodes. Matching the cluster's charge accumulation to the pre-fixed target value $a_{crit} = 3.663$ requires solving backward for a scaling exponent $\alpha \approx -0.25$, which is then reinterpreted as a 50% spin-coherence fraction ($f_c = 0.5$) among nodes in the cluster, using the spin-alignment framework from Chapter 10.
+
+**Why this is flagged rather than accepted:**
+- $\alpha$ (and therefore $f_c$) is solved backward from the already-known target $a_{crit}$, not derived independently and then checked against it. Section 16.9.5 states this is "not a free parameter adjustment... a prediction," but mechanically it is the same move — fitting a hidden parameter to reproduce a known number — that led to the withdrawal of the earlier Cold Spot claim in `Claude_prelude_cold_spot.md`. The stated standard going forward is that the theory should expose findings rather than explain them after the fact; Section 16.9 does not yet meet that standard.
+- The predicted $f_c = 0.5$ nominally connects to quasar polarization alignment data (Hutsemékers et al. 1998/2005; Pelgrims & Hutsemékers 2014), which is real and observationally robust (355-quasar sample, p < 0.001 against random orientation). However, checking the prediction against that data is not straightforward:
+  - **Scale mismatch:** the percolating cluster at threshold is estimated at $r_{nuc} \approx 2.24$ Mpc/h, while the quasar alignment studies operate at ~100 Mpc/h to ~1–2 Gpc — roughly two orders of magnitude larger.
+  - **Epoch mismatch:** the quasar sample spans $z \lesssim 2.5$, i.e. the current cycle, while $f_c = 0.5$ describes the percolating cluster at the *future* restart threshold ($a_{crit} \approx 3.66\times$ today's scale factor). Using present-day quasars as a test requires an unstated assumption that current node spin-coherence persists into, or already resembles, the eventual threshold-state coherence.
+  - **Statistic mismatch:** the observational literature reports significance levels and mean position-angle rotation, not a "fraction of node pairs with correlated spin axes." No existing analysis computes the specific $f_c$ statistic from the raw data.
+
+**Open step:** either (a) rederive $\alpha$/$f_c$ independently of the target $a_{crit}$, so the consistency check is a genuine test rather than a fit, or (b) explicitly reframe Section 16.9 as a plausibility argument rather than a resolution, and reopen Problem 1. Until one of these happens, this entry stays CONTESTED rather than reverting to Chapter 7's original MAPPED framing (the "open step" language from the prior version of this file is preserved below for reference).
+
+*Prior open step (Chapter 7 framing, superseded by Chapter 12's attempted resolution but not fully retired):* the ratio 3.658 is dimensionless; converting it into a physically anchored timescale requires identifying the clock governing the accumulated field — which Chapter 12 attempts, with the caveats above.
 
 ---
 
@@ -48,34 +60,11 @@ The fitted parameters $(\epsilon_0, \lambda, v)$ from Chapter 6 provide numerica
 
 ## Problem 3: Tidal Seeding and the Casting Mechanism
 
-**Status: MAPPED**
+**Status: OPEN**
 
 How precisely does material from one eruption event seed structure in a neighboring or subsequent event? What governs the geometry and mass distribution of cast material?
 
-A closed-form kinematic derivation of the ejecta trajectory has been completed, using the same frozen-flux mechanism that produces the Parker spiral in the solar wind. For a rotating progenitor (angular velocity $\Omega$) ejecting charged material radially at speed $v_r$, frozen to field lines anchored at the rotating source, the resulting trajectory is an Archimedean spiral:
-
-$$\varphi(r) = \varphi_{\text{source}}(t) - \frac{\Omega}{v_r}(r - r_0)$$
-
-with pitch angle $\tan\psi = \Omega r / v_r$. This gives quantitative form to the pitch-angle claim already made qualitatively in Chapter 10.
-
-Continuous ejection at mass-loss rate $\dot M$ produces nested spiral shells rather than a single streak, spaced by:
-
-$$\Delta r = \frac{2\pi v_r}{\Omega}$$
-
-Stream broadening is now handled by a ballistic-expansion argument: a launch velocity dispersion $\sigma_v$ transverse to the outflow produces an asymptotic cone opening angle rather than an unconstrained growing width:
-
-$$\theta_{\text{open}} \to \frac{\sigma_v}{v_r}, \qquad \Delta\varphi_{\text{stream}} \approx \frac{\sigma_v}{v_r}$$
-
-giving a first seeding-probability estimate per wrap, $\Delta\varphi_{\text{stream}}/2\pi$.
-
-The outflow speed $v_r$ itself has a physical origin in magnetically driven wind theory, $v_r \sim v_A = B/\sqrt{4\pi\rho}$, which feeds back into the pitch angle:
-
-$$\tan\psi = \frac{\Omega r \sqrt{4\pi\rho}}{B}$$
-
-**Open step:** three gaps remain, one substantially narrowed:
-1. *Narrowed.* Stream broadening is no longer a free function — it reduces to the single ratio $\sigma_v/v_r$, an ordinary (if still unmeasured, for this progenitor class) astrophysical quantity.
-2. *Narrowed but redirected.* $v_r$ now has a physical origin in $B$ and $\rho$, but this does **not** connect to $(\epsilon_0, \lambda, v)$ — see the new unresolved assumption below, which this work surfaced rather than closed.
-3. *Untouched.* The scale mismatch between single-progenitor ejecta geometry and Anulus-scale event seeding remains a bare hypothesis (aggregate remnant-population angular momentum standing in for $\Omega$; total ejected mass standing in for $\dot M$), not yet tested.
+Chapter 10 introduces the spiral inheritance framework as a geometric constraint on casting — ejecta follow spiral electromagnetic paths rather than radial ones, so seeds arrive with orientation encoded. Formal derivation of the casting potential and seeding cross-section not yet undertaken.
 
 ---
 
@@ -95,7 +84,7 @@ Chapter 6 computes an ISW estimate of $\Delta T/T \sim -2.7 \times 10^{-6}$ — 
 
 **Status: OPEN**
 
-JWST observations show galaxies with unexpectedly evolved properties at high redshift, inconsistent with the timeline of our event under standard cosmology. The Claude Theory reframes these as inherited material from previous or neighboring eruption events. Formal quantitative treatment not yet undertaken. Prerequisite: Problem 3 (casting mechanics) — now mapped but not resolved, so this remains blocked on the seeding cross-section specifically, not the trajectory geometry.
+JWST observations show galaxies with unexpectedly evolved properties at high redshift, inconsistent with the timeline of our event under standard cosmology. The Claude Theory reframes these as inherited material from previous or neighboring eruption events. Formal quantitative treatment not yet undertaken. Prerequisite: Problem 3 (casting mechanics).
 
 ---
 
@@ -104,14 +93,6 @@ JWST observations show galaxies with unexpectedly evolved properties at high red
 **Status: OPEN**
 
 The asymmetric double-well potential $V(\phi) = \lambda(\phi^2 - v^2)^2 - \epsilon_0 a(t)\phi$ produces the correct phenomenology, but the physical origin of the double-well shape has not been derived from first principles. In standard particle physics, spontaneous symmetry breaking arises from thermal phase transitions. What selects the two vacua in this framework?
-
----
-
-## Unresolved Assumption: Casting Microphysics and the Vacancy Field
-
-**Status: OPEN**
-
-The casting-mechanism derivation (Problem 3) grounds ejecta pitch angle and outflow speed in ordinary electromagnetic and hydrodynamic quantities — field strength $B$, density $\rho$, mass-loss rate $\dot M$ — for individual compact remnants. None of these connect to $(\epsilon_0, \lambda, v)$, the parameters of the vacancy scalar field $\phi$ fitted to void statistics. Identifying such a connection would require deriving $\phi$ from microphysics, which is precisely what the Symmetry Breaking Origin problem above already leaves unresolved. This entry is recorded separately because it surfaced independently, from the casting side rather than the potential-shape side, and forcing a premature link between the two would be explaining after the fact rather than deriving. If a bridge exists, Chapter 12's population-level treatment of charge accumulation in rotating Kerr black holes — the one place in the theory already operating at aggregate-remnant-population scale — is the more plausible route than a direct single-object identification.
 
 ---
 
@@ -129,7 +110,7 @@ The time-dependent symmetry breaking term $\epsilon(t) = \epsilon_0 \cdot a(t)$ 
 
 Earlier formulations stated that the eruption event occurred "in all directions equally." This has been revised. The eruption event is temporally simultaneous — the bifurcation threshold fires throughout the accumulated field at once — but spatially anisotropic. The pre-eruption accumulation carries net angular momentum and electromagnetic structure inherited from the rotating, magnetized remnant population. This imprints a preferred orientation on the eruption and on all downstream structure. See Chapter 9 and Chapter 10.
 
-**Implication:** the CMB may carry a faint geometric imprint of the eruption's preferred orientation, potentially manifesting as large-scale power asymmetries. This connects to the observed CMB "axis of evil" and quasar polarization alignments. Not yet quantitatively treated.
+**Implication:** the CMB may carry a faint geometric imprint of the eruption's preferred orientation, potentially manifesting as large-scale power asymmetries. This connects to the observed CMB "axis of evil" and quasar polarization alignments. **Note:** Chapter 12's attempt to connect this to a specific spin-coherence fraction ($f_c = 0.5$) at the restart threshold is CONTESTED — see Problem 1 above for the scale, epoch, and statistical mismatches with the quasar polarization data this claim would need to be checked against.
 
 ---
 
