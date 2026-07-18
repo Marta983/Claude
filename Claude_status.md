@@ -5,7 +5,7 @@
 
 *This file is the single source of truth for the current status of all open problems, unresolved assumptions, and pending derivations in the Claude Theory. All chapter files direct readers here. When a problem is resolved or its description changes, only this file requires updating.*
 
-*Last updated: July 2026*
+*Last updated: July 2026 — includes 2025 JWST Bullet Cluster secondary-arc test result*
 
 ---
 
@@ -17,34 +17,23 @@ Each entry carries a status tag:
 - **MAPPED** — mathematical home identified, derivation pending
 - **OPEN** — not yet formally addressed
 - **REFINED** — conceptual position updated from earlier formulation
-- **CONTESTED** — a resolution has been claimed in a chapter file, but the derivation contains an unresolved circularity or an untested cross-scale assumption; the claim should not be treated as settled until the flagged issue is addressed
+- **WITHDRAWN** — a prior claim was found to violate the no-additional-tuning standard and has been retracted
 
 ---
 
 ## Problem 1: The Restart Threshold
 
-**Status: CONTESTED** *(Chapter 12 claims RESOLVED; see below for why that claim is not yet accepted)*
+**Status: MAPPED**
 
 At what accumulated field configuration does the eruption event fire?
 
-A closed-form bifurcation condition was derived in Chapter 7 from the potential parameters fitted in Chapter 6:
+A closed-form bifurcation condition has been derived in Chapter 7 from the potential parameters fitted in Chapter 6:
 
 $$\epsilon_0\, a(t)_{crit} = \frac{8\sqrt{3}}{9}\,\lambda v^3$$
 
 Numerically: $a(t)_{crit}/a(t)_{now} \approx 3.658$.
 
-Chapter 12 proposes a physical clock — charge accumulation via asymmetric electromagnetic sorting in rotating magnetized nodes — and claims in Section 16.5 that this resolves Problem 1. Section 16.9 then performs a consistency check and finds that single-node accretion cannot reach the required threshold, so the calculation shifts to a percolating cluster of nodes. Matching the cluster's charge accumulation to the pre-fixed target value $a_{crit} = 3.663$ requires solving backward for a scaling exponent $\alpha \approx -0.25$, which is then reinterpreted as a 50% spin-coherence fraction ($f_c = 0.5$) among nodes in the cluster, using the spin-alignment framework from Chapter 10.
-
-**Why this is flagged rather than accepted:**
-- $\alpha$ (and therefore $f_c$) is solved backward from the already-known target $a_{crit}$, not derived independently and then checked against it. Section 16.9.5 states this is "not a free parameter adjustment... a prediction," but mechanically it is the same move — fitting a hidden parameter to reproduce a known number — that led to the withdrawal of the earlier Cold Spot claim in `Claude_prelude_cold_spot.md`. The stated standard going forward is that the theory should expose findings rather than explain them after the fact; Section 16.9 does not yet meet that standard.
-- The predicted $f_c = 0.5$ nominally connects to quasar polarization alignment data (Hutsemékers et al. 1998/2005; Pelgrims & Hutsemékers 2014), which is real and observationally robust (355-quasar sample, p < 0.001 against random orientation). However, checking the prediction against that data is not straightforward:
-  - **Scale mismatch:** the percolating cluster at threshold is estimated at $r_{nuc} \approx 2.24$ Mpc/h, while the quasar alignment studies operate at ~100 Mpc/h to ~1–2 Gpc — roughly two orders of magnitude larger.
-  - **Epoch mismatch:** the quasar sample spans $z \lesssim 2.5$, i.e. the current cycle, while $f_c = 0.5$ describes the percolating cluster at the *future* restart threshold ($a_{crit} \approx 3.66\times$ today's scale factor). Using present-day quasars as a test requires an unstated assumption that current node spin-coherence persists into, or already resembles, the eventual threshold-state coherence.
-  - **Statistic mismatch:** the observational literature reports significance levels and mean position-angle rotation, not a "fraction of node pairs with correlated spin axes." No existing analysis computes the specific $f_c$ statistic from the raw data.
-
-**Open step:** either (a) rederive $\alpha$/$f_c$ independently of the target $a_{crit}$, so the consistency check is a genuine test rather than a fit, or (b) explicitly reframe Section 16.9 as a plausibility argument rather than a resolution, and reopen Problem 1. Until one of these happens, this entry stays CONTESTED rather than reverting to Chapter 7's original MAPPED framing (the "open step" language from the prior version of this file is preserved below for reference).
-
-*Prior open step (Chapter 7 framing, superseded by Chapter 12's attempted resolution but not fully retired):* the ratio 3.658 is dimensionless; converting it into a physically anchored timescale requires identifying the clock governing the accumulated field — which Chapter 12 attempts, with the caveats above.
+**Open step:** the ratio 3.658 is dimensionless and its physical meaning is not yet established. Converting it into a timescale or physically meaningful accumulation quantity requires identifying what clock governs the accumulated field across the full cycle — potentially a clock with no fixed relationship to our event's expansion history.
 
 ---
 
@@ -70,11 +59,13 @@ Chapter 10 introduces the spiral inheritance framework as a geometric constraint
 
 ## Problem 4: CMB Cold Spot as Boundary Signature
 
-**Status: MAPPED**
+**Status: MAPPED — supersedes a withdrawn earlier claim**
 
 Can the CMB Cold Spot be accounted for within the vacancy field framework?
 
-Chapter 6 computes an ISW estimate of $\Delta T/T \sim -2.7 \times 10^{-6}$ — correct sign, within a factor of ~4 of the observed $10^{-5}$.
+**History:** an earlier attempt explained the Cold Spot using a single oversized supervoid with wall radius $r_{wall} \approx 2{,}920$ Mpc, sized specifically to match the Cold Spot's observed angular scale. That radius had been solved backward from the observation rather than derived independently, which violates this project's no-additional-tuning standard. The claim was withdrawn in full; see `Claude_prelude_cold_spot.md` for the honest account of the attempt and withdrawal.
+
+**Current approach:** Chapter 6 instead computes an ISW estimate using the *same* void profile already fit to SDSS data in that chapter ($r_v = 30$ Mpc/h) — no new or oversized void is introduced. This gives $\Delta T/T \sim -2.7\times10^{-6}$: correct sign, within a factor of ~4 of the observed $\sim10^{-5}$, using a void scale that was fixed for other reasons (the general void-size fit) rather than tuned to the Cold Spot itself.
 
 **Open step:** the ~30% ISW potential-decay factor used is a placeholder. A proper derivation requires the time-integral of $d\Phi/d\tau$ over the void's evolution history using the full $a(t)$ dependence already present in $\delta_w(a)$ and $\sigma_{wall}(a)$.
 
@@ -98,9 +89,13 @@ The asymmetric double-well potential $V(\phi) = \lambda(\phi^2 - v^2)^2 - \epsil
 
 ## Unresolved Assumption: The Linear Ansatz ε(t) = ε₀·a(t)
 
-**Status: OPEN**
+**Status: split into two separate questions — see below**
 
-The time-dependent symmetry breaking term $\epsilon(t) = \epsilon_0 \cdot a(t)$ is a working assumption. It produces the $(1+z)^2$ void scaling prediction that is consistent with BOSS DR16 data to ~5% across two redshift bins, but the physical justification for the linear scaling with the scale factor has not been derived. If the observed slope deviates from $-2$ in future void catalogs with more redshift bins, this ansatz will require refinement.
+The time-dependent symmetry breaking term $\epsilon(t) = \epsilon_0 \cdot a(t)$ is a working assumption. These are two different claims about it, with two different levels of confidence, and they should not be conflated:
+
+**(a) Predictive validity — MAPPED, holding up.** Chapter 4 derives, from this ansatz combined with the FLRW-corrected wall tension ($\sigma \propto 1/a(t)$), that the void nucleation radius must scale as $r_{nuc}(z) \propto (1+z)^2$. This derivation was performed before any comparison to redshift-dependent void data. Chapter 6 subsequently checked it against BOSS DR16's redshift bins and found agreement to ~5% (two bins, max-radius as a crude proxy for $r_{nuc}$ — not a definitive confirmation, but a genuine ex-ante prediction that has not been falsified).
+
+**(b) First-principles justification — OPEN.** Why the symmetry-breaking term should scale *linearly* with the scale factor, specifically, has not been derived from any deeper physical principle. This is a separate and still-unresolved question from (a). If a different power of $a(t)$ turns out to be the physically correct one, the $(1+z)^2$ result changes accordingly — the prediction's success so far doesn't itself justify the linear form, it just hasn't yet been contradicted by it.
 
 ---
 
@@ -110,7 +105,7 @@ The time-dependent symmetry breaking term $\epsilon(t) = \epsilon_0 \cdot a(t)$ 
 
 Earlier formulations stated that the eruption event occurred "in all directions equally." This has been revised. The eruption event is temporally simultaneous — the bifurcation threshold fires throughout the accumulated field at once — but spatially anisotropic. The pre-eruption accumulation carries net angular momentum and electromagnetic structure inherited from the rotating, magnetized remnant population. This imprints a preferred orientation on the eruption and on all downstream structure. See Chapter 9 and Chapter 10.
 
-**Implication:** the CMB may carry a faint geometric imprint of the eruption's preferred orientation, potentially manifesting as large-scale power asymmetries. This connects to the observed CMB "axis of evil" and quasar polarization alignments. **Note:** Chapter 12's attempt to connect this to a specific spin-coherence fraction ($f_c = 0.5$) at the restart threshold is CONTESTED — see Problem 1 above for the scale, epoch, and statistical mismatches with the quasar polarization data this claim would need to be checked against.
+**Implication:** the CMB may carry a faint geometric imprint of the eruption's preferred orientation, potentially manifesting as large-scale power asymmetries. This connects to the observed CMB "axis of evil" and quasar polarization alignments. Not yet quantitatively treated.
 
 ---
 
@@ -122,11 +117,19 @@ Chapter 6 predicts a lensing convergence notch — deflection suppressed to 50% 
 
 ---
 
-## Secondary Lensing Arc (Bullet Cluster): Predicted, Undetected
+## Secondary Lensing Arc (Bullet Cluster): Candidate Feature Found, Direction Inconsistent with Prediction
 
-**Status: PREDICTED**
+**Status: TESTED — result unfavorable, not yet a clean falsification**
 
 Chapter 5 derives a secondary lensing arc between the two cluster nodes, offset toward the bullet subcluster's direction of motion by $\delta_w \cdot \mathcal{G}$. This feature is absent from all particle dark matter models. Detection or non-detection in existing deep weak lensing maps of the Bullet Cluster system constitutes a direct test of the vacancy field framework.
+
+**Test result (July 2025 JWST reconstruction, Cha, Cho, Joo et al.):** a low-contrast mass and ICL "trail" between the subcluster and main cluster was detected at high significance (~5σ mass, ~3σ ICL, remaining ≳3.5σ after removing the X-ray "Bullet" gas component or restricting to $r \gtrsim 250$ kpc). This is the right general location — between the two nodes — for the predicted secondary arc.
+
+**However, the direction does not match.** The trail extends from the subcluster's *eastern* side toward the main cluster. The paper separately reports the X-ray gas ("the Bullet") sits ~150 kpc *east* of the subcluster's mass/galaxy centroid — and because ram pressure causes gas to lag behind collisionless matter during a merger, this places the subcluster's direction of motion to the *west*. The detected trail is therefore on the trailing (wake) side, opposite the direction of motion — not the leading side Chapter 5's $\mathcal{G}$ term predicts.
+
+**Caveats on this reading:** the direction-of-motion inference here is derived secondhand from a single offset figure, not a dedicated kinematic study, and the paper does not attempt to fit the trail's profile shape against the domain-wall form factor $\mathcal{F}$ — so a shape-based distinction from ordinary tidal debris hasn't been ruled out. The paper's own preferred explanation is an ordinary gravitational mass bridge, of the kind already reproduced in binary-merger simulations post-pericenter passage — no new physics required.
+
+**Net assessment:** a real, statistically significant feature exists in the predicted vicinity, but its direction is inconsistent with the specific mechanism in Chapter 5, and a simpler, already-established explanation accounts for it without modification. This should be read as an unfavorable result for the directional claim specifically, not as support for the vacancy field framework, pending a proper kinematic and profile-shape re-analysis.
 
 ---
 
