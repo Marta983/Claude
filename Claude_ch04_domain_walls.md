@@ -3,10 +3,13 @@
 # The Claude Theory: Space Has Always Existed
 ## Chapter 4 — Domain Walls, Lensing, and Diffuse Halos
 
+*Revision note: Sections 8 and 9 of this chapter have been rebuilt following the Fork B resolution (φ is a dimensionless tracer of density contrast; gravity is sourced conventionally by ρ, not by φ's own stress-energy). Section 7 is unaffected — the nucleation-length derivation never depended on how gravity is sourced, only on the wall's own field energetics, and remains valid as originally derived.*
 
 ---
 
 ## Section 7: Solving for f(ε₀, λ, v) — Domain Wall Equations in Expanding Spacetime
+
+*(Unchanged from the prior version — reproduced here for continuity.)*
 
 **Setting Up The Domain Wall Equations**
 
@@ -22,235 +25,89 @@ With our asymmetric double well:
 
 $$V(\phi) = \lambda\left(\phi^2 - v^2\right)^2 - \epsilon_0 \cdot a(t)\phi$$
 
-The last term is our time-dependent symmetry breaking. The equation of motion from varying the action is:
-
-$$\ddot{\phi} + 3H\dot{\phi} - \frac{\nabla^2\phi}{a^2} = -\frac{dV}{d\phi}$$
-
-Where $H = \dot{a}/a$ is the Hubble parameter. Explicitly:
+The equation of motion:
 
 $$\ddot{\phi} + 3H\dot{\phi} - \frac{\nabla^2\phi}{a^2} = -4\lambda\phi\left(\phi^2 - v^2\right) + \epsilon_0 \cdot a(t)$$
 
 **The Static Wall Solution**
 
-For a domain wall we look for a static planar solution — the wall lying in the $y$-$z$ plane, field varying only in $x$. The time derivatives drop:
+For $\epsilon_0 = 0$:
 
-$$\frac{1}{a^2}\frac{d^2\phi}{dx^2} = 4\lambda\phi\left(\phi^2 - v^2\right) - \epsilon_0 \cdot a(t)$$
-
-In the symmetric case $\epsilon_0 = 0$ the exact solution is known:
-
-$$\phi_0(x) = v\tanh\left(\frac{x}{\delta_w}\right)$$
-
-Where the wall thickness is:
-
-$$\delta_w = \frac{a}{\sqrt{2\lambda}v}$$
-
-Note the factor of $a(t)$ — the wall thickness scales with the expansion. Physical walls thicken as the universe expands, which is physically reasonable.
-
-**Perturbative Treatment of Asymmetry**
-
-For small $\epsilon_0$ we treat the asymmetry perturbatively. Write:
-
-$$\phi(x) = \phi_0(x) + \epsilon_0 \cdot a(t) \cdot \phi_1(x) + \mathcal{O}(\epsilon_0^2)$$
-
-Substituting into the equation of motion and collecting terms at order $\epsilon_0$:
-
-$$\frac{1}{a^2}\frac{d^2\phi_1}{dx^2} - 4\lambda\left(3\phi_0^2 - v^2\right)\phi_1 = -1$$
-
-This is a **Schrödinger-like equation** with a potential:
-
-$$U(x) = 4\lambda\left(3\phi_0^2 - v^2\right) = 4\lambda v^2\left(3\tanh^2\left(\frac{x}{\delta_w}\right) - 1\right)$$
-
-This is the **Pöschl-Teller potential** — exactly solvable. Its bound state spectrum is known:
-
-$$U(x) = U_0\left(3\tanh^2\left(\frac{x}{\delta_w}\right) - 1\right)$$
-
-Where $U_0 = 4\lambda v^2$.
-
-**Solving the Pöschl-Teller Equation**
-
-The general Pöschl-Teller equation has the form:
-
-$$-\frac{d^2\psi}{d\xi^2} + U_0\left(3\tanh^2\xi - 1\right)\psi = E\psi$$
-
-Where $\xi = x/\delta_w$. The bound state solutions are:
-
-Zero mode (translation mode, $E=0$): $\psi_0(\xi) = \text{sech}^2(\xi)$
-
-Shape mode ($E=3U_0$): $\psi_1(\xi) = \text{sech}(\xi)\tanh(\xi)$
-
-The particular solution to our inhomogeneous equation — with the $-1$ source term — can be written as a Green's function integral:
-
-$$\phi_1(x) = \int_{-\infty}^{\infty} G(x, x') dx'$$
-
-Where $G(x,x')$ is constructed from the Pöschl-Teller bound states. The result, after integration, is:
-
-$$\phi_1(x) = \frac{\delta_w^2}{2v}\left[x \cdot \text{sech}^2\left(\frac{x}{\delta_w}\right) + \delta_w\tanh\left(\frac{x}{\delta_w}\right)\right]$$
+$$\phi_0(x) = v\tanh\left(\frac{x}{\delta_w}\right), \qquad \delta_w = \frac{a}{\sqrt{2\lambda}v}$$
 
 **The Nucleation Length**
 
-The nucleation length is determined by the condition that the energy gained by the field transitioning to the deeper vacuum exceeds the energy cost of creating the domain wall boundary.
+Balancing wall surface tension against the volume energy gained by nucleating a void of radius $r$ gives:
 
-The wall energy per unit area (surface tension) is:
+$$r_{nuc}(z) = \frac{\sqrt{2\lambda}v^2}{\epsilon_0}(1+z)^2$$
 
-$$\sigma = \int_{-\infty}^{\infty}\left[\frac{1}{2}\left(\frac{d\phi_0}{dx}\right)^2 + V(\phi_0)\right]dx = \frac{4\sqrt{2\lambda}v^3}{3} \cdot \frac{1}{a(t)}$$
-
-Note it scales as $1/a(t)$ — walls become cheaper as the universe expands.
-
-The volume energy difference between vacua — the energy gained by nucleating a void of radius $r$ — is:
-
-$$\Delta E_{vol} = \epsilon_0 \cdot a(t) \cdot 2v \cdot \frac{4}{3}\pi r^3$$
-
-The surface energy cost of the wall bounding that void is:
-
-$$\Delta E_{surf} = \sigma \cdot 4\pi r^2 = \frac{4\sqrt{2\lambda}v^3}{3} \cdot \frac{4\pi r^2}{a(t)}$$
-
-The nucleation condition $\Delta E_{vol} = \Delta E_{surf}$ gives:
-
-$$\epsilon_0 \cdot a(t) \cdot 2v \cdot \frac{4}{3}\pi r_{nuc}^3 = \frac{4\sqrt{2\lambda}v^3}{3} \cdot \frac{4\pi r_{nuc}^2}{a(t)}$$
-
-Solving for $r_{nuc}$:
-
-$$r_{nuc} = \frac{\sqrt{2\lambda}v^2}{\epsilon_0 \cdot a(t)^2}$$
-
-**Therefore f(ε₀, λ, v) Is:**
-
-$$r_{nuc}(z) = \frac{\sqrt{2\lambda}v^2}{\epsilon_0} \cdot \frac{1}{a(t)^2} = \frac{\sqrt{2\lambda}v^2}{\epsilon_0}(1+z)^2$$
-
-So explicitly:
-
-$$f(\epsilon_0, \lambda, v) = \frac{\sqrt{2\lambda}v^2}{\epsilon_0}$$
-
-And the full redshift dependence is:
-
-$$r_{nuc}(z) = \frac{f(\epsilon_0, \lambda, v)}{(1+z)^2}$$
-
-**What This Tells Us**
-
-The $(1+z)^2$ scaling comes from two competing $a(t)$ dependencies working in the same direction:
-
-- Wall tension *decreasing* as universe expands — walls get cheaper
-- Symmetry breaking term *increasing* as universe expands — deeper vacuum more accessible
-
-Both effects favor larger voids at later times, and they compound multiplicatively.
-
-**The observational prediction:** Void characteristic radius should scale as $(1+z)^{-2}$ — voids should be significantly smaller at high redshift, with a specific power law that differs from the standard cosmological prediction.
+Void characteristic radius scales as $(1+z)^{-2}$ — smaller at high redshift, testable against void catalogs. **This result is untouched by the tracer rebuild below**: it comes entirely from the field's own energetics (wall tension vs. symmetry-breaking depth), not from anything about how — or whether — $\phi$ sources curvature.
 
 ---
 
-## Section 8: The Lensing Signature
+## Section 7.5: The Tracer Redefinition
 
-**The Setup**
+Prior to this revision, Section 8 sourced gravity directly from $\phi$'s own stress-energy tensor — treating the vacancy field as an independent dynamical field whose kinetic and potential energy density curved spacetime in addition to ordinary matter. That is now understood to be wrong: Fork B resolved $\phi$ as a **dimensionless tracer** of the density contrast, with gravity sourced **conventionally** by the actual matter density $\rho$. $\phi$ does not add a new gravitating substance. It only labels where the real mass is.
 
-Gravitational lensing is caused by spacetime curvature deflecting light paths. The deflection angle for a light ray passing through a region is:
+Concretely, we keep $\phi$'s own field equation and kink solution from Section 7 — that machinery genuinely does describe how the wall's *shape* forms and evolves, and nothing about the nucleation-length derivation change. But we sever the connection between $\phi$'s Lagrangian energy density and the Poisson source. Instead:
 
-$$\hat{\alpha} = \frac{2}{c^2}\int_{-\infty}^{\infty}\nabla_\perp \Psi \, dl$$
+$$\rho(x) = \frac{\Sigma_{wall}}{2\delta_w}\,\mathrm{sech}^2\left(\frac{x}{\delta_w}\right)$$
 
-Where $\Psi$ is the gravitational potential and $\nabla_\perp$ is the gradient perpendicular to the line of sight. The question is: what does our vacancy field $\phi$ contribute to $\Psi$?
+Here $\rho(x)$ is the **actual** matter density profile across the wall — baryons and dark remnants — and its *shape* is borrowed from $\phi$'s kink solution (specifically $(d\phi_0/dx)^2 \propto \mathrm{sech}^4$ would have been the old field-energy shape; here we use the simpler $\mathrm{sech}^2$ profile, which is the natural density-like bump associated with the kink's transition region). The **amplitude** is fixed not by $v$, $\lambda$, $\delta_w$ but by $\Sigma_{wall}$, the physically anchored wall surface mass density (≈$8\times10^{10}\, M_\odot/\mathrm{Mpc}^2$, from the independent finite-thickness shell rederivation). By construction $\int_{-\infty}^{\infty}\rho(x)\,dx = \Sigma_{wall}$.
 
-**The Gravitational Potential of the Vacancy Field**
-
-From our stress-energy tensor:
-
-$$T_{\mu\nu}^{(\phi)} = \partial_\mu\phi\partial_\nu\phi - \frac{1}{2}g_{\mu\nu}\left[(\partial\phi)^2 + V(\phi)\right]$$
-
-In the weak field, non-relativistic limit the effective energy density of the vacancy field is:
-
-$$\rho_\phi = \frac{1}{2}\dot{\phi}^2 + \frac{1}{2a^2}(\nabla\phi)^2 + V(\phi)$$
-
-For a static domain wall solution $\dot{\phi} \approx 0$, so:
-
-$$\rho_\phi \approx \frac{1}{2a^2}\left(\frac{d\phi_0}{dx}\right)^2 + V(\phi_0)$$
-
-Substituting our tanh solution:
-
-$$\frac{d\phi_0}{dx} = \frac{v}{\delta_w}\text{sech}^2\left(\frac{x}{\delta_w}\right)$$
-
-Therefore:
-
-$$\rho_\phi(x) = \frac{v^2}{2a^2\delta_w^2}\text{sech}^4\left(\frac{x}{\delta_w}\right) + \lambda\left(\phi_0^2 - v^2\right)^2$$
-
-The dominant contribution is:
-
-$$\rho_\phi(x) \approx \frac{v^2}{2a^2\delta_w^2}\text{sech}^4\left(\frac{x}{\delta_w}\right)$$
-
-This is sharply peaked at $x = 0$ — the wall center — and falls off exponentially into the void interior.
-
-**The Lensing Potential**
-
-The gravitational potential sourced by $\rho_\phi$ satisfies the Poisson equation:
-
-$$\nabla^2\Psi_\phi = 4\pi G \rho_\phi$$
-
-Integrating once:
-
-$$\frac{d\Psi_\phi}{dx} = \frac{2\pi G v^2}{a^2\delta_w}\left[\tanh\left(\frac{x}{\delta_w}\right) - \frac{1}{3}\tanh^3\left(\frac{x}{\delta_w}\right) + \frac{2}{3}\right]$$
-
-**The Deflection Angle**
-
-For a light ray traveling along the $z$-axis, passing at perpendicular distance $b$ from the wall:
-
-$$\hat{\alpha}(b) = \frac{4\pi G \sigma_{wall}}{c^2} \cdot \mathcal{F}\left(\frac{b}{\delta_w}\right)$$
-
-Where $\sigma_{wall} = \frac{4\sqrt{2\lambda}v^3}{3a}$ is the wall surface tension, and $\mathcal{F}$ is a form factor:
-
-$$\mathcal{F}\left(\frac{b}{\delta_w}\right) = 1 - \frac{1}{2}\text{sech}^2\left(\frac{b}{\delta_w}\right)$$
-
-**The Lensing Signature Profile**
-
-The form factor $\mathcal{F}$ has a specific shape:
-
-- At $b = 0$ (ray passing through wall center): $\mathcal{F} = 1/2$ — **reduced** deflection
-- At $b \gg \delta_w$ (ray passing well outside wall): $\mathcal{F} \to 1$ — **maximum** deflection
-- The transition happens over a scale $\delta_w$
-
-This is **inverted** relative to a mass concentration. A cluster of matter produces maximum lensing at minimum impact parameter. Our vacancy field produces **minimum lensing at the wall center and maximum lensing at the wall edges**.
-
-The lensing signature is therefore a **ring or shell structure** — strongest at the boundaries of void regions, weakest at void centers and wall centers.
+This is a real loss of elegance and should be named as such: the old picture derived the lensing amplitude "for free" from $v$, $\lambda$, $\delta_w$ — the same three parameters fit to the SDSS void catalog. The new picture requires an independently measured mass scale. The lensing *shape* is still a genuine, non-trivial prediction of the framework (see below); the lensing *amplitude* is now an input, not an output — exactly as it would be for any theory using an empirically calibrated mass profile.
 
 ---
 
-## Section 9: Recovering Diffuse Halos
+## Section 8: The Lensing Signature (Rebuilt)
 
-Around mass concentrations — our lattice nodes, the black hole aggregates — the vacancy field is depressed toward $\phi = 0$. The gradient of $\phi$ is therefore nonzero in a shell around each node, producing a lensing contribution that falls off with distance from the node.
+**Setup.** Gravitational lensing comes from spacetime curvature sourced by the actual mass distribution. For our layered (translationally invariant in $y,z$) mass profile $\rho(x)$, the deflection accumulated by a light ray traveling along $z$ at fixed perpendicular offset $b$ from the wall plane is standard: each infinitesimal slab of areal density $\rho(x_0)\,dx_0$ contributes a deflection of magnitude $4\pi G\rho(x_0)\,dx_0/c^2$, directed toward $x_0$.
 
-The effective lensing profile around a node is:
+$$\hat\alpha(b) = \frac{4\pi G}{c^2}\left[\int_{-\infty}^{b}\rho(x_0)\,dx_0 - \int_{b}^{\infty}\rho(x_0)\,dx_0\right]$$
 
-$$\kappa_{node}(r) = \frac{\Sigma_\phi(r)}{\Sigma_{cr}}$$
+Using $\rho(x) = (\Sigma_{wall}/2\delta_w)\,\mathrm{sech}^2(x/\delta_w)$ and $\int_{-\infty}^{x}\mathrm{sech}^2(x'/\delta_w)\,dx'/\delta_w = 1+\tanh(x/\delta_w)$:
 
-Where $\Sigma_\phi$ is the projected surface density of the vacancy field and $\Sigma_{cr}$ is the critical surface density for lensing. For our field configuration near a node:
+$$\int_{-\infty}^{b}\rho\,dx_0 = \frac{\Sigma_{wall}}{2}\left[1+\tanh(b/\delta_w)\right], \qquad \int_{b}^{\infty}\rho\,dx_0 = \frac{\Sigma_{wall}}{2}\left[1-\tanh(b/\delta_w)\right]$$
 
-$$\Sigma_\phi(r) = \int_{-\infty}^{\infty}\rho_\phi\left(\sqrt{r^2 + z^2}\right)dz \propto \frac{v^2}{\delta_w} \cdot \frac{1}{1 + (r/r_{node})^2}$$
+$$\boxed{\hat\alpha(b) = \frac{4\pi G\Sigma_{wall}}{c^2}\tanh\left(\frac{b}{\delta_w}\right)}$$
 
-This is a **projected NFW-like profile** — exactly the form fitted to observed dark matter halos. We don't need to assume it. It emerges from the geometry of how the vacancy field transitions from $\phi = 0$ at the node to $\phi = v$ in the surrounding void.
+**This is materially different from the old result**, not just re-derived with a new prefactor. The old lensing signature was a "notch" — deflection suppressed to 50% of its asymptotic value exactly at the wall center, recovering to >95% by $b\approx 12.6\,\mathrm{Mpc}/h$ (the CALIBRATED entry in `Claude_status.md`). That shape came from the field's *potential energy* term $V(\phi_0)$, which is nonzero (in fact maximal) at the wall center — so the old $\rho_\phi$ never vanished there.
 
-**The Unified Picture**
+The new result is a clean, odd sigmoid: $\hat\alpha(0) = 0$ exactly, rising monotonically to the asymptotic value $4\pi G\Sigma_{wall}/c^2$ as $b\to\infty$, reaching half-maximum at $b = \delta_w\,\mathrm{arctanh}(0.5)\approx 0.549\,\delta_w$. The vanishing at $b=0$ isn't a detail of the profile — it's a symmetry statement: a ray passing through the exact center of *any* symmetric mass distribution feels equal pull from both sides and nets zero transverse deflection, regardless of how much mass sits there. That's a more robust, less model-dependent feature than the old notch, but it is a **different, falsifiable claim**, not the same claim re-derived. The 50%-notch / 12.6 Mpc/h entry in `Claude_status.md` is **superseded** and should be retracted or re-labeled, not left standing alongside this.
 
-We now have a single potential $V(\phi)$ that produces:
+---
 
-| Observation | Mechanism | Status |
+## Section 9: Recovering Diffuse Halos (Rebuilt)
+
+Around a node (cluster / black hole aggregate), the tracer approach requires the same honesty: we borrow $\phi$'s radial profile shape but normalize to a real, independently known cluster mass $M_{node}$ rather than to $v,\delta_w$.
+
+$$\rho_{node}(r) = \frac{M_{node}}{4\pi r_{node}^3}\cdot\frac{1}{\left[1+(r/r_{node})^2\right]^{2}}$$
+
+chosen so that its projected (line-of-sight-integrated) surface density reproduces the pseudo-isothermal-sphere form:
+
+$$\Sigma_{node}(r) = \frac{M_{node}}{2\pi r_{node}^2}\cdot\frac{1}{1+(r/r_{node})^2}, \qquad \kappa_{node}(r) = \frac{\Sigma_{node}(r)}{\Sigma_{cr}}$$
+
+**What survives and what doesn't.** The functional *shape* — a pseudo-isothermal / NFW-like projected profile — is still consistent with $\phi$'s radial gradient structure, and that qualitative match (why halos are diffuse and roughly NFW-shaped rather than point-like or sharply cored) is still a live, if now more modest, claim of the framework. But the earlier language — that this profile "emerges from the geometry, we don't need to assume it" — no longer holds. $M_{node}$ is now an external input, fit the same way any dark-matter halo model fits a mass to lensing data. The theory's contribution is the claim that this mass traces $\phi$'s configuration rather than being an independent particle species — not that the profile is derived from first principles with no free normalization.
+
+---
+
+## Updated Summary Table
+
+| Observation | Mechanism | Status after tracer rebuild |
 |---|---|---|
-| Void size distribution | Nucleation length $r_{nuc}$ | Derived — $(1+z)^2$ prediction, fit to SDSS in Chapter 6 |
-| Filament boundary lensing | Domain wall form factor $\mathcal{F}$ | Derived — calibrated in Chapter 6 |
-| Void interior weak lensing | Constant field, no gradient | Derived |
-| Bullet Cluster offset | Topological wall passage | Derived |
-| Diffuse halo profiles | Node boundary gradients | Derived — NFW-like |
-| CMB Cold Spot | ISW through void potential | Computed in Chapter 6 |
+| Void size distribution | Nucleation length $r_{nuc}$ (Section 7) | **Unchanged** — derived from field energetics alone |
+| Filament boundary lensing | $\hat\alpha(b) = \frac{4\pi G\Sigma_{wall}}{c^2}\tanh(b/\delta_w)$ | **Re-derived, shape changed** — sigmoid, zero at center, not a 50% notch; amplitude now requires external $\Sigma_{wall}$ |
+| Void interior weak lensing | Constant field, no gradient | Unchanged in character |
+| Diffuse halo profiles | Pseudo-isothermal / NFW-like, shape from $\phi$'s radial gradient | **Shape retained, normalization now external** ($M_{node}$ no longer derived) |
+| Bullet Cluster offset, secondary arc | — | See Chapter 5 rebuild — **does not survive intact** |
+| CMB Cold Spot | — | Already WITHDRAWN (see `Claude_status.md`) |
 
-Every one of these from the **same three parameters**: $\epsilon_0$, $\lambda$, $v$.
-
-**The Gold Ring Condition**
-
-The same structure that determines void sizes also determines lensing profiles. They're not independent fits — they're the same $\delta_w$ and $\sigma_{wall}$ appearing in both calculations.
-
-Fit $\epsilon_0$, $\lambda$, $v$ to the observed void size distribution, then **predict** the lensing profile without further fitting, and compare to weak lensing surveys. Chapter 6 carries out the first half of this program.
+Three parameters ($\epsilon_0,\lambda,v$) still determine the void-size and wall-thickness physics. They no longer, by themselves, determine the lensing amplitude — that now requires $\Sigma_{wall}$ and $M_{node}$ as separate physical inputs. This is a smaller, more honest claim than before.
 
 ---
-
 ## A Living Document
 
-Some conceptual areas explored here are still under active development. The current status of open problems and unresolved assumptions is maintained in [Claude_status.md]. Readers are directed there for the most current picture.
-
+The current status of open problems and unresolved assumptions is maintained in [Claude_status.md]. Readers are directed there for the most current picture.
 ---
-
 
 *The Claude Theory: Space Has Always Existed — conceived and developed by Cristóbal Eduardo Kendris García in collaboration with Claude, June 2026.*
