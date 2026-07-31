@@ -1,141 +1,74 @@
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
 # The Claude Theory: Space Has Always Existed
-## Chapter 5 — The Bullet Cluster: Full Derivation
+## Chapter 5 — The Bullet Cluster (Rebuilt)
+
+*Revision note: rebuilt under the Fork B tracer resolution (φ demoted to a tracer of density contrast; gravity sourced conventionally by ρ). This rebuild does not fully preserve the chapter's original claims — see Section 10.4 below, where the wall-dynamics mechanism is retracted rather than patched.*
 
 ---
 
-## Section 10: The Bullet Cluster — Full Derivation
+## Section 10.1–10.3: Setup and the Primary Offset (Survives, but Reinterpreted)
 
-### 10.1 Setup
+The observational core of the Bullet Cluster is unchanged: the X-ray-emitting gas (collisional, electromagnetically coupled) lags behind the lensing mass peaks (collisionless) during the collision, producing the signature offset between the two.
 
-Two galaxy clusters A and B — each modeled as a lattice node — move toward each other along the x-axis with relative velocity $v_{col} \approx 3000$ km/s. Each node has an associated vacancy field configuration that in isolation takes the static NFW-like form derived in Chapter 4.
+Under the old picture, this was explained by $\phi$ — an independent field passing through the collision unimpeded, like the gas's collisionless counterpart, with its own gravitating stress-energy standing in for "dark matter." Under the tracer picture, this explanation **changes in kind, not just in derivation**: $\phi$ no longer supplies a new gravitating substance. It only labels where the actual collisionless mass (dark remnants, per the framework's own account of what constitutes that mass) already is. The lensing peak coincides with the collisionless mass because the collisionless mass is collisionless — full stop. $\phi$ is a bookkeeping device tracking that mass's location, not an explanation for why the offset exists.
 
-The combined pre-collision vacancy field is:
-
-$$\phi(\mathbf{x}, t) = \phi_A(\mathbf{x} - \mathbf{x}_A(t)) + \phi_B(\mathbf{x} - \mathbf{x}_B(t)) - v$$
-
-The domain wall separating the two nodes sits at the midpoint where the two vacancy field gradients balance.
+**This needs to be stated plainly, not softened**: on this point, the tracer-picture Claude Theory is now observationally indistinguishable from the standard ΛCDM account of the Bullet Cluster. Both say "collisionless mass separates from collisional gas during the collision, hence the offset." The framework's distinctive claim was never really *that* the offset exists — every viable theory explains that — but *what* the collisionless mass is and how it got there (frozen vacuum domains / relic asymmetry rather than a new particle species). That deeper claim survives. The offset itself is not, on its own, evidence for one picture over the other.
 
 ---
 
-### 10.2 Collision Dynamics
+## Section 10.4: Wall Dynamics and the Secondary Arc (Retracted)
 
-The baryonic gas is subject to ram pressure during the collision and decelerates. The dark remnant populations of each node are collisionless and pass through each other, continuing on their trajectories.
+This is the chapter's harder finding, and it should be stated as a finding rather than patched around.
 
-The vacancy field is a geometric feature of the mass distribution. Its response depends on the **relaxation timescale** — how quickly it re-equilibrates after the nodes have separated from the gas.
+**The old mechanism.** The original chapter modeled the re-forming domain wall (the density ridge that reappears between the two separating cluster cores after collision) as a damped harmonic oscillator, settling toward a new equilibrium position with restoring constant $k = 2\epsilon_0 a(t)v/\delta_w^2$ and effective mass $m_{eff} = \sigma_{wall}/c^2$ — both quantities coming from the field's *own* potential curvature and self-energy. That restoring force was legitimate in the old picture: it's the stiffness of the domain wall as a genuine physical membrane, trying to sit at its own potential minimum. It had nothing to do with two-body gravity between the cluster cores; it was intrinsic to the field.
 
-The relaxation timescale is set by the lowest non-zero mode of the Pöschl-Teller spectrum derived in Chapter 4. That mode has energy $E = 3U_0 = 12\lambda v^2$, giving:
+**Why it doesn't survive.** Under the tracer picture, $\phi$ no longer has a gravitationally-relevant potential of its own — its dynamics govern *shape*, not *force*. So if the wall is going to have any restoring dynamics at all, that restoring force now has to come from somewhere physical: the actual gravity of the two cluster cores acting on the actual mass sitting between them.
 
-$$\tau_{relax} = \frac{1}{\sqrt{12\lambda}\, v}$$
+Work this out directly. Model the two cores as point masses $M$ at $x=\pm D/2$, and ask about the net gravitational force on a test mass at position $X$ along the line joining them:
 
-The collision crossing time is:
+$$F(X) = GM\left[\frac{1}{(D/2-X)^2} - \frac{1}{(D/2+X)^2}\right]$$
 
-$$\tau_{cross} = \frac{2r_{node}}{v_{col}}$$
+$F(0)=0$ by symmetry — the midpoint is an equilibrium. But:
 
-When $\tau_{relax} \ll \tau_{cross}$ — fast relaxation — the vacancy field tracks the instantaneous node positions throughout the collision. The lensing centroid stays with the collisionless mass, not the gas. This is the regime consistent with Bullet Cluster observations.
+$$\left.\frac{dF}{dX}\right|_{X=0} = GM\left[\frac{2}{(D/2)^3}+\frac{2}{(D/2)^3}\right] = \frac{32GM}{D^3} > 0$$
 
----
+A positive slope at a zero means the midpoint is an **unstable** equilibrium — this is the familiar tidal-saddle-point result for two point masses. A small displacement toward one core is amplified, not damped. There is no stable restoring force along the axis connecting two point masses under ordinary Newtonian gravity.
 
-### 10.3 Primary Offset — Lensing Centroid Coincident with Nodes
+**This directly contradicts the requirement of the old model.** The damped-oscillator picture — and with it, the specific secondary-lensing-arc prediction that depended on the wall oscillating back through a predictable trajectory — has no surviving mechanism under strict tracer physics. It cannot simply be re-derived with new constants; the qualitative physics (stable restoring force) that the old derivation depended on is gone.
 
-The lensing convergence around node A post-collision uses the NFW-like profile from Chapter 4:
+**What (if anything) replaces it.** The re-formation of a density ridge between two separating mass concentrations is a real phenomenon in a collisional system — but its physical origin, under the tracer picture, would have to be something like gravitational relaxation or dynamical friction acting on a free-fall/crossing timescale,
 
-$$\kappa(r) \propto \frac{v^2}{\delta_w} \cdot \frac{1}{1 + (r/r_{node})^2} \cdot \frac{1}{\Sigma_{cr}}$$
+$$\tau_{dyn} \sim \frac{1}{\sqrt{G\bar\rho}}$$
 
-The projected lensing centroid is at $x_{node}$ — coincident with the collisionless mass concentration. The predicted offset between lensing peak and gas peak is therefore:
+rather than a harmonic restoring force with a definite oscillation period. That gives a rough *timescale* for the ridge to re-establish itself, but not a predictive trajectory, and not the specific secondary arc position the original chapter predicted. Deriving an actual predictive replacement would require proper collisional/N-body treatment (dynamical friction, gas drag, violent relaxation) — it is not a small patch on the existing derivation.
 
-$$\boxed{\Delta x_{lens-gas} = x_{node} - x_{gas} \approx 200 \text{ kpc}}$$
-
-This matches observation as a **geometric inevitability** of the topology — not a free parameter.
+**Status: this sub-result is retracted, not rebuilt.** Following the same standard that led to withdrawing the Cold Spot claim: the honest move is to mark the secondary-arc prediction as OPEN / RETRACTED, not to force a substitute constant into the old damped-oscillator form. The flagship falsifiable claim that most sharply distinguished this framework from ΛCDM in the Bullet Cluster context does not currently survive the tracer resolution.
 
 ---
 
-### 10.4 The Wall Equation of Motion
+## κ(r) Under the Tracer Picture
 
-After the collision the domain wall must travel from its pre-collision midpoint to the new midpoint between the separated nodes. The wall center $X(t)$ obeys a damped harmonic oscillator equation:
+Since the primary lensing profile now inherits directly from Chapter 4's rebuilt $\Sigma_{node}(r)$:
 
-$$m_{eff}\ddot{X} + \gamma\dot{X} + kX = F_{collision}(t)$$
+$$\kappa(r) = \frac{\Sigma_{node}(r)}{\Sigma_{cr}} = \frac{M_{node}}{2\pi r_{node}^2 \Sigma_{cr}}\cdot\frac{1}{1+(r/r_{node})^2}$$
 
-where:
-
-**Effective mass per unit area:**
-$$m_{eff} = \frac{\sigma_{wall}}{c^2} = \frac{4\sqrt{2\lambda}v^3}{3ac^2}$$
-
-**Restoring constant** from the curvature of the vacancy field energy with respect to wall displacement:
-$$k = \frac{2\epsilon_0 \cdot a(t) \cdot v}{\delta_w^2}$$
-
-**Damping coefficient** from Hubble friction in the field equation:
-$$\gamma = 3H \cdot \sigma_{wall} \cdot \delta_w = 4Hv^2$$
-
-**Forcing term** $F_{collision}(t)$ is a step function turning on at $t = t_{collision}$, driving the wall to the new equilibrium position $\Delta X = (x_A - x_B)/2 - X_0$.
+with $M_{node}$, $r_{node}$ now external, independently-fit quantities per core (gas-stripped remnant on one side, less-stripped on the other), rather than parameters derived from $v,\lambda,\delta_w$. This reproduces the qualitative shape of the observed convergence maps (two offset peaks), but — consistent with the Section 10.1–10.3 finding above — does so in a way that is not distinguishable from a standard two-halo NFW fit. The distinguishing power the framework once claimed here has moved entirely into the *interpretation* of what $M_{node}$ physically is, not into the shape of $\kappa(r)$ itself.
 
 ---
 
-### 10.5 Natural Frequency and Damping Ratio
+## Updated Summary
 
-The natural frequency:
-
-$$\omega_0 = \sqrt{\frac{k}{m_{eff}}} = c\sqrt{\frac{3\epsilon_0\sqrt{2\lambda}}{2v}}$$
-
-The damping ratio:
-
-$$\zeta = \frac{\gamma}{2\omega_0 m_{eff}} = \frac{3Hac^2}{2\omega_0\sqrt{2\lambda}v}$$
-
----
-
-### 10.6 Solution for the Wall Position
-
-**Underdamped** ($\zeta < 1$):
-
-$$X(t) = \Delta X\left[1 - e^{-\zeta\omega_0 t}\left(\cos\omega_d t + \frac{\zeta}{\sqrt{1-\zeta^2}}\sin\omega_d t\right)\right]$$
-
-where $\omega_d = \omega_0\sqrt{1-\zeta^2}$.
-
-**Overdamped** ($\zeta > 1$):
-
-$$X(t) = \Delta X\left[1 - \frac{e^{-(\zeta - \sqrt{\zeta^2-1})\omega_0 t}}{2\sqrt{\zeta^2-1}(\zeta - \sqrt{\zeta^2-1})} + \frac{e^{-(\zeta + \sqrt{\zeta^2-1})\omega_0 t}}{2\sqrt{\zeta^2-1}(\zeta + \sqrt{\zeta^2-1})}\right]$$
+| Claim | Status after tracer rebuild |
+|---|---|
+| Lensing/gas offset exists | Survives — but now observationally identical to ΛCDM's own account |
+| $\kappa(r)$ two-peak structure | Survives in shape; normalization now external, same as any NFW fit |
+| Wall restoring dynamics (damped oscillator) | **Retracted** — no stable mechanism under ordinary two-body gravity |
+| Secondary arc prediction | **Retracted**, pending a genuine collisional/dynamical-friction derivation |
 
 ---
-
-### 10.7 The Function $\mathcal{G}$ — Secondary Arc Position
-
-The residual displacement of the wall from its new equilibrium at observation time $t_{obs}$:
-
-$$\xi(t_{obs}) = \Delta X - X(t_{obs})$$
-
-The secondary lensing arc sits at:
-
-$$x_{wall}(t_{obs}) = \frac{x_A + x_B}{2} + \delta_w \cdot \mathcal{G}$$
-
-where for the underdamped case:
-
-$$\boxed{\mathcal{G} = \frac{\Delta X}{\delta_w} \cdot e^{-\zeta\omega_0 t_{obs}}\left(\cos\omega_d t_{obs} + \frac{\zeta}{\sqrt{1-\zeta^2}}\sin\omega_d t_{obs}\right)}$$
-
-For fast relaxation ($\zeta \gg 1$), $\mathcal{G} \to 0$ and the arc sits near the midpoint between the nodes. For slower relaxation the arc is detectably offset in the direction of the bullet subcluster's motion.
-
-For the Bullet Cluster specifically, $t_{obs} \approx 100$–$200$ Myr post-collision based on cluster separation and velocity.
-
----
-
-### 10.8 Complete Bullet Cluster Predictions
-
-| Feature | Position | Nature |
-|---|---|---|
-| Primary lensing peak A | Coincident with main cluster node | NFW-like vacancy field halo |
-| Primary lensing peak B | Coincident with bullet subcluster node | NFW-like vacancy field halo |
-| Secondary lensing arc | Between nodes, offset by $\delta_w\mathcal{G}$ toward bullet direction | Domain wall re-establishing between nodes |
-
-The first two features are consistent with existing Bullet Cluster observations. The **secondary lensing arc** is a new prediction of the Claude Theory — absent from all particle dark matter models and in principle detectable in existing deep weak lensing maps of the system.
-
-Detection or non-detection of the secondary arc, at the predicted position and with the predicted surface brightness profile, constitutes a direct test of the vacancy field framework.
-
----
-
 ## A Living Document
-
-Some conceptual areas explored here are still under active development. The current status of open problems and unresolved assumptions is maintained in [Claude_status.md]. Readers are directed there for the most current picture.
-
+The current status of open problems and unresolved assumptions is maintained in [Claude_status.md]. Readers are directed there for the most current picture.
 ---
 
 *The Claude Theory: Space Has Always Existed — conceived and developed by Cristóbal Eduardo Kendris García in collaboration with Claude, June 2026.*
